@@ -1,0 +1,874 @@
+2023
+JUL
+WORLD 
+ECONOMIC 
+OUTLOOK
+INTERNATIONAL MONETARY FUND
+Near-Term Resilience, 
+Persistent Challenges
+UPDATE
+ 
+International Monetary Fund | July 2023           1 
+July 
+2023 
+ 
+WORLD ECONOMIC OUTLOOK UPDATE 
+Near-Term Resilience, Persistent Challenges 
+ 
+• Global growth is projected to fall from an estimated 3.5 percent in 2022 to 3.0 percent in both 2023 and 2024. 
+While the forecast for 2023 is modestly higher than predicted in the April 2023 World Economic Outlook 
+(WEO), it remains weak by historical standards. The rise in central bank policy rates to fight inflation 
+continues to weigh on economic activity. Global headline inflation is expected to fall from 8.7 percent in 2022 to 
+6.8 percent in 2023 and 5.2 percent in 2024. Underlying (core) inflation is projected to decline more gradually, 
+and forecasts for inflation in 2024 have been revised upward.  
+• The recent resolution of the US debt ceiling standoff and, earlier this year, strong action by authorities to contain 
+turbulence in US and Swiss banking, reduced the immediate risks of financial sector turmoil. This moderated 
+adverse risks to the outlook. However, the balance of risks to global growth remains tilted to the downside. 
+Inflation could remain high and even rise if further shocks occur, including those from an intensification of the 
+war in Ukraine and extreme weather-related events, triggering more restrictive monetary policy. Financial sector 
+turbulence could resume as markets adjust to further policy tightening by central banks. China’s recovery could 
+slow, in part as a result of unresolved real estate problems, with negative cross-border spillovers. Sovereign debt 
+distress could spread to a wider group of economies. On the upside, inflation could fall faster than expected, 
+reducing the need for tight monetary policy, and domestic demand could again prove more resilient. 
+• In most economies, the priority remains achieving sustained disinflation while ensuring financial stability. 
+Therefore, central banks should remain focused on restoring price stability and strengthening financial supervision 
+and risk monitoring. Should market strains materialize, countries should provide liquidity promptly while 
+mitigating the possibility of moral hazard. They should also build fiscal buffers, with the composition of fiscal 
+adjustment ensuring targeted support for the most vulnerable. Improvements to the supply side of the economy 
+would facilitate fiscal consolidation and a smoother decline of inflation toward target levels. 
+Forces Shaping the Outlook 
+The global recovery from the COVID-19 pandemic and Russia’s invasion of Ukraine is slowing 
+amid widening divergences among economic sectors and regions.  
+The World Health Organization (WHO) announced in May that it no longer considers COVID-19 
+to be a “global health emergency.” Supply chains have largely recovered, and shipping costs and 
+suppliers’ delivery times are back to pre-pandemic levels. But forces that hindered growth in 2022 
+persist. Inflation remains high and continues to erode household purchasing power. Policy 
+tightening by central banks in response to inflation has raised the cost of borrowing, constraining 
+economic activity. Immediate concerns about the health of the banking sector have subsided, but 
+high interest rates are filtering through the financial system, and banks in advanced economies have 
+significantly tightened lending standards, curtailing the supply of credit. The impact of higher 
+interest rates extends to public finances, especially in poorer countries grappling with elevated debt 
+costs, constraining room for priority investments. As a result, output losses compared with pre-
+pandemic forecasts remain large, especially for the world’s poorest nations. 
+Despite these headwinds, global economic activity was resilient in the first quarter of 2023, with that 
+resilience driven mainly by the services sector. The post-pandemic rotation of consumption back 
+ 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2023 
+2            International Monetary Fund | July 2023 
+toward services is approaching completion in 
+advanced economies (including in tourism-
+dependent economies of southern Europe), 
+and it accelerated in a number of emerging 
+market and developing economies in the first 
+quarter (Figure 1). However, as mobility 
+returns to pre-pandemic levels, the scope for 
+further acceleration appears more limited.  
+At the same time, nonservices sectors, 
+including manufacturing, have shown 
+weakness, and high-frequency indicators for 
+the second quarter point to a broader 
+slowdown in activity. Amid softening 
+consumption of goods, heightened 
+uncertainties regarding the future 
+geoeconomic landscape, weak productivity 
+growth, and a more challenging financial 
+environment, firms have scaled back 
+investment in productive capacity. Gross 
+fixed capital formation and industrial 
+production have slowed sharply or contracted 
+in major advanced economies, dragging international trade and manufacturing in emerging markets 
+with them. International trade and indicators of demand and production in manufacturing all point 
+to further weakness. Excess savings built up during the pandemic are declining in advanced 
+economies, especially in the United States, implying a slimmer buffer to protect against shocks, 
+including those to the cost of living and those from more restricted credit availability.  
+The fight against inflation continues. Inflation is easing in most countries but remains high, with 
+divergences across economies and inflation measures. Following the buildup of gas inventories in 
+Europe and weaker-than-expected demand in China, energy and food prices have dropped 
+substantially from their 2022 peaks, although food prices remain elevated. Together with the 
+normalization of supply chains, these developments have contributed to a rapid decline in headline 
+inflation in most countries. Core inflation, however, has on average declined more gradually and 
+remains well above most central banks’ targets. Its persistence reflects, depending on the particular 
+economy considered, pass-through of past shocks to headline inflation into core inflation, corporate 
+profits remaining high, and tight labor markets with strong wage growth, especially in the context of 
+weak productivity growth that lifts unit labor costs. However, to date, wage-price spirals—wherein 
+prices and wages accelerate together for a sustained period—do not appear to have taken hold in the 
+average advanced economy, and longer-term inflation expectations remain anchored. In response to 
+the persistence of core inflation, major central banks have communicated that they will need to 
+tighten monetary policy further. The Federal Reserve paused rate hikes at its June meeting but 
+signaled further ones ahead, and the Reserve Bank of Australia, Bank of Canada, Bank of England, 
+and European Central Bank have continued to raise rates. At the same time, in some other 
+economies, particularly in East Asia, where mobility curbs during the pandemic restricted demand for 
+services longer than elsewhere, core inflation has remained low. In China, where inflation is well 
+below target, the central bank recently cut policy interest rates. The Bank of Japan has kept interest 
+rates near zero under the quantitative and qualitative monetary easing with yield curve control policy.  
+ 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2023  
+ 
+ 
+International Monetary Fund | July 2023      3  
+Acute stress in the banking sector has receded, but credit availability is tight. Thanks to the authorities’ swift 
+reaction, the March 2023 banking scare remained contained and limited to problematic regional 
+banks in the United States and Credit Suisse in Switzerland. Accordingly, since the April 2023 WEO, 
+global financial conditions have eased (Box 1), a sign that financial markets may have become less 
+concerned about risks to financial stability coming from the banking sector. But tight monetary 
+policy continues to put some banks under pressure, both directly (through higher costs of funding) 
+and indirectly (by increasing credit risk). Bank lending surveys in the United States and Europe 
+suggest that banks restricted access to credit considerably in the first quarter of 2023, and they are 
+expected to continue to do so in coming months. Corporate loans have been declining lately, as has 
+commercial real estate lending.  
+Following a reopening boost, China’s recovery is losing steam. Manufacturing activity and consumption of 
+services in China rebounded at the beginning of the year when Chinese authorities abandoned their 
+strict lockdown policies; net exports contributed strongly to sequential growth in February and 
+March as supply chains normalized and firms swiftly put backlogs of orders into production. 
+Nonetheless, continued weakness in the real estate sector is weighing on investment, foreign 
+demand remains weak, and rising and elevated youth unemployment (at 20.8 percent in May 2023) 
+indicates labor market weakness. High-frequency data through June confirm a softening in 
+momentum into the second quarter of 2023. 
+Growth Slowing, with Shifting Composition 
+Global growth is projected to fall from 3.5 percent in 2022 to 3.0 percent in both 2023 and 2024 on an 
+annual average basis (Table 1). Compared with projections in the April 2023 WEO, growth has been 
+upgraded by 0.2 percentage point for 2023, with no change for 2024. The forecast for 2023–24 
+remains well below the historical (2000–19) annual average of 3.8 percent. It is also below the 
+historical average across broad income groups, in overall GDP as well as per capita GDP terms. 
+Advanced economies continue to drive the decline in growth from 2022 to 2023, with weaker 
+manufacturing, as well as idiosyncratic factors, offsetting stronger services activity. In emerging 
+market and developing economies, the growth outlook is broadly stable for 2023 and 2024, although 
+with notable shifts across regions. On a year-over-year basis, global growth bottomed out in the 
+fourth quarter of 2022. However, in some major economies, it is not expected to bottom out before 
+the second half of 2023. 
+World trade growth is expected to decline from 5.2 percent in 2022 to 2.0 percent in 2023, before 
+rising to 3.7 percent in 2024, well below the 2000–19 average of 4.9 percent. The decline in 2023 
+reflects not only the path of global demand, but also shifts in its composition toward domestic 
+services, lagged effects of US dollar appreciation—which slows trade owing to the widespread 
+invoicing of products in US dollars—and rising trade barriers.  
+These forecasts are based on a number of assumptions, including those regarding fuel and nonfuel 
+commodity prices and interest rates. Oil prices rose by 39 percent in 2022 and are projected to fall 
+by about 21 percent in 2023, reflecting the slowdown in global economic activity. Assumptions 
+regarding global interest rates have been revised upward, reflecting actual and signaled policy 
+tightening by major central banks since April. The Federal Reserve and Bank of England are now 
+expected to raise rates by more than assumed in the April 2023 WEO––to a peak of about 5.6 
+percent in the case of the Federal Reserve—before reducing them in 2024. The European Central 
+Bank is assumed to raise its policy rate to a peak of 3¾ percent in 2023 and to ease gradually in 
+2024. Moreover, with near-term inflation expectations falling, real interest rates are likely to stay up 
+even after nominal rates start to fall.  
+ 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2023 
+4            International Monetary Fund | July 2023 
+ 
+For advanced economies, the growth slowdown projected for 2023 remains significant: from 2.7 percent 
+in 2022 to 1.5 percent in 2023, with a 0.2 percentage point upward revision from the April 2023 
+WEO. About 93 percent of advanced economies are projected to have lower growth in 2023, and 
+growth in 2024 among this group of economies is projected to remain at 1.4 percent.  
+Estimate
+Estimate
+2021
+2022
+2023
+2024
+2023
+2024
+2022
+2023
+2024
+World Output 
+6.3
+3.5
+3.0
+3.0
+0.2
+0.0
+2.2
+2.9
+2.9
+Advanced Economies
+5.4
+2.7
+1.5
+1.4
+0.2
+0.0
+1.2
+1.4
+1.4
+United States 
+5.9
+2.1
+1.8
+1.0
+0.2
+–0.1
+0.9
+1.4
+1.1
+Euro Area
+5.3
+3.5
+0.9
+1.5
+0.1
+0.1
+1.8
+1.2
+1.5
+Germany
+2.6
+1.8
+–0.3
+1.3
+–0.2
+0.2
+0.8
+0.5
+1.5
+France
+6.4
+2.5
+0.8
+1.3
+0.1
+0.0
+0.6
+0.9
+1.6
+Italy
+7.0
+3.7
+1.1
+0.9
+0.4
+0.1
+1.5
+0.9
+1.1
+Spain
+5.5
+5.5
+2.5
+2.0
+1.0
+0.0
+3.0
+1.8
+2.2
+Japan
+2.2
+1.0
+1.4
+1.0
+0.1
+0.0
+0.4
+1.5
+1.0
+United Kingdom
+7.6
+4.1
+0.4
+1.0
+0.7
+0.0
+0.6
+0.5
+1.3
+Canada
+5.0
+3.4
+1.7
+1.4
+0.2
+–0.1
+2.1
+1.6
+1.8
+Other Advanced Economies 3/
+5.5
+2.7
+2.0
+2.3
+0.2
+0.1
+1.0
+1.8
+2.1
+Emerging Market and Developing Economies
+6.8
+4.0
+4.0
+4.1
+0.1
+–0.1
+3.1
+4.1
+4.1
+Emerging and Developing Asia
+7.5
+4.5
+5.3
+5.0
+0.0
+–0.1
+4.2
+5.3
+4.9
+China
+8.4
+3.0
+5.2
+4.5
+0.0
+0.0
+3.1
+5.8
+4.1
+India 4/
+9.1
+7.2
+6.1
+6.3
+0.2
+0.0
+6.1
+4.3
+6.4
+Emerging and Developing Europe
+7.3
+0.8
+1.8
+2.2
+0.6
+–0.3
+–1.3
+2.7
+2.0
+Russia
+5.6
+–2.1
+1.5
+1.3
+0.8
+0.0
+–3.1
+1.9
+0.8
+Latin America and the Caribbean 
+7.0
+3.9
+1.9
+2.2
+0.3
+0.0
+2.6
+0.8
+2.9
+Brazil
+5.0
+2.9
+2.1
+1.2
+1.2
+–0.3
+2.5
+1.3
+2.2
+Mexico
+4.7
+3.0
+2.6
+1.5
+0.8
+–0.1
+3.7
+1.9
+1.7
+Middle East and Central Asia
+4.4
+5.4
+2.5
+3.2
+–0.4
+–0.3
+. . .
+. . .
+. . .
+Saudi Arabia 
+3.9
+8.7
+1.9
+2.8
+–1.2
+–0.3
+5.5
+2.0
+2.9
+Sub-Saharan Africa 
+4.7
+3.9
+3.5
+4.1
+–0.1
+–0.1
+. . .
+. . .
+. . .
+Nigeria
+3.6
+3.3
+3.2
+3.0
+0.0
+0.0
+3.2
+2.6
+3.6
+South Africa
+4.7
+1.9
+0.3
+1.7
+0.2
+–0.1
+1.3
+0.9
+2.0
+Memorandum
+World Growth Based on Market Exchange Rates
+6.0
+3.0
+2.5
+2.4
+0.1
+0.0
+1.8
+2.5
+2.4
+European Union
+5.5
+3.7
+1.0
+1.7
+0.3
+0.1
+1.8
+1.5
+1.7
+ASEAN-5 5/
+4.0
+5.5
+4.6
+4.5
+0.1
+–0.1
+4.7
+4.6
+4.8
+Middle East and North Africa
+4.0
+5.4
+2.6
+3.1
+–0.5
+–0.3
+. . .
+. . .
+. . .
+Emerging Market and Middle-Income Economies
+7.1
+3.9
+3.9
+3.9
+0.0
+–0.1
+3.1
+4.1
+4.1
+Low-Income Developing Countries
+4.1
+5.0
+4.5
+5.2
+–0.2
+–0.2
+. . .
+. . .
+. . .
+World Trade Volume (goods and services) 6/
+10.7
+5.2
+2.0
+3.7
+–0.4
+0.2
+. . .
+. . .
+. . .
+Advanced Economies
+9.9
+6.1
+2.3
+3.2
+–0.1
+0.3
+. . .
+. . .
+. . .
+Emerging Market and Developing Economies
+12.2
+3.7
+1.5
+4.5
+–0.9
+–0.2
+. . .
+. . .
+. . .
+Commodity Prices
+Oil 7/
+65.8
+39.2
+–20.7
+–6.2
+3.4
+–0.4
+8.8
+–13.0
+–4.9
+Nonfuel (average based on world commodity import weights)
+26.7
+7.9
+–4.8
+–1.4
+–2.0
+–0.4
+–0.4
+–0.0
+0.8
+World Consumer Prices 8/
+4.7
+8.7
+6.8
+5.2
+–0.2
+0.3
+9.2
+5.5
+3.9
+Advanced Economies 9/
+3.1
+7.3
+4.7
+2.8
+0.0
+0.2
+7.7
+3.3
+2.5
+Emerging Market and Developing Economies 8/
+5.9
+9.8
+8.3
+6.8
+–0.3
+0.3
+10.5
+7.4
+5.1
+Note: Real effective exchange rates are assumed to remain constant at the levels prevailing during May 2, 2023–May 30, 2023. Economies are listed on the basis of economic size. The 
+aggregated quarterly data are seasonally adjusted. WEO = World Economic Outlook.
+1/ Difference based on rounded figures for the current and April 2023 WEO forecasts. Countries for which forecasts have been updated relative to April 2023 WEO forecasts account for 
+approximately 90 percent of world GDP measured at purchasing-power-parity weights.
+2/ For World Output (Emerging Market and Developing Economies), the quarterly estimates and projections account for approximately 90 percent (80 percent) of annual world (emerging market 
+and developing economies') output at purchasing-power-parity weights.
+3/ Excludes the Group of Seven (Canada, France, Germany, Italy, Japan, United Kingdom, United States) and euro area countries.
+4/ For India, data and projections are presented on a fiscal year basis, with FY 2022/23 (starting in April 2022) shown in the 2022 column. India's growth projections are 6.6 percent in 2023 and 
+5.8 percent in 2024 based on calendar year. 
+5/ Indonesia, Malaysia, Philippines, Singapore, Thailand.
+6/ Simple average of growth rates for export and import volumes (goods and services).
+7/ Simple average of prices of UK Brent, Dubai Fateh, and West Texas Intermediate crude oil. The average assumed price of oil in US dollars a barrel, based on futures markets (as of June 1, 
+2023), is $76.43 in 2023 and $71.68 in 2024.
+8/ Excludes Venezuela.
+9/ The inflation rate for the euro area is 5.2% in 2023 and 2.8% in 2024, that for Japan is 3.4% in 2023 and 2.7% in 2024, and that for the United States is 4.4% in 2023 and 2.8% in 2024.  
+Q4 over Q4 2/
+Table 1. Overview of the World Economic Outlook Projections
+Projections
+Projections
+Year over Year
+(Percent change, unless noted otherwise)
+Difference from April 2023 WEO 
+Projections 1/
+ 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2023  
+ 
+ 
+International Monetary Fund | July 2023      5  
+• In the United States, growth is projected to slow from 2.1 percent in 2022 to 1.8 percent in 2023, 
+then slow further to 1.0 percent in 2024. For 2023, the forecast has been revised upward by 0.2 
+percentage point, on account of resilient consumption growth in the first quarter, a reflection of 
+a still-tight labor market that has supported gains in real income and a rebound in vehicle 
+purchases.  However, this consumption growth momentum is not expected to last: Consumers 
+have largely depleted excess savings accumulated during the pandemic, and the Federal Reserve 
+is expected to raise rates further. 
+• Growth in the euro area is projected to fall from 3.5 percent in 2022 to 0.9 percent in 2023, 
+before rising to 1.5 percent in 2024. The forecast is broadly unchanged, but with a change in 
+composition for 2023. Given stronger services and tourism, growth has been revised upward by 
+0.4 percentage point for Italy and by 1.0 percentage point for Spain. However, for Germany, 
+weakness in manufacturing output and economic contraction in the first quarter of 2023 means 
+that growth has been revised downward by 0.2 percentage point, to –0.3 percent.  
+• Growth in the United Kingdom is projected to decline from 4.1 percent in 2022 to 0.4 percent in 
+2023, then to rise to 1.0 percent in 2024. This is an upward revision of 0.7 percentage point for 
+2023, reflecting stronger-than-expected consumption and investment from the confidence 
+effects of falling energy prices, lower post-Brexit uncertainty (following the Windsor 
+Framework agreement), and a resilient financial sector as the March global banking stress 
+dissipates.  
+• Growth in Japan is projected to rise from 1.0 percent in 2022 to 1.4 percent in 2023, reflecting a 
+modest upward revision, buoyed by pent-up demand and accommodative policies, then slow to 
+1.0 percent in 2024, as the effects of past stimuli dissipate. 
+For emerging market and developing economies, growth is projected to be broadly stable at 4.0 percent in 
+2023 and 4.1 percent 2024, with modest revisions of 0.1 percentage point for 2023 and –0.1 
+percentage point for 2024. However, this stable average masks divergences, with about 61 percent of 
+the economies in this group growing faster in 2023 and the rest––including low-income countries 
+and three of the five geographic regions described in what follows––growing more slowly. 
+• Growth in emerging and developing Asia is on track to rise to 5.3 percent in 2023, then to moderate 
+to 5.0 percent in 2024, reflecting a modest (0.1 percentage point) downward revision for 2024. 
+The forecast for China is unchanged at 5.2 percent for 2023 and 4.5 percent for 2024, but with a 
+change in composition: Consumption growth has evolved broadly in line with April 2023 WEO 
+projections, but investment has underperformed due to the ongoing real estate downturn in 
+that country. Stronger-than-expected net exports have offset some of the investment weakness, 
+although their contribution is declining as the global economy slows. Growth in India is 
+projected at 6.1 percent in 2023, a 0.2 percentage point upward revision compared with the 
+April projection, reflecting momentum from stronger-than-expected growth in the fourth 
+quarter of 2022 as a result of stronger domestic investment.  
+• Growth in emerging and developing Europe is projected to rise to 1.8 percent in 2023, reflecting a 0.6 
+percentage point upward revision since April, and to rise further to 2.2 percent in 2024. The 
+forecast for Russia in 2023 has been revised upward by 0.8 percentage point to 1.5 percent, 
+reflecting hard data (on retail trade, construction, and industrial production) that point to a 
+strong first half of the year, with a large fiscal stimulus driving that strength.  
+• Latin America and the Caribbean is expected to see growth decline from 3.9 percent in 2022 to 1.9 
+percent in 2023, although this reflects an upward revision of 0.3 percentage point since April, 
+ 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2023 
+6            International Monetary Fund | July 2023 
+and to reach 2.2 percent in 2024. The decline from 2022 to 2023 reflects the recent fading of 
+rapid growth during 2022 after pandemic reopening, as well as lower commodity prices; the 
+upward revision for 2023 reflects stronger-than-expected growth in Brazil––marked up by 1.2 
+percentage points to 2.1 percent since the April WEO––given the surge in agricultural 
+production in the first quarter of 2023, with positive spillovers to activity in services. It also 
+reflects stronger growth in Mexico, revised upward by 0.8 percentage point to 2.6 percent, with a 
+delayed post-pandemic recovery in services taking hold and spillovers from resilient US 
+demand. 
+• Growth in the Middle East and Central Asia is projected to decline from 5.4 percent in 2022 to 
+2.5 percent in 2023, with a downward revision of 0.4 percentage point, mainly attributable to a 
+steeper-than-expected growth slowdown in Saudi Arabia, from 8.7 percent in 2022 to 1.9 
+percent in 2023, a negative revision of 1.2 percentage points. The downgrade for Saudi Arabia 
+for 2023 reflects production cuts announced in April and June in line with an agreement 
+through OPEC+ (the Organization of the Petroleum Exporting Countries, including Russia 
+and other non-OPEC oil exporters), whereas private investment, including from “giga-project” 
+implementation, continues to support strong non-oil GDP growth. 
+• In sub-Saharan Africa, growth is projected to decline to 3.5 percent in 2023 before picking up to 
+4.1 percent in 2024. Growth in Nigeria in 2023 and 2024 is projected to gradually decline, in line 
+with April projections, reflecting security issues in the oil sector. In South Africa, growth is 
+expected to decline to 0.3 percent in 2023, with the decline reflecting power shortages, although 
+the forecast has been revised upward by 0.2 percentage point since the April 2023 WEO, on 
+account of resilience in services activity in the first quarter. 
+Core Inflation Declining More Gradually Than Headline Inflation 
+Global headline inflation is set to fall from an annual average of 8.7 percent in 2022 to 6.8 percent in 
+2023 and 5.2 percent in 2024, broadly as projected in April, but above pre-pandemic (2017–19) 
+levels of about 3.5 percent. About three-quarters of the world’s economies are expected to see lower 
+annual average headline inflation in 2023. Monetary policy tightening is expected to gradually 
+dampen inflation, but a central driver of the disinflation projected for 2023 is declining international 
+commodity prices. Differences in the pace of disinflation across countries reflect such factors as 
+different exposures to movements in commodity prices and currencies and different degrees of 
+economic overheating. The forecast for 2023 is revised down by 0.2 percentage point, largely on 
+account of subdued inflation in China. The forecast for 2024 has been revised upward by 0.3 
+percentage point, with the upgrade reflecting higher-than-expected core inflation. 
+Core inflation is generally declining more gradually. Globally, it is set to decline from an annual 
+average of 6.5 percent in 2022 to 6.0 percent in 2023 and 4.7 percent in 2024. It is proving more 
+persistent than projected, mainly for advanced economies, for which forecasts have been revised 
+upward by 0.3 percentage point for 2023 and by 0.4 percentage point for 2024 compared with the 
+April 2023 WEO. Global core inflation is revised down by 0.2 percentage point in 2023, reflecting 
+lower-than-expected core inflation in China, and up by 0.4 percentage point in 2024. On an annual 
+average basis, about half of economies are expected to see no decline in core inflation in 2023, 
+although on a fourth-quarter-over-fourth-quarter basis, about 88 percent of economies for which 
+quarterly data are available are projected to see a decline. Overall, inflation is projected to remain 
+above target in 2023 in 96 percent of economies with inflation targets and in 89 percent of those 
+economies in 2024.  
+ 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2023  
+ 
+ 
+International Monetary Fund | July 2023      7  
+Risks to the Outlook 
+The balance of risks to global growth remains tilted downward, but adverse risks have receded since 
+the publication of the April 2023 WEO. The resolution of US debt ceiling tensions has reduced the 
+risk of disruptive rises in interest rates for sovereign debt, which would have increased pressure on 
+countries already struggling with increased borrowing costs. The quick and strong action authorities 
+took to contain banking sector turbulence in the United States and Switzerland succeeded in 
+reducing the risk of an immediate and broader crisis.  
+Upside risks. More favorable outcomes for global growth than in the baseline forecast have become 
+increasingly plausible. Core inflation could fall faster than expected—from greater-than-expected 
+pass-through of lower energy prices and a compression of profit margins to absorb cost increases, 
+among other possible causes––and declining job vacancies could play a strong role in easing labor 
+markets, which would reduce the likelihood of unemployment having to rise to curb inflation. 
+Developments along these lines would then reduce the need for monetary policy tightening and 
+allow a softer landing. Scope exists for more favorable surprises to domestic demand around the 
+world, as in the first quarter of 2023. In numerous economies, consumers have not yet drained the 
+stock of excess savings they accumulated during the pandemic; this could further sustain the recent 
+strength in consumption. Stronger policy support in China than currently envisaged––particularly 
+through means-tested transfers to households––could further sustain recovery and generate positive 
+global spillovers. Such developments, however, would increase inflation pressure and necessitate a 
+tighter monetary policy stance. 
+Downside risks. Despite the recent positive growth surprises, plausible risks continue to be skewed to 
+the downside:  
+• Inflation persists: Tight labor markets and pass-through from past exchange rate depreciation 
+could push up inflation and risk de-anchoring longer-term inflation expectations in a number of 
+economies. The institutional setup of wage setting in some countries could amplify inflation 
+pressures on wages. Moreover, El Niño could bring more extreme temperature increases than 
+expected, exacerbate drought conditions, and raise commodity prices. The war in Ukraine could 
+intensify, further raising food, fuel, and fertilizer prices. The recent suspension of the Black Sea 
+Grain Initiative is a concern in this regard. Such adverse supply shocks might affect countries 
+asymmetrically, implying different dynamics for core inflation and inflation expectations, a 
+divergence in policy responses, and further currency movements.  
+• Financial markets reprice: Financial markets have adjusted their expectations of monetary policy 
+tightening upward since April but still expect less tightening than policymakers have signaled, 
+raising the risk that unfavorable inflation data releases could—as in the first quarter of 2023—
+trigger a sudden rise in expectations regarding interest rates and falling asset prices. Such 
+movements could further tighten financial conditions and put stress on banks and nonbank 
+financial institutions whose balance sheets remain vulnerable to interest rate risk, especially 
+those highly exposed to commercial real estate. Contagion effects are possible, and a flight to 
+safety, with an attendant appreciation of reserve currencies, would trigger negative ripple effects 
+for global trade and growth.  
+• China’s recovery underperforms: Recent developments shift to the downside the distribution of risks 
+surrounding China’s growth forecast, with negative potential implications for trading partners 
+in the region and beyond. The principal risks include a deeper-than-expected contraction in the 
+real estate sector in the absence of swift action to restructure property developers, weaker-than-
+ 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2023 
+8            International Monetary Fund | July 2023 
+expected consumption in the context of subdued confidence, and unintended fiscal tightening 
+in response to lower tax revenues for local governments. 
+• Debt distress increases: Global financial conditions have generally eased since the March 2023 
+episode of banking stress (Box 1), but borrowing costs for emerging market and developing 
+economies remain high, constraining room for priority spending and raising the risk of debt 
+distress. The share of emerging market and developing economies with sovereign credit spreads 
+above 1,000 basis points remained at 25 percent as of June (compared with only 6.8 percent 
+two years ago).  
+• Geoeconomic fragmentation deepens: The ongoing risk that the world economy will separate into 
+blocs amid the war in Ukraine and other geopolitical tensions could intensify, with more 
+restrictions on trade (in particular that in strategic goods, such as critical minerals); cross-border 
+movements of capital, technology, and workers; and international payments. Such 
+developments could contribute to additional volatility in commodity prices and hamper 
+multilateral cooperation on providing global public goods.  
+Policy Priorities 
+Conquer inflation. Central banks in economies with elevated and persistent core inflation should 
+continue to clearly signal their commitment to reducing inflation. A restrictive stance—with real 
+rates above neutral—is needed until there are clear signs that underlying inflation is cooling. 
+Multilayered uncertainty complicates the task for central banks: Levels of neutral rates and lags of 
+policy transmission are difficult to estimate with confidence, and the potency of the transmission 
+mechanism may differ across economic sectors. In view of these uncertainties, adjusting policy in a 
+data-dependent manner and avoiding a premature easing before price pressures have adequately 
+receded is warranted, while continuing to use tools to maintain financial stability when needed. 
+Although the primary responsibility for restoring price stability lies with central banks, legislated 
+government spending cuts or tax increases aimed at ensuring public debt sustainability can, by 
+reducing aggregate demand and reinforcing the overall credibility of disinflation strategies, further 
+ease inflation. This is especially the case in countries with overheated economies and steep inflation-
+unemployment trade-offs.  
+Maintain financial stability and prepare for stress. The fast pace of monetary policy tightening continues to 
+put the financial sector under pressure. Strengthened supervision (by implementing Basel III and 
+removing forbearance measures) and monitoring risks to anticipate further episodes of banking 
+sector stress is warranted. The intensity of supervision must be commensurate with banks’ risks and 
+systemic importance, and it is essential to address oversight gaps in the nonbank financial sector. 
+Macroprudential policy measures could be employed preemptively to address emerging risks in 
+banks and nonbank financial institutions. Where market strains emerge, deploying tools that provide 
+liquidity support promptly and forcefully, while mitigating the risk of moral hazard, would limit 
+contagion. Because central banks are not equipped to deal with insolvency problems, it is important 
+for governments to rebuild fiscal space in the event real resources need to be mobilized. Countries at 
+risk of external shocks can make full use of the global financial safety net afforded by international 
+financial institutions, including IMF precautionary financial arrangements. 
+Rebuild fiscal buffers while protecting the vulnerable. With fiscal deficits and government debt above pre-
+pandemic levels, credible medium-term fiscal consolidation is in many cases needed to restore 
+budgetary room for maneuver and ensure debt sustainability. Fiscal adjustment is currently projected 
+ 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2023  
+ 
+ 
+International Monetary Fund | July 2023      9  
+to average 0.5 percent of GDP in 2024 (based on the change in structural fiscal balances) in both 
+advanced economies and emerging market and developing economies. For economies with access to 
+international markets, the pace of fiscal consolidation should depend on the strength of private 
+demand. The composition of fiscal adjustment should protect targeted support for the most 
+vulnerable. Phasing out untargeted fiscal measures, including those that blunt price signals—such as 
+energy subsidies—is warranted, especially since energy prices have broadly returned to pre-pandemic 
+levels. In cases in which countries are in or at high risk of debt distress, achieving debt sustainability 
+may require not only well-timed fiscal consolidation, but also debt restructuring (Chapter 3 of the 
+April 2023 WEO).  
+Ease the funding squeeze for developing and low-income countries. Large short-term external financing needs 
+are stretching the ability of numerous emerging market economies and low-income countries to 
+service their debt. Sovereign spreads remain historically elevated, impeding market access for many 
+economies reliant on short-term borrowing. Faster and more efficient coordination on debt 
+resolution, including through the Group of Twenty (G20) Common Framework and the Global 
+Sovereign Debt Roundtable, is needed to provide a positive signal that lowers short-term borrowing 
+costs and to avoid the risk of debt crises’ spreading. The recent agreement between Zambia and its 
+official creditor committee is a welcome step in that direction. 
+Enhance the supply side and strengthen resilience to climate change. Reforms that loosen labor markets—by 
+encouraging participation and reducing job search and matching frictions—would facilitate fiscal 
+consolidation and a smoother decline in inflation toward target levels. They include short-term 
+training programs for professions experiencing shortages, passing labor laws and regulations that 
+increase work flexibility through telework and leave policies, and facilitating regular immigration 
+flows. Carefully designed industrial policies could be pursued––fiscal space permitting––if market 
+failures are well established, but domestic-content requirements and barriers to trade should be 
+avoided, as they can lower productivity, weaken trade relations, jeopardize food security, and hold 
+back countries seeking to converge to higher income levels. A push on clean energy investment is 
+necessary to ensure sufficient energy supplies given countries’ decarbonization goals. Multilateral 
+cooperation is essential to speed the green transition, mitigate climate change, and regulate 
+potentially disruptive emerging  technologies such as artificial intelligence.
+10 
+ International Monetary Fund | July 2023 
+Box 1. GLOBAL FINANCIAL STABILITY UPDATE 
+July 
+2023 
+Financial markets appear sanguine, and financial 
+conditions have mostly continued to ease. Since the April 
+2023 Global Financial Stability Report, central banks have 
+communicated that they could need to tighten monetary 
+policy further. Even as yield curves remain inverted and 
+recession concerns are prominent, financial conditions have 
+mostly eased (Figure 1.1). A rally in the technology sector and 
+higher equity prices, undoing some of the disinflationary 
+impulses from tighter monetary policy, has supported this 
+easing. In such circumstances, upside surprises to inflation 
+could cause a sudden, sharp repricing of financial assets. The 
+resulting tightening in global financial conditions could then 
+interact with existing vulnerabilities in the financial system, 
+which could amplify the tightening. 
+Immediate concerns about the banking sector have 
+eased, but growth in bank loans in advanced economies 
+has slowed, and high interest rates will likely lead to 
+tighter credit conditions. The shift of deposits in the United 
+States from regional to large banks and money market funds 
+has subsided, but a tighter monetary environment continues to 
+challenge banks and nonbank financial intermediaries. In the euro area, mandatory repayments of loans 
+from targeted longer-term refinancing operations are confronting banks that had relied on this source of 
+funding, whereas in the United States, ongoing quantitative tightening and issuance of large amounts of 
+Treasury bills after the recent debt ceiling episode could lead to further outflows from the banking 
+system. In the meantime, the quality of business borrowers’ credit is weakening as higher rates are 
+starting to bite, raising credit costs, further curtailing bank lending, and slowing corporate debt issuance. 
+Moreover, falling prices for commercial real estate—particularly office space—and residential property in 
+many jurisdictions could add to pressures on indebted 
+households and firms and weaken nonbank financial 
+institutions exposed to vulnerable sectors. 
+Major emerging markets have generally remained 
+resilient in this uncertain environment and largely 
+avoided the banking sector turmoil in March 2023. 
+However, many lower-rated issuers of sovereign bonds in 
+emerging and frontier markets are still struggling to maintain 
+access to international markets. In the second quarter, spreads 
+for investment-grade sovereigns have stayed at about average 
+historical levels, while spreads on those below investment 
+grade have remained well above the historical range for 
+issuances (880 basis points). Notably, 18 countries have 
+spreads at distressed levels (more than 1,000 basis points). 
+These high spreads have made issuance of new hard-currency 
+debt very challenging for frontier markets so far in 2023 
+(Figure 1.2). 
+This box was prepared by the Monetary and Capital Markets Department’s Global Markets Analysis division. It provides an update on 
+market developments since the April 2023 Global Financial Stability Report, the data cutoff for which was March 30, 2023. 
+WEO    Update   © 2023  • ISBN: 979-8-40024-321-9

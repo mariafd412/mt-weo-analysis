@@ -1,0 +1,1145 @@
+2022
+JUL
+WORLD 
+ECONOMIC 
+OUTLOOK
+INTERNATIONAL MONETARY FUND
+Gloomy and More Uncertain
+UPDATE
+1 
+International Monetary Fund | July 2022 
+WORLD ECONOMIC OUTLOOK UPDATE: 
+GLOOMY AND MORE UNCERTAIN 
+JULY 
+2022 
+• A tentative recovery in 2021 has been followed by increasingly gloomy developments in 2022 as risks began to
+materialize. Global output contracted in the second quarter of this year, owing to downturns in China and Russia,
+while US consumer spending undershot expectations. Several shocks have hit a world economy already weakened by
+the pandemic: higher-than-expected inflation worldwide––especially in the United States and major European
+economies––triggering tighter financial conditions; a worse-than-anticipated slowdown in China, reflecting COVID-
+19 outbreaks and lockdowns; and further negative spillovers from the war in Ukraine.
+• The baseline forecast is for growth to slow from 6.1 percent last year to 3.2 percent in 2022, 0.4 percentage point lower
+than in the April 2022 World Economic Outlook. Lower growth earlier this year, reduced household purchasing
+power, and tighter monetary policy drove a downward revision of 1.4 percentage points in the United States. In China,
+further lockdowns and the deepening real estate crisis have led growth to be revised down by 1.1 percentage points, with
+major global spillovers. And in Europe, significant downgrades reflect spillovers from the war in Ukraine and tighter
+monetary policy. Global inflation has been revised up due to food and energy prices as well as lingering supply-demand
+imbalances, and it is anticipated to reach 6.6 percent in advanced economies and 9.5 percent in emerging market and
+developing economies this year—upward revisions of 0.9 and 0.8 percentage point, respectively. In 2023,
+disinflationary monetary policy is expected to bite, with global output growing by just 2.9 percent.
+• The risks to the outlook are overwhelmingly tilted to the downside. The war in Ukraine could lead to a sudden stop of
+European gas imports from Russia; inflation could be harder to bring down than anticipated either if labor markets
+are tighter than expected or inflation expectations unanchor; tighter global financial conditions could induce debt
+distress in emerging market and developing economies; renewed COVID-19 outbreaks and lockdowns as well as a
+further escalation of the property sector crisis  might further suppress Chinese growth; and geopolitical fragmentation
+could impede global trade and cooperation. A plausible alternative scenario in which risks materialize, inflation rises
+further, and global growth declines to about 2.6 percent and 2.0 percent in 2022 and 2023, respectively, would put
+growth in the bottom 10 percent of outcomes since 1970.
+• With increasing prices continuing to squeeze living standards worldwide, taming inflation should be the first priority for
+policymakers. Tighter monetary policy will inevitably have real economic costs, but delay will only exacerbate them.
+Targeted fiscal support can help cushion the impact on the most vulnerable, but with government budgets stretched by
+the pandemic and the need for a disinflationary overall macroeconomic policy stance, such policies will need to be offset
+by increased taxes or lower government spending. Tighter monetary conditions will also affect financial stability,
+requiring judicious use of macroprudential tools and making reforms to debt resolution frameworks all the more
+necessary. Policies to address specific impacts on energy and food prices should focus on those most affected without
+distorting prices. And as the pandemic continues, vaccination rates must rise to guard against future variants. Finally,
+mitigating climate change continues to require urgent multilateral action to limit emissions and raise investments to
+hasten the green transition.
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022  
+International Monetary Fund | July 2022 2 
+STRICTLY CONFIDENTIAL 
+The Forces Shaping the Outlook 
+Global slowdown intensifies as downside risks materialize. A 
+tentative recovery in 2021 has been followed by 
+increasingly gloomy developments in 2022. 
+Performance was slightly better than expected in the 
+first quarter, but world real GDP is estimated to 
+have shrunk in the second quarter—the first 
+contraction since 2020—owing to economic 
+downturns in China and Russia. Downside risks 
+discussed in the April 2022 World Economic Outlook 
+are materializing, with higher inflation worldwide, 
+especially in the United States and major European 
+economies, triggering a sharp tightening in global 
+financial conditions; a sharper-than-anticipated 
+slowdown in China, reflecting COVID-19 outbreaks 
+and lockdowns; and further negative cross-border 
+effects from the war in Ukraine.  
+Global inflation again surprises on the upside, prompting more 
+central bank tightening. Since 2021, consumer prices 
+have consistently risen faster than widely expected, 
+including in the World Economic Outlook (Figure 1). In 
+the United States, the consumer price index rose by 
+9.1 percent in June, compared with a year earlier, and 
+it also rose by 9.1 percent in the United Kingdom in May—the highest inflation rates in these two 
+countries in 40 years. In the euro area, inflation in June reached 8.6 percent, its highest level since 
+the inception of the monetary union. Equally concerning, in emerging market and developing 
+economies, second-quarter inflation is estimated to have been 9.8 percent. Higher food and energy 
+prices, supply constraints in many sectors, and a rebalancing of demand back toward services have in 
+most economies driven up headline inflation. But underlying inflation has also increased, as reflected 
+in different gauges of core inflation, reflecting the pass-through of cost pressures by way of supply 
+chains and tight labor markets, especially in advanced economies.1 Wage growth has on average not 
+kept up with inflation across both advanced and emerging market and developing economies, 
+eroding household purchasing power. Although long-term inflation expectations have been stable in 
+most major economies, they have started to rise according to some measures, including in the 
+United States (Figure 2). In response to incoming data, central banks of major advanced economies 
+are withdrawing monetary support more assertively and raising policy interest rates faster than 
+expected in the April 2022 World Economic Outlook. Central banks in several emerging market and 
+developing economies have raised interest rates more aggressively than during past advanced 
+economy tightening cycles. The associated rise in longer-term borrowing costs, including mortgage 
+1Romain Duval, Yi Ji, Longji Li, Myrto Oikonomou, Carlo Pizzinelli, Ippei Shibata, Alessandra Sozzi, and Marina M. 
+Tavares, “Labor Market Tightness in Advanced Economies,” IMF Staff Discussion Note 2022/001, International 
+Monetary Fund, Washington, DC. 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+3 
+International Monetary Fund | July 2022 
+rates, and tighter global financial conditions (see box) 
+have led to precipitous declines in equity prices, 
+weighing on growth. At the same time, public 
+COVID-19 support packages have been wound 
+down.  
+China’s economic slowdown has added to global supply chain 
+disruptions. COVID-19 outbreaks and mobility 
+restrictions as part of the authorities’ zero-COVID 
+strategy have disrupted economic activity widely and 
+severely (Figure 3). Shanghai, a major global supply 
+chain hub, entered a strict lockdown in April 2022, 
+forcing citywide economic activity to halt for about 
+eight weeks. In the second quarter, real GDP 
+contracted significantly by 2.6 percent on a sequential 
+basis, driven by lower consumption—the sharpest 
+decline since the first quarter of 2020, at the onset of 
+the pandemic, when it declined by 10.3  percent. Since 
+then, more contagious variants have driven a 
+worrisome surge in COVID-19 cases. The worsening 
+crisis in China’s property sector is also dragging down 
+sales and real estate investment. The slowdown in 
+China has global consequences: lockdowns added to 
+global supply chain disruptions and the decline in 
+domestic spending are reducing demand for goods 
+and services from China’s trade partners. 
+The war in Ukraine continues, causing widespread hardship. 
+The war’s humanitarian cost is rising, with 9 million 
+people having fled Ukraine since the Russian invasion 
+started and continuing loss of life and destruction of 
+physical capital. Since April 2022, major advanced 
+economies have placed additional financial sanctions 
+on Russia, and the European Union agreed on 
+embargoes on imports of coal starting in August 2022 
+and on Russian seaborne oil starting in 2023. The 
+European Union announced that it will block insuring 
+and financing maritime transport of Russian oil to third 
+countries by the end of 2022. At the same time, the 
+Organization of the Petroleum Exporting Countries 
+has agreed to bring forward increases in oil supply that 
+were planned for September, and the Group of Seven plans to study the possibility of introducing a 
+price ceiling on Russian exports of crude oil. These offsetting developments mean that the increase 
+in international crude oil prices compared with last year is overall only slightly lower than predicted 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+International Monetary Fund | July 2022 4 
+in the April 2022 World Economic Outlook. More 
+recently, the flow of Russian pipeline gas to Europe 
+has declined sharply to about 40 percent of the level a 
+year ago, contributing to a steep increase in natural 
+gas prices in June. Russia’s economy is estimated to 
+have contracted during the second quarter by less 
+than previously projected, with crude oil and non-
+energy exports holding up better than expected. In 
+addition, domestic demand is also showing some 
+resilience thanks to containment of the effect of the 
+sanctions on the domestic financial sector and a 
+lower-than-anticipated weakening of the labor 
+market. Relatedly, the war’s effects on major 
+European economies have been more negative than 
+expected, owing to higher energy prices as well as 
+weaker consumer confidence and slower momentum 
+in manufacturing resulting from persistent supply 
+chain disruptions and rising input costs. 
+The food crisis worsens. Global food prices have 
+stabilized in recent months but remain much higher 
+than in 2021 (see Figure 4). The principal driver of 
+global food price inflation—particularly prices of cereal, such as wheat––has been the war in 
+Ukraine; export restrictions in several countries have compounded global food price increases, 
+although a few of these restrictions have recently lapsed. Low-income countries, where food 
+represents a larger share of consumption, are feeling the impact of this inflation most keenly. 
+Countries with diets tilted toward commodities with the largest price gains (especially wheat and 
+corn), those more dependent on food imports, and those with a large pass-through from global to 
+local staple food prices are most distressed. Low-income countries whose people were already 
+experiencing acute malnutrition and excess mortality before the war, especially in sub-Saharan 
+Africa, have suffered a particularly severe impact.  
+Downturn ahead, Downside Risks Dominate 
+The developments outlined in the preceding section make the current outlook extraordinarily 
+uncertain. The baseline projections described in the following discussion are predicated on several 
+assumptions, including, among others, no further unexpected reductions in flows of natural gas 
+from Russia to the rest of Europe; that long-term inflation expectations remain stable; and no 
+worsening of disorderly adjustments in global financial markets as a result of disinflationary 
+monetary policy tightening. However, there is a significant risk that some or all of these baseline 
+assumptions will fail to hold true. Relatedly, measures of economic uncertainty and concerns 
+regarding an oncoming recession have increased in recent months. Estimates of the probability of 
+recession have also increased. For example, based on information embodied in asset prices, the 
+probability of a recession starting in Group of Seven economies is estimated to be nearly 15 percent 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+5 
+International Monetary Fund | July 2022 
+(Figure 5)—four times its usual level—and nearer 
+one in four in Germany.2 For the United States, some 
+indicators, such as the Federal Reserve Bank of 
+Atlanta’s GDPNow forecasting model, suggest that a 
+technical recession (defined as two consecutive 
+quarters of negative growth) may already have 
+started. Overall, in consideration of rising risks and 
+uncertainties, this World Economic Outlook Update 
+places unusually strong emphasis on an alternative 
+scenario that illustrates the impact of several 
+downside risks that could plausibly materialize in the 
+near term as a complement to the baseline. Should 
+additional shocks hit the global economy, economic 
+outcomes would be even worse. 
+2.1 Baseline Scenario 
+Global growth: In the baseline scenario, global growth 
+is 3.2 percent in 2022 and moderates to 2.9 percent in 
+2023, lower than projected in the April 2022 World 
+Economic Outlook by 0.4 and 0.7 percentage point, respectively (Table 1). In a number of cases, a 
+better-than-expected growth outcome in the first quarter of 2022 offsets the subsequent slowdown, 
+resulting in a relatively modest net negative revision for average annual growth in 2022. Downgrades 
+for China and the United States, as well as for India, are driving the downward revisions to global 
+growth during 2022–23, which reflect the materialization of downside risks highlighted in the April 
+2022 World Economic Outlook: a sharper slowdown in China due to extended lockdowns, tightening 
+global financial conditions associated with expectations of steeper interest rate hikes by major central 
+banks to ease inflation pressure, and spillovers from the war in Ukraine. With growth near 3 percent 
+in 2022–23, a decline in global GDP or in global GDP per capita—sometimes associated with global 
+recession—is not currently part of the baseline scenario. However, projections for growth on a 
+fourth-quarter-over-fourth-quarter basis point to a significant weakening of activity in the second 
+half of 2022 (Table 1). While the revisions are mostly negative for advanced economies, differing 
+exposures to the underlying developments mean that those for emerging market and developing 
+economies are more mixed:  
+2 Recession probability indicates the estimated likelihood that a recession will start in the following quarter given the 
+behavior of asset prices and equity market volatility. For details on the methodology, see John Bluedorn, Jörg Decressin, 
+and Marco Terrones, “Do Asset Price Drops Foreshadow Recessions?” International Journal of Forecasting, 2016, 32 (2): 
+518–26. 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+International Monetary Fund | July 2022 6 
+•
+As noted, growth revisions for major advanced economies in 2022–23 are generally negative.
+Baseline growth in the United States is revised down by 1.4 percentage points and 1.3 percentage
+points in 2022 and 2023, respectively, reflecting weaker-than-expected growth in the first two
+quarters of 2022, with significantly less momentum in private consumption, in part reflecting the
+erosion of household purchasing power and the expected impact of a steeper tightening in
+monetary policy. Growth in the euro area is also revised down: by 0.2 percentage point in 2022,
+when improved prospects for tourism and industrial activity in Italy are more than offset by
+significant downgrades in France, Germany, and Spain; and by 1.1 percentage point in 2023.
+This reflects spillovers from the war in Ukraine as well as the assumption of tighter financial
+conditions, with the European Central Bank ending net asset purchases and raising rates in July
+2022 for the first time since 2011. In a number of European economies, NextGenerationEU
+funds are supporting economic activity.
+•
+For emerging market and developing economies, the negative revisions to growth in 2022–23
+reflect mainly the sharp slowdown of China’s economy and the moderation in India’s economic
+growth. The revision in emerging and developing Asia is correspondingly large, at 0.8 percentage
+point in the baseline for 2022. This revision includes a 1.1 percentage point downgrade to
+growth in China, to 3.3 percent (the lowest growth in more than four decades, excluding the
+initial COVID-19 crisis in 2020), owing primarily to the aforementioned COVID-19 outbreaks
+and lockdowns. Likewise, the outlook for India has been revised down by 0.8 percentage point,
+to 7.4 percent. For India, the revision reflects mainly less favorable external conditions and more
+rapid policy tightening. Elsewhere, growth revisions in the baseline have been mostly on the
+upside. Real GDP for emerging and developing Europe is expected to shrink by 1.5 percentage
+points less in 2022 than predicted in the April 2022 World Economic Outlook but grow by 0.4
+percentage point less in 2023, on the back of stronger-than-expected Russian export growth in
+2022 and the recently announced additional sanctions on Russia in 2023. Latin America and the
+Caribbean has also seen an upward revision of 0.5 percentage point in 2022 as a result of a more
+robust recovery in the large economies (Brazil, Mexico, Colombia, Chile).. The outlooks for
+countries in the Middle East and Central Asia and sub-Saharan Africa remain on average
+unchanged or positive, reflecting the effects of elevated fossil fuel and metal prices for some
+commodity-exporting countries.
+Inflation: The baseline projection for global inflation is also more pessimistic, having been revised up 
+to 8.3 percent in 2022 on a fourth-quarter-over-fourth-quarter basis, from 6.9 percent in the April 
+2022 World Economic Outlook. The upside inflation revision in 2022 is larger for advanced economies, 
+where it is expected to reach 6.3 percent from 4.8 percent projected in the April 2022 World Economic 
+Outlook on a fourth-quarter-over-fourth-quarter basis, driven by significant increases in headline 
+inflation among such major economies as the United Kingdom (a 2.7 percentage point upward 
+revision to 10.5 percent) and the euro area (a 2.9 percentage point upward revision to 7.3 percent). 
+Forecasts for 2023 are relatively unchanged––up by only 0.2 percentage point on a fourth-quarter-
+over-fourth-quarter basis––reflecting confidence that inflation will decline as central banks tighten 
+policies and energy price base effects turn negative. For emerging market and developing economies, 
+inflation in 2022 is expected to reach 10.0 percent on a fourth-quarter-over-fourth-quarter basis. 
+Revisions for those economies display greater variation across countries, with relatively modest 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+7 
+International Monetary Fund | July 2022 
+increases in emerging and developing Asia (partly because of a slowdown of activity in China and 
+limited increases in prices of staple foods) but larger revisions for Latin America and the Caribbean 
+(up by 3.0 percentage points) and for emerging and developing Europe (up by 2.9 percentage 
+points).  
+Global trade: Global trade growth in 2022 and 2023 will likely slow by more than previously expected, 
+reflecting the decline in global demand and supply chain problems. The dollar’s appreciation in 
+2022—by about 5 percent in nominal effective terms as of June compared with December 2021––is 
+also likely to have slowed world trade growth, considering the dollar’s dominant role in trade 
+2020
+2021
+2022
+2023
+2022
+2023
+2021
+2022
+2023
+World Output 
+–3.1
+6.1
+3.2
+2.9
+–0.4
+–0.7
+4.4
+1.7
+3.2
+Advanced Economies
+–4.5
+5.2
+2.5
+1.4
+–0.8
+–1.0
+4.7
+1.3
+1.5
+United States 
+–3.4
+5.7
+2.3
+1.0
+–1.4
+–1.3
+5.5
+1.0
+0.6
+Euro Area
+–6.3
+5.4
+2.6
+1.2
+–0.2
+–1.1
+4.7
+0.7
+2.1
+Germany
+–4.6
+2.9
+1.2
+0.8
+–0.9
+–1.9
+1.8
+0.5
+1.5
+France
+–7.9
+6.8
+2.3
+1.0
+–0.6
+–0.4
+4.9
+0.4
+1.1
+Italy
+–9.0
+6.6
+3.0
+0.7
+0.7
+–1.0
+6.4
+0.6
+1.6
+Spain
+–10.8
+5.1
+4.0
+2.0
+–0.8
+–1.3
+5.5
+1.3
+2.3
+Japan
+–4.5
+1.7
+1.7
+1.7
+–0.7
+–0.6
+0.4
+2.4
+0.6
+United Kingdom
+–9.3
+7.4
+3.2
+0.5
+–0.5
+–0.7
+6.6
+0.1
+1.3
+Canada
+–5.2
+4.5
+3.4
+1.8
+–0.5
+–1.0
+3.2
+2.5
+1.7
+Other Advanced Economies 3/
+–1.8
+5.1
+2.9
+2.7
+–0.2
+–0.3
+4.6
+2.0
+2.8
+Emerging Market and Developing Economies
+–2.0
+6.8
+3.6
+3.9
+–0.2
+–0.5
+4.2
+2.1
+4.7
+Emerging and Developing Asia
+–0.8
+7.3
+4.6
+5.0
+–0.8
+–0.6
+3.8
+4.0
+4.7
+China
+2.2
+8.1
+3.3
+4.6
+–1.1
+–0.5
+3.5
+4.1
+3.2
+India 4/
+–6.6
+8.7
+7.4
+6.1
+–0.8
+–0.8
+3.9
+4.1
+7.2
+ASEAN-5 5/
+–3.4
+3.4
+5.3
+5.1
+0.0
+–0.8
+4.7
+3.4
+6.1
+Emerging and Developing Europe
+–1.8
+6.7
+–1.4
+0.9
+1.5
+–0.4
+6.1
+–7.0
+7.7
+Russia
+–2.7
+4.7
+–6.0
+–3.5
+2.5
+–1.2
+4.8
+–13.9
+4.8
+Latin America and the Caribbean 
+–6.9
+6.9
+3.0
+2.0
+0.5
+–0.5
+3.9
+1.8
+2.1
+Brazil
+–3.9
+4.6
+1.7
+1.1
+0.9
+–0.3
+1.6
+1.5
+1.5
+Mexico
+–8.1
+4.8
+2.4
+1.2
+0.4
+–1.3
+1.2
+2.9
+1.0
+Middle East and Central Asia
+–2.9
+5.8
+4.8
+3.5
+0.2
+–0.2
+. . .
+. . .
+. . .
+Saudi Arabia 
+–4.1
+3.2
+7.6
+3.7
+0.0
+0.1
+6.7
+6.9
+3.7
+Sub-Saharan Africa 
+–1.6
+4.6
+3.8
+4.0
+0.0
+0.0
+. . .
+. . .
+. . .
+Nigeria
+–1.8
+3.6
+3.4
+3.2
+0.0
+0.1
+2.4
+2.1
+2.3
+South Africa
+–6.3
+4.9
+2.3
+1.4
+0.4
+0.0
+1.8
+2.2
+1.7
+Memorandum
+World Growth Based on Market Exchange Rates
+–3.4
+5.8
+2.9
+2.4
+–0.6
+–0.7
+4.4
+1.6
+2.5
+European Union
+–5.8
+5.4
+2.8
+1.6
+–0.1
+–0.9
+4.9
+0.9
+2.8
+Middle East and North Africa
+–3.4
+5.8
+4.9
+3.4
+–0.1
+–0.2
+. . .
+. . .
+. . .
+Emerging Market and Middle-Income Economies
+–2.2
+7.0
+3.5
+3.8
+–0.3
+–0.5
+4.3
+2.0
+4.7
+Low-Income Developing Countries
+0.1
+4.5
+5.0
+5.2
+0.4
+–0.2
+. . .
+. . .
+. . .
+World Trade Volume (goods and services) 6/
+–7.9
+10.1
+4.1
+3.2
+–0.9
+–1.2
+. . .
+. . .
+. . .
+Advanced Economies
+–8.8
+9.1
+5.3
+3.2
+–0.3
+–1.4
+. . .
+. . .
+. . .
+Emerging Market and Developing Economies
+–6.2
+11.7
+2.2
+3.3
+–1.8
+–0.9
+. . .
+. . .
+. . .
+Commodity Prices (US dollars)
+Oil 7/
+–32.7
+67.3
+50.4
+–12.3
+–4.3
+1.0
+79.2
+28.6
+–13.4
+Nonfuel (average based on world commodity import weights)
+6.7
+26.1
+10.1
+–3.5
+–1.3
+–1.0
+16.4
+5.7
+–0.6
+World Consumer Prices 8/
+3.2
+4.7
+8.3
+5.7
+0.9
+0.9
+5.6
+8.3
+4.1
+Advanced Economies 9/
+0.7
+3.1
+6.6
+3.3
+0.9
+0.8
+4.9
+6.3
+2.3
+Emerging Market and Developing Economies 8/
+5.2
+5.9
+9.5
+7.3
+0.8
+0.8
+6.1
+10.0
+5.7
+Note: Real effective exchange rates are assumed to remain constant at the levels prevailing during May 30, 2022--June 27, 2022. Economies are listed on the basis of economic size. The 
+aggregated quarterly data are seasonally adjusted. WEO = World Economic Outlook.
+1/ Difference based on rounded figures for the current and April 2022 WEO forecasts. Countries whose forecasts have been updated relative to April 2022 WEO forecasts account for 
+approximately 90 percent of world GDP measured at purchasing-power-parity weights.
+2/ For World Output (Emerging Market and Developing Economies), the quarterly estimates and projections account for approximately 90 percent (80 percent) of annual world (emerging market 
+and developing economies') output at purchasing-power-parity weights.
+3/ Excludes the Group of Seven (Canada, France, Germany, Italy, Japan, United Kingdom, United States) and euro area countries.
+4/ For India, data and forecasts are presented on a fiscal year basis and GDP from 2011 onward is based on GDP at market prices with fiscal year 2011/12 as a base year. 
+5/ Indonesia, Malaysia, Philippines, Thailand, Vietnam.
+6/ Simple average of growth rates for export and import volumes (goods and services).
+7/ Simple average of prices of UK Brent, Dubai Fateh, and West Texas Intermediate crude oil. The average price of oil in US dollars a barrel was $69.07 in 2021; the assumed price, based on 
+futures markets (as of June 29, 2022), is $103.88 in 2022 and $91.07 in 2023.
+8/ Excludes Venezuela.
+9/ The inflation rate for the euro area is 7.3% in 2022 and 3.9% in 2023, that for Japan is 1.9% in 2022 and 1.3% in 2023, and that for the United States is 7.7% in 2022 and 3.0% in 2023, 
+respectively.  
+Q4 over Q4 2/
+Table 1. Overview of the World Economic Outlook Projections
+Projections
+Projections
+Year over Year
+(Percent change, unless noted otherwise)
+Difference from April 2022 WEO 
+Projections 1/
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+International Monetary Fund | July 2022 8 
+invoicing as well as negative financial balance sheet effects on demand and imports in countries with 
+dollar-denominated liabilities.  
+2.2 Downside Risks 
+The balance of risks is squarely to the downside, 
+driven by a wide range of factors that could 
+adversely affect global economic performance. The 
+following are of particular concern. 
+The war in Ukraine further raises energy prices. Since April 
+2022, the amount of Russian pipeline gas supplied 
+to Europe has fallen sharply, to about 40 percent of 
+last year’s level (Figure 6), which is reflected in 
+downward revisions to the latest forecasts compared 
+with April. The latest baseline forecasts also 
+incorporate the expectation that the volume will 
+decline further to low levels by mid-2024, in line 
+with major European economies’ energy 
+independence goals. Yet there is much uncertainty 
+around the levels of gas supplies during 2022 and 2023. A complete cessation of exports of Russian 
+gas to European economies in 2022 would significantly increase inflation worldwide through higher 
+energy prices. In Europe, it could force energy rationing, affecting major industrial sectors, and 
+sharply reduce growth in the euro area in 2022 and 2023, with negative cross-border spillovers.  
+Inflation remains stubbornly high. Inflation is generally expected to return to near pre-pandemic levels by 
+the end of 2024. However, several factors could cause it to maintain momentum and raise longer-
+term expectations. Further supply-related shocks to food and energy prices from the war in Ukraine 
+could sharply increase headline inflation and pass through to core inflation, triggering a further 
+tightening in monetary policy. Such shocks could, if sufficiently severe, cause a combination of 
+recession accompanied by high and rising inflation (“stagflation”), although this is not part of the 
+baseline scenario. Labor market tightness is historically high in several economies, and workers 
+could increasingly demand compensation for past increases in the cost of living. Firms may have 
+some ability to absorb higher labor costs by reducing profit margins, particularly where price 
+increases preceded wage inflation or in industries or places where firms have monopsony power. But 
+if they cannot, this could cause even higher inflation and risk triggering a wage-price spiral. 
+Policymakers could also underestimate the degree of labor market tightness and its impact on 
+inflation or tighten policies insufficiently, thereby failing to prevent unanchoring of long-term 
+inflation expectations. Similarly, prices may have become more sensitive to changes in demand as 
+more of the economy’s productive resources are employed—that is, the relevant part of the supply 
+curve is inelastic. In that case, a rapid increase in inflation may be followed by an equally sudden 
+decline if policy tightens too much. 
+Disinflation is more costly than expected. Major central banks have responded to high inflation by raising 
+interest rates. But the exact amount of policy tightening required to lower inflation without inducing 
+a recession is difficult to ascertain. A number of factors have affected the economic cost of past 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+9 
+International Monetary Fund | July 2022 
+episodes of disinflation, including the initial level of inflation and inflation expectations, wage and 
+price rigidities, how much prices and wages respond to a fall in demand, and the stance of fiscal 
+policy. If the evolution of these factors surprises policymakers, or if they misjudge the appropriate 
+policy stance––including the level of neutral interest rates––the coming disinflation adjustment 
+could be more disruptive than currently expected. Past disinflation episodes associated with 
+monetary policy tightening, such as those experienced by advanced economies in the early 1980s, 
+were often costly, with high unemployment the price of taming inflation. This time, lower starting 
+inflation, lower and better-anchored inflation expectations, and the greater flexibility of labor and 
+product markets in advanced economies suggest that costs may be lower. However, higher sovereign 
+and corporate leverage may amplify the effects of policy tightening and influence the willingness of 
+central banks to act decisively on inflation, with potentially higher medium-term output costs if 
+inflation expectations rise significantly, prompting sharper interest rate hikes. The risk of recession is 
+particularly prominent in 2023, when in several economies growth is expected to bottom out, 
+household savings accumulated during the pandemic will have declined, and even small shocks 
+could cause economies to stall. For example, according to the latest forecasts, the United States will 
+have real GDP growth of only 0.6 percent in the fourth quarter of 2023 on a year-over-year basis, 
+which will make it increasingly challenging to avoid a recession (Table 1). In a number of advanced 
+economies, rising interest rates, together with low growth, will worsen debt dynamics and increase 
+sovereign and corporate spreads, especially in high-debt countries. Indeed, tighter financial 
+conditions are already contributing to a divergence in borrowing rates and concerns regarding the 
+risk of “financial fragmentation” in the euro area, potentially impairing the transmission of monetary 
+policy.  
+Tighter financial conditions trigger debt distress in emerging market and developing economies. As advanced 
+economy central banks raise interest rates to fight inflation, financial conditions worldwide will 
+continue to tighten. The resulting increase in borrowing costs will, without correspondingly tighter 
+domestic monetary policies, put pressure on international reserves and cause depreciation versus the 
+dollar, inducing balance sheet valuation losses among economies with dollar-denominated net 
+liabilities. Such challenges will come at a time when government financial positions in many 
+countries are already stretched, implying less room for fiscal policy support, with 60 percent of low-
+income countries in or at high risk of government debt distress (debt restructuring or accumulation 
+of arrears)––up from about one-fifth a decade ago.3 Widespread capital flight from emerging market 
+and developing economies could amplify this risk. Emerging market bond spreads have already been 
+rising (Figure 7). Rising borrowing costs combined with high inflation and slowing growth have 
+prompted comparisons to the 1970s and early 1980s. In the 1970s, surpluses from oil exporters—
+which had gained from higher energy prices—boosted funding for emerging market economy debt 
+markets. Central banks tightened policies in the early 1980s to fight high inflation, which led to 
+disorderly external adjustment and debt defaults in some cases, notably in Latin America. Could 
+3 Guillaume Chabert, Martin Cerisola, and Dalia Hakura, “Restructuring Debt of Poorer Nations Requires More 
+Efficient Coordination,” IMFBlog, April 7, 2022. 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+International Monetary Fund | July 2022 10 
+similar shocks today lead to similar imbalances? 
+Although the source of the energy price shock is 
+much the same in the two cases, there are several 
+important differences. First, the real oil price rise is 
+smaller in the current case, and global production is 
+now less dependent on oil than previously. Second, 
+policy tightening began earlier in this episode, 
+including in some emerging market and developing 
+economies, where policy frameworks are also 
+generally more robust than before. And third, there 
+has been less time for recycled petrodollars to drive 
+imbalances in emerging market and developing 
+economies this time. Despite these positive changes, 
+however, increased exposure to other large bilateral 
+creditors and the recent pandemic have brought new vulnerabilities, driving up public debt and 
+eroding future potential growth in many countries. 
+China’s slowdown persists. The baseline foresees a recovery from the lockdowns in the second half of 
+2022, with overall GDP growth at 3.3 percent in 2022 and 4.6 percent in 2023. Upside risks to 
+growth include announcements of material fiscal support and a recalibration of the authorities’ zero-
+COVID strategy to reduce growth trade-offs, building on their successful campaign to ramp up the 
+rollout of booster shots. Downside risks include larger-scale outbreaks of more contagious virus 
+variants that trigger further widespread lockdowns under the zero-COVID strategy. In addition, 
+delayed price and balance sheet adjustments in the property sector could cause a sudden, wider crisis 
+or a protracted adjustment with broader macro-financial spillovers. A sustained slowdown in China 
+would have strong global spillovers, whose nature will depend on the balance of both supply and 
+demand factors. For example, further tightening of supply bottlenecks could cause higher consumer 
+goods prices worldwide, but lower demand might ease commodity pressures and intermediate goods 
+inflation. 
+Rising food and energy prices cause widespread hardship, famine, and unrest. Because energy and food are 
+essential goods with few substitutes, higher prices are particularly painful for households. When the 
+price of other items, such as electronics, furniture, or entertainment, increases, families can simply 
+reduce or even eliminate spending on them. For food, heating, and transportation––often essential 
+to earn a living––this is much harder. As a result, the current situation poses a threat not only to 
+economic, but also to social, stability. Unrest has been rising since the end of the acute phase of the 
+pandemic, consistent with IMF research that suggests that unrest is lower in during pandemics 4 and 
+4 Philip Barrett and Sophia Chen, “Social Repercussions of Pandemics,” IMF Working Paper 21/21, International 
+Monetary Fund, Washington, DC.  
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+11 
+International Monetary Fund | July 2022 
+that higher food and energy prices are robust predictors of unrest.5 Although unrest will not 
+necessarily ensue, the link between prices and social stability means that further barriers to trade, or 
+a poor harvest due to extreme heat and fertilizer shortages, risk causing further hardship, famine, or 
+unrest. These risks could be allayed by easing logistic hurdles brought about by the invasion of 
+Ukraine, including the Black Sea blockade.  
+The world economy fragments further. A serious risk to the medium-term outlook is that the war in 
+Ukraine will contribute to fragmentation of the world economy into geopolitical blocs with distinct 
+technology standards, cross-border payment systems, and reserve currencies. So far, there is limited 
+evidence of reshoring, and global trade has been more resilient than expected since the start of the 
+pandemic. Fragmentation may also diminish the effectiveness of multilateral cooperation to address 
+climate change, with the further risk that the current food crisis could become the norm. 
+2.3 Quantitative Impact: Global Alternative Scenario 
+Reduced fossil fuel exports, higher inflation expectations, and tighter financial conditions: Beyond understanding 
+the potential sources of risk, a key concern for policymakers is to gauge their likely impact on the 
+global economy. This section addresses this issue by using the IMF’s Group of Twenty (G20) Model 
+to analyze the economic effects if four particularly 
+pertinent and plausible downside risks should 
+materialize: 
+•
+Increasingly tight sanctions in response to the
+Russian invasion of Ukraine cause Russian oil
+exports to drop by a further 30 percent relative to
+the baseline, starting in the second half of 2022.
+•
+Russian gas exports to Europe decline to zero by
+the end of 2022, either because European
+countries prohibit imports or because Russia
+curtails supply.
+•
+Inflation expectations remain more persistently
+elevated.
+•
+Financial conditions tighten, as a result both of
+policymakers’ responses to higher inflation and of
+investors’ concerns, pushing up sovereign and
+corporate risk and term premiums.
+Lower output, higher inflation worldwide: Figure 8 shows 
+the overall impact of these shocks on the global 
+5 Chris Redl and Sandie Hlatshwayo, “Forecasting Social Unrest: A Machine Learning Approach, IMF Working Paper 
+21/263, International Monetary Fund, Washington, DC.  
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+International Monetary Fund | July 2022 12 
+economy. Global growth would fall by about 0.6 percentage point and 0.9 percentage point in 2022 
+and 2023, respectively, compared with the baseline projection, to about 2.6 percent and 2.0 percent 
+in 2022 and 2023, respectively. Such low annual growth has occurred only rarely in the past (on only 
+five occasions since 1970 has global growth been lower than 2 percent). The direct impact of fossil 
+fuel restrictions would account for about two-fifths of the total decline in GDP compared with the 
+baseline (1.5 percent by 2023), with increased inflation expectations and tighter financial conditions 
+responsible for roughly another third and quarter each, respectively. International commodity 
+markets would also react sharply, with the reduction in the global oil supply pushing prices up by 
+about 30 percent. For gas, Russia’s larger share of global supply and less flexible distribution 
+networks would make the response more dramatic, with prices spiking by almost 200 percent. The 
+impact on consumer price inflation would depend on the relative strength of the different shocks at 
+different horizons. In the short term, the direct effect of higher prices and inflation expectations 
+would raise inflation by about 1 percentage point. Subsequently, lower demand and tighter financial 
+conditions would dominate, mitigating the inflationary impact in 2023 and beyond.  
+Brunt of the impact in Europe: In this scenario, the shock would have a widespread impact, as higher 
+global commodity prices and tighter monetary and financial conditions would affect almost all 
+countries, albeit to different extents. Europe would be particularly affected in this scenario, with 
+2023 growth in the European Union 1.3 percentage points lower than in the baseline, implying near-
+zero regional growth.6 
+Policy Priorities 
+Restoring price stability while protecting the vulnerable: At this juncture, the main policy priority is to bring 
+inflation under control, as price stability is a precondition for durable growth in economic well-being 
+and financial stability. The appropriate mix of monetary, fiscal, and structural policies for reducing 
+inflation differs across economies depending on the sources and extent of price pressures:  
+•
+Economies in which underlying inflation and inflation expectations have risen persistently
+and significantly above target levels need to take decisive action to tighten monetary policy,
+with central banks shrinking their balance sheets and raising real interest rates. In the near
+term, such policies reduce inflation at the cost of lower real activity, higher unemployment,
+and lower wages. The same people who suffered most directly in recent years––those with
+low wages, precarious employment status, and limited savings or access to credit—are likely
+to feel the impact of any slowdown the most. Concerns about protecting the most
+vulnerable and lessening the economic cost, as well as limiting the impact on asset prices,
+6 There is considerable uncertainty around the GDP impact of a Russian natural gas shutoff for Europe. It could be 
+especially large in a number of European countries in central and eastern Europe, where imports of Russian gas account 
+for a significant share of energy consumption and where infrastructure constraints would prevent sufficient non-Russian 
+(mainly liquefied natural gas) imports in the near term. Policies that substantially delay or prevent the pass-through from 
+gas prices to household retail prices would concentrate the demand adjustment on industry, amplifying the output 
+impact. Flanagan, M., Kammer A., Pescatori A., and Stuermer, M., 2022. How a Russian Natural Gas Cutoff Could 
+Weigh on Europe’s Economies. 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+13 
+International Monetary Fund | July 2022 
+may seem a valid motive to tighten monetary policy more slowly. However, an approach of 
+this type would likely be counterproductive, as there is little evidence that such gradualism 
+limits the costs of disinflation. Restoring low and stable inflation before expectations 
+unanchor would create an environment conducive to investment and growth and avert the 
+need for a more abrupt and disruptive adjustment later.  
+•
+During disinflation, fiscal policy has a special role to play, cushioning the most vulnerable
+from the impact of the requisite cooling in economic activity through targeted and
+temporary fiscal transfers. Where possible, this cushioning should happen via automatic
+stabilizers (see the April 2020 World Economic Outlook and Fiscal Monitor). And to complement
+monetary policy in the tightening of the overall macroeconomic policy stance, any fiscal
+policy changes should be budget neutral (at a minimum) in cyclically adjusted terms and set
+within a credible medium-term fiscal framework consistent with debt sustainability. While
+public sector pay restraint can ease inflation pressure, policies that seek primarily to directly
+limit prices and wages in the private sector should generally be avoided, having often proved
+costly and ineffective in the past.
+•
+Structural reforms can also play a role in tackling inflation by expanding aggregate supply,
+although they are unlikely to affect inflation quickly. Policies to increase labor supply,
+including higher earned income tax credits, more funding for childcare, enhanced access to
+COVID-19 vaccinations and treatment, and reform of immigration pathways would boost
+productivity and real incomes and contribute to lowering inflation. In emerging market and
+developing economies, improvements in the business environment, green investments, and
+digitalization can also boost aggregate supply.
+Preparing for tighter credit and financial instability: Tighter monetary conditions will affect global capital 
+markets and require policy responses on several fronts. As interest rates rise, financial institutions 
+gain from higher net income but suffer losses as loan origination declines and default rates rise. The 
+balance between these factors will determine financial sector health and the appropriate use of 
+macroprudential tools. Even in the best case, firms are more likely to fail as activity slows, making 
+efficient and effective bankruptcy proceedings and resolution frameworks particularly valuable. In 
+economies with bank exposures to sectors with rising vulnerabilities, tightening macroprudential 
+tools may be warranted. Likewise, higher interest rates and lower tax revenues will push some 
+sovereign borrowers into debt distress. Yet mechanisms to resolve debt distress are slow and 
+unpredictable, hampered by difficulties in obtaining coordinated agreements from diverse creditors 
+over their competing claims. Improvements to the implementation of the G20 Common 
+Framework are urgently needed to ensure speedy, smooth, and efficient restructurings. The pressure 
+that tighter financial conditions will put on countries’ fiscal and external positions will likely increase 
+the role of support from multilateral institutions in coming years. Where external shocks cannot be 
+absorbed by flexible exchange rates alone, policymakers should be ready to act; for example, through 
+foreign exchange interventions or capital flow management measures in a crisis scenario. Where 
+debt levels are high, governments should preemptively reduce reliance on foreign currency 
+borrowing. Prompt and reliable access to reserve currency liquidity—including through IMF 
+precautionary and disbursing arrangements—gives countries breathing room to implement 
+adjustment policies in an orderly manner. Such international cooperation is a critical safety net not 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+International Monetary Fund | July 2022 14 
+just for individual countries but also, by stopping crises from spreading, for the global economy. In 
+the euro area, addressing the risk of financial fragmentation through a well-designed European 
+Central Bank antifragmentation instrument is warranted. Such an instrument would complement the 
+existing conditional Outright Monetary Transactions instrument and the European Stability 
+Mechanism’s lending program and further facilitate the task of setting policy interest rates based on 
+euro-area-wide macroeconomic conditions. However, such a tool should not distort markets so 
+much that prices fail to reflect fundamental risks. 
+Tackling the food and energy crises: Beyond generalized inflation, specific challenges in food and energy 
+markets will require distinct policy responses. Ending the invasion of Ukraine and the Black Sea 
+blockade would increase the supply of commodities to global markets. In addition, governments 
+should not hoard food and energy but instead look to unwind barriers to trade, such as food export 
+bans, which are applied with the intention of preventing domestic shortages but which in fact drive 
+world prices higher. To help address food security concerns, World Trade Organization (WTO) 
+members acted to exempt World Food Program purchases from export restrictions at the 12th 
+WTO Ministerial Conference in June 2022. Broadly, governments should allow prices to move 
+freely: high prices are an important signal of a scarce resource and encourage its conservation and 
+production. Controls to keep food and fuel prices low for everyone, regardless of their ability to pay, 
+can encourage overconsumption of expensive products at public expense and—by squeezing 
+retailers’ margins—counterproductively lower supply. Price controls alone have not durably reduced 
+the cost of living in the past (US price controls in 1971 are one example). Instead, offsetting the 
+impact on living standards via targeted cash transfers to those with low incomes or at particular risk 
+of harm from food or energy shortages (such as children and older people) can be very effective. 
+Countries lacking safety nets strong enough to support the most vulnerable can expand their most 
+efficient existing programs by increasing benefit levels and coverage as needed. Countries with 
+existing energy or food subsidies should gradually pass international prices through to consumers 
+while committing to eliminating subsidies in coming years. Where food security is a concern and all 
+other options have been exhausted, governments can consider other temporary steps, such as price 
+subsidies or direct distribution of staple foods when necessary.7 Temporary support to energy-
+dependent firms in the form of subsidized or partially guaranteed loans that involve risk sharing with 
+private banks can also prevent the failure of firms, preserving supply chains and averting cascading 
+economic damage. 
+Warding off pandemic risks while limiting economic disruptions: Although in much of the world the acute 
+impact of the COVID-19 pandemic is fading, there is still an opportunity to minimize the cost of 
+living with the virus. About 130 countries did not reach the IMF pandemic proposal’s mid-2022 
+vaccination target of 70 percent, and similar inequality persists in access to tests and treatments. 
+Universal vaccination remains the best shield against persistent health-related absenteeism and 
+7 See David Amaglobeli, Emine Hanedar, Gee Hee Hong, and Céline Thévenot, “Fiscal Policy for Mitigating the Social 
+Impact of High Energy and Food Prices,” IMF Note 2022/001, International Monetary Fund, Washington, DC. 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+15 
+International Monetary Fund | July 2022 
+further variants and should be backed by broad public health campaigns to encourage vaccine 
+uptake. Governments should also intensify efforts to resolve vaccine supply and distribution 
+bottlenecks and ensure equitable access to treatment. Public support for better systematic responses 
+to future epidemics and research into new vaccine technologies, including for a more widely 
+effective pan-coronavirus vaccine, remains essential. 
+Facilitating transition to a low-carbon economy: Mitigating climate change continues to require urgent 
+multilateral action. Yet the war in Ukraine and soaring energy prices have put pressure on 
+governments to turn to fossil fuels such as coal as a stopgap measure. Policymakers and regulators 
+should make sure that any such measures are temporary and cover only energy shortfalls—and do 
+not increase emissions overall—and facilitate investment in renewables that will reduce emissions. 
+Credible and comprehensive climate policies to increase green energy supply should be accelerated 
+urgently. The energy crisis also illustrates how a policy of clean, green energy independence can be 
+compatible with countries’ national security objectives. Fiscal policy should smooth the transition 
+for households and firms that bear the brunt of the transition costs. The recently introduced IMF 
+Resilience and Sustainability Trust can also help countries build resilience to longer-term structural 
+challenges, including climate change and pandemic preparedness. 
+16 
+International Monetary Fund | July 2022 
+JULY 
+2022 
+GLOBAL FINANCIAL STABILITY UPDATE 
+Global financial conditions have tightened 
+sharply since the April 2022 Global Financial 
+Stability Report. They are now near the March 
+2020 peak of tightness in emerging markets, but 
+have retraced only to long-term average levels in 
+advanced economies (Figure 1.1). 
+Higher interest rates and lower corporate valuations 
+have driven the moves in advanced economies. 
+Heightened uncertainty about the economic outlook 
+has generated high market volatility, and liquidity has 
+been exceptionally poor in both fixed-income and 
+equity markets. In most emerging markets, financial 
+conditions tightened sharply this spring and are now 
+quite restrictive relative to historical norms. Weaker 
+currencies and wider dollar funding spreads have 
+pushed up the cost of external borrowing, while 
+monetary policy tightening has continued as a means of 
+tackling inflation. Crypto assets have experienced a 
+dramatic sell-off that has led to large losses in crypto 
+investment vehicles and caused the failure of 
+algorithmic stablecoins and crypto hedge funds, but 
+spillovers to the broader financial system have been 
+limited so far. 
+Sovereign bond yields in advanced economies 
+have risen sharply following aggressive central 
+bank actions and communications in an effort to 
+tame persistent inflation pressure and prevent an 
+unmooring of inflation expectations. Central banks 
+have raised policy rates aggressively, in some cases 
+resorting to large hikes not seen in decades. As a result, 
+the market-implied expected path of policy rates has 
+shifted higher across countries since the April Global 
+Financial Stability Report. Recently, global rates have 
+retraced some of their ealier increases, largely as a result 
+of recession fears (Figure 1.2). 
+Rising real rates have been the key driver of higher 
+bond yields across maturities in advanced 
+economies, and lower market-based measures of 
+inflation expectations have partially offset real 
+rates during this period. While longer-term inflation 
+expectations (at the five-year, five-year-forward horizon) have remained relatively steady at 
+elevated levels, expectations at the five-year horizon have largely reverted to levels preceding 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+17 
+International Monetary Fund | July 2022 
+Russia’s invasion of Ukraine, reflecting, in part, investors’ growing concerns about slowing 
+aggregate demand over the near to medium term. Given these concerns, market-implied 
+expectations of policy rates are currently signaling rate cuts in 2023 and 2024 in some advanced 
+economies (Figures 1.3 and 1.4). 
+Investor risk appetite has deteriorated  
+significantly since the April Global Financial 
+Stability Report. Against a backdrop of 
+stretched valuations in a number of sectors and 
+countries, equity prices have fallen sharply 
+(Figure 1.5). Rising interest rates have been an 
+important factor behind the precipitous drop in US 
+equity prices (based on a model decomposition; see 
+the October 2020 Global Financial Stability Report). 
+Large firms have reported a contraction in profit 
+margins on higher costs, while downward revisions 
+to analyst earnings forecasts appear to be gaining 
+momentum on concerns about the economic 
+outlook. Advanced economy corporate bond 
+spreads have widened to two-year highs, and 
+corporate bond yields—which reflect the cost of new funding—have surged to the highest levels 
+since the global financial crisis. Global high-yield defaults are seen as having bottomed out at 
+historically low levels, and new debt issuance has slowed dramatically. 
+WORLD ECONOMIC OUTLOOK UPDATE, JULY 2022 
+18 
+International Monetary Fund | July 2022 
+WEO Update © 2022 • ISBN: 979-8-40021-633-6 
+Sectors with estimated high valuations, such as 
+consumer discretionary and information 
+technology, have incurred steep equity price drops 
+since the most recent Global Financial Stability 
+Report (Figure 1.6). Cyclicals (such as financials) and 
+sectors sensitive to energy and other input costs (such as 
+industrials) have also seen substantial declines. Across 
+regions, equity markets in the United States have 
+performed poorly, partly because of their sectoral 
+composition, after having led the recovery from the 
+pandemic. Equity prices have fallen sharply also in 
+emerging markets (except China) and in Europe. Risk-
+off sentiment and worries about rising interest rates in 
+advanced economies have negatively affected emerging 
+markets. Chinese equities have been little affected in the 
+second quarter of 2022., but investors have remained 
+cautious given lockdowns and growth concerns. 
+European markets’ proximity to the war in Ukraine and exposure to Russia have affected them. 
+In Japan, a weaker yen and accommodative monetary policy have supported stocks. 
+As advanced economies have raised interest rates 
+and conditions have tightened globally, debt 
+vulnerabilities and financing risks are on the rise for 
+emerging market issuers, with the tightening of 
+financial conditions most notable among lower-
+rated issuers (Figure 1.7). Spreads of below-
+investment-grade issuers have risen by 104 basis points 
+since April, and about one-third of emerging market 
+borrowers now have bonds trading with yields in excess 
+of 10 percent, a post-global-financial-crisis high. 
+Worsening conditions have also affected hard-currency 
+issuance, which is running at its slowest pace since 2015 
+and down more than 40 percent from 2021. Despite the 
+slowdown, higher-rated issuers have continued to access 
+capital markets in recent months, albeit at significant 
+premiums and at shorter maturities. By contrast, many 
+weaker issuers have been effectively shut out of the 
+market. Portfolio flows to local currency bonds and equities have remained under notable 
+pressure as well, albeit with considerable country heterogeneity. So far, investors appear to 
+continue to differentiate across emerging markets based on the outlook for inflation and 
+monetary policy as well as exposure to commodity markets. 
+__________ 
+This box was prepared by the Monetary and Capital Market Department’s Global Markets Analysis Division. It 
+provides an update on market developments since the April 2022 Global Financial Stability Report, whose data cutoff 
+was April 7. 
