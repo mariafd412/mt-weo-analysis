@@ -6,47 +6,55 @@ from nltk.corpus import stopwords
 # Cargar modelo de lenguaje
 nlp = spacy.load("en_core_web_sm")
 
+# Aumentar límite (por seguridad)
+nlp.max_length = 2000000
+
 # Stopwords personalizadas
 stop_words = set(stopwords.words("english"))
 
-# palabras que NO queremos eliminar
+domain_stopwords = {
+    "percent", "year", "figure", "box", "chapter",
+    "april", "october", "datum", "nso", "cb", "bpm", "cg",
+    "outlook"
+}
+
 keep_words = {"growth", "inflation", "crisis", "deficit"}
 
-# quitarlas de stopwords
+# asegurar minúsculas
+domain_stopwords = {w.lower() for w in domain_stopwords}
+keep_words = {w.lower() for w in keep_words}
+
+stop_words = stop_words.union(domain_stopwords)
 stop_words = stop_words - keep_words
 
-# Función para procesar texto
 
-def process_text(text):
-    doc = nlp(text)
+# 🔹 Función para dividir textos largos
+def split_text(text, max_length=500000):
+    return [text[i:i+max_length] for i in range(0, len(text), max_length)]
 
+
+# 🔹 Procesar doc
+def process_doc(doc):
     tokens = []
-
-    for token in doc:
-        if token.is_alpha:  # solo palabras
-            word = token.lemma_.lower()
-
-            if word not in stop_words:
-                tokens.append(word)
-
-    return tokens
-
-# Definir identidades NER
-def extract_entities(text):
-    doc = nlp(text)
-
     countries = []
     orgs = []
 
+    for token in doc:
+        if token.is_alpha:
+            word = token.lemma_.lower()
+            if word not in stop_words:
+                tokens.append(word)
+
     for ent in doc.ents:
-        if ent.label_ == "GPE":  # países/ciudades
+        if ent.label_ == "GPE":
             countries.append(ent.text)
         elif ent.label_ == "ORG":
             orgs.append(ent.text)
 
-    return countries, orgs
+    return tokens, countries, orgs
 
-# Aplicar procesamiento a dataset
+
+# 🔹 Aplicar procesamiento
 INPUT_FILE = "data/processed/dataset.json"
 OUTPUT_FILE = "data/processed/dataset_nlp.json"
 
@@ -58,12 +66,24 @@ new_data = []
 for row in data:
     text = row["texto"]
 
-    tokens = process_text(text)
-    countries, orgs = extract_entities(text)
+    all_tokens = []
+    all_countries = []
+    all_orgs = []
 
-    row["tokens"] = tokens
-    row["pais"] = countries
-    row["organizacion"] = orgs
+    # 🔥 dividir si es muy grande
+    chunks = split_text(text)
+
+    for chunk in chunks:
+        doc = nlp(chunk)
+        tokens, countries, orgs = process_doc(doc)
+
+        all_tokens.extend(tokens)
+        all_countries.extend(countries)
+        all_orgs.extend(orgs)
+
+    row["tokens"] = all_tokens
+    row["pais"] = list(set(all_countries))
+    row["organizacion"] = list(set(all_orgs))
 
     new_data.append(row)
 
