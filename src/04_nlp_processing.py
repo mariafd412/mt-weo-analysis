@@ -1,10 +1,23 @@
 # Cargar librerías
 import json
 import spacy
+import nltk
 from nltk.corpus import stopwords
 
+# Descargar recursos de NLTK si no están disponibles
+try:
+    stopwords.words("english")
+except LookupError:
+    print("Descargando recursos NLTK...")
+    nltk.download("stopwords")
+
 # Cargar modelo de lenguaje
-nlp = spacy.load("en_core_web_sm")
+print("Cargando modelo spacy...")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    print("ERROR: Modelo spacy no encontrado. Instala con: python -m spacy download en_core_web_sm")
+    exit(1)
 
 # Stopwords personalizadas
 stop_words = set(stopwords.words("english"))
@@ -50,12 +63,17 @@ def extract_entities(text):
 INPUT_FILE = "data/processed/dataset.json"
 OUTPUT_FILE = "data/processed/dataset_nlp.json"
 
+print(f"Leyendo {INPUT_FILE}...")
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)
 
+print(f"Procesando {len(data)} párrafos...")
 new_data = []
 
-for row in data:
+for i, row in enumerate(data):
+    if (i + 1) % 100 == 0:
+        print(f"  {i + 1}/{len(data)}...")
+    
     text = row["texto"]
 
     tokens = process_text(text)
@@ -67,7 +85,8 @@ for row in data:
 
     new_data.append(row)
 
+print(f"Guardando en {OUTPUT_FILE}...")
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(new_data, f, indent=2, ensure_ascii=False)
 
-print("NLP completado 🚀")
+print(f"✓ NLP completado! Guardados {len(new_data)} párrafos procesados")

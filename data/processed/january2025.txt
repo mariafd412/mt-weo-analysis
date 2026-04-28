@@ -1,1 +1,1245 @@
-2025 JAN WORLD ECONOMIC OUTLOOK INTERNATIONAL MONETARY FUND Global Growth: Divergent and Uncertain UPDATE International Monetary Fund | January 2025 STRICTLY CONFIDENTIAL STRICTLY CONFIDENTIAL JAN 2025 WORLD ECONOMIC OUTLOOK UPDATE Global Growth: Divergent and Uncertain Global growth is projected at 3.3 percent both in 2025 and 2026, below the historical (2000 19) average of 3.7 percent. The forecast for 2025 is broadly unchanged from that in the October 2024 World Economic Outlook (WEO), primarily on account of an upward revision in the United States offsetting downward revisions in other major economies. Global headline inflation is expected to decline to 4.2 percent in 2025 and to 3.5 percent in 2026, converging back to target earlier in advanced economies than in emerging market and developing economies. Medium-term risks to the baseline are tilted to the downside, while the near-term outlook is characterized by divergent risks. Upside risks could lift already-robust growth in the United States in the short run, whereas risks in other countries are on the downside amid elevated policy uncertainty. Policy-generated disruptions to the ongoing disinflation process could interrupt the pivot to easing monetary policy, with implications for fiscal sustainability and financial stability. Managing these risks requires a keen policy focus on balancing trade-offs between inflation and real activity, rebuilding buffers, and lifting medium-term growth prospects through stepped-up structural reforms as well as stronger multilateral rules and cooperation. Forces Shaping the Outlook The global economy is holding steady, although the degree of grip varies widely across countries. Global GDP growth in the third quarter of 2024 was 0.1 percentage point below that predicted in the October 2024 WEO, after disappointing data releases in some Asian and European economies. Growth in China, at 4.7 percent in year-over-year terms, was below expectations. Faster-than-expected net export growth only partly offset a faster-than-expected slowdown in consumption amid delayed stabilization in the property market and persistently low consumer confidence. Growth in India also slowed more than expected, led by a sharper-than-expected deceleration in industrial activity. Growth continued to be subdued in the euro area (with Germany s performance lagging that of other euro area countries), largely reflecting continued weakness in manufacturing and goods exports even as consumption picked up in line with the recovery in real incomes. In Japan, output contracted mildly owing to temporary supply disruptions. By contrast, momentum in the United States remained robust, with the economy expanding at a rate of 2.7 percent in year-over-year terms in the third quarter, powered by strong consumption. Global disinflation continues, but there are signs that progress is stalling in some countries and that elevated inflation is persistent in a few cases. The global median of sequential core inflation has been just slightly above 2 percent for the past few months. Nominal wage growth is showing signs of moderation, alongside indications of continuing normalization in labor markets. Although core goods price inflation has fallen back to or below trend, services price inflation is still running above pre COVID-19 averages in many economies, most notably the United States and the euro area. Pockets of elevated inflation, reflecting a range of idiosyncratic factors, also persist in some emerging market and developing economies in Europe and Latin America. WORLD ECONOMIC OUTLOOK 2 International Monetary Fund | January 2025 Where inflation is proving more sticky, central banks are moving more cautiously in the easing cycle while keeping a close eye on activity and labor market indicators as well as exchange rate movements. A few central banks are raising rates, marking a point of divergence in monetary policy. Global financial conditions remain largely accommodative, again with some differentiation across jurisdictions (see Box 1). Equities in advanced economies have rallied on expectations of more business- friendly policies in the United States. In emerging market and developing economies, equity valuations have been more subdued, and a broad-based strengthening of the US dollar, driven primarily by expectations of new tariffs and higher interest rates in the United States, has kept financial conditions tighter. Economic policy uncertainty has increased sharply, especially on the trade and fiscal fronts, with some differentiation across countries (Figure 1). Expectations of policy shifts under newly elected governments in 2024 have shaped financial market pricing in recent months. Bouts of political instability in some Asian and European countries have rattled markets and injected additional uncertainty regarding stalled progress on fiscal and structural policies. Geopolitical tensions, including those in the Middle East, and global trade frictions remain elevated. The Outlook IMF staff projections assume current policies in place at the time of publication. They incorporate recent market developments and the impact of heightened trade policy uncertainty, which is assumed to be temporary, with the effects unwinding after about a year, but refrain from making any assumptions about potential policy changes that are currently under public debate. Energy commodity prices are expected to decline by 2.6 percent in 2025, more than assumed in October. This reflects a decline in oil prices driven by weak Chinese demand and strong supply from countries outside of OPEC+ (Organization of the Petroleum Exporting Countries plus selected nonmember countries, including Russia), partly offset by increases in gas prices as a result of colder-than-expected weather and supply disruptions, including the ongoing conflict in the Middle East and outages in Figure 1. Policy Uncertainty (Index, unless noted otherwise) Sources: Baker, Bloom, and Davis 2016; Caldara and others 2020; Refinitiv Eikon; and IMF staff calculations. Note: The uncertainty measures are news-based indices that quantify media attention to news related to an issue, in which a value of 100 corresponds to 1 percent of news articles that reference the issue. In panel 1, the euro area and the rest of the world (ROW) are based on the earnings-calls-based indicators, representing the proportion of firms that mention trade policy uncertainty (TPU) in their earnings calls. This measure reflects companies  concerns regarding TPU, based on the dictionary developed by Caldara and others (2020, https://doi.org/10.1016/j.jmoneco.2019.11.002). The ROW encompasses 22 countries, including the US. In panel 2, US fiscal policy uncertainty is a subcomponent of the Economic Policy Uncertainty Index developed by Baker, Bloom, and Davis (2016, https://doi.org/10.1093/qje/qjw024), whereas the indicator for the world is based on Hong, Ke, and Nguyen (2024, https://doi.org/10.5089/9798400288128.001). 0 2 4 6 8 10 12 0 100 200 300 400 2016: Q1 18: Q1 20: Q1 22: Q1 24: Q1 24: Q4 World: News based Euro area: Earnings calls based (right scale) ROW: Earnings calls based (right scale) 1. Trade Policy Uncertainty (Percent on right scale) 2. Fiscal Policy Uncertainty 0 100 200 300 400 500 98 100 102 104 106 108 World United States (right scale) Jan. Jan. Jan. Jan. Jan. Dec. 2016 18 19 21 24 24 WORLD ECONOMIC OUTLOOK UPDATE, JANUARY 2025 International Monetary Fund | January 2025 3 gas fields. Nonfuel commodity prices are expected to increase by 2.5 percent in 2025, on account of upward revisions to food and beverage prices relative to the October 2024 WEO, driven by bad weather affecting large producers. Monetary policy rates of major central banks are expected to continue to decline, though at different paces, reflecting variations in growth and inflation outlooks. The fiscal policy stance is expected to tighten during 2025 26 in advanced economies including the United States and, to a lesser extent, in emerging market and developing economies. Global growth is expected to remain stable, albeit lackluster. At 3.3 percent in both 2025 and 2026, the forecasts for growth are below the historical (2000 19) average of 3.7 percent and broadly unchanged from October (Table 1; see also Annex Table 1). The overall picture, however, hides divergent paths across economies and a precarious global growth profile (Figure 2). Among advanced economies, growth forecast revisions go in different directions. In the United States, underlying demand remains robust, reflecting strong wealth effects, a less restrictive monetary policy stance, and supportive financial conditions. Growth is projected to be at 2.7 percent in 2025. This is 0.5 percentage point higher than the October forecast, in part reflecting carryover from 2024 as well as robust labor markets and accelerating investment, among other signs of strength. Growth is expected to taper to potential in 2026. In the euro area, growth is expected to pick up but at a more gradual pace than anticipated in October, with geopolitical tensions continuing to weigh on sentiment. Weaker-than-expected momentum at the end of 2024, especially in manufacturing, and heightened political and policy uncertainty explain a downward revision of 0.2 percentage point to 1.0 percent in 2025. In 2026, growth is set to rise to 1.4 percent, helped by stronger domestic demand, as financial conditions loosen, confidence improves, and uncertainty recedes somewhat. In other advanced economies, two offsetting forces keep growth forecasts relatively stable. On the one hand, recovering real incomes are expected to support the cyclical recovery in consumption. On the other hand, trade headwinds including the sharp uptick in trade policy uncertainty  are expected to keep investment subdued. In emerging market and developing economies, growth performance in 2025 and 2026 is expected to broadly match that in 2024. With respect to the projection in October, growth in 2025 for China is marginally revised upward by 0.1 percentage point to 4.6 percent. This revision reflects carryover from 2024 and the fiscal package announced in November largely offsetting the negative effect on investment from heightened trade policy uncertainty and property market Figure 2. Evolution of 2025 Growth Forecasts (Percent) Source: IMF staff calculations. Note: The x-axis shows the months the World Economic Outlook is published. AEs = advanced economies; EMDEs = emerging market and developing economies. 3.5 4.0 4.5 5.0 1.0 1.5 2.0 2.5 3.0 Jan. 2024 Apr. 24 Jul. 24 Oct. 24 Jan. 25 United States Euro area AEs excluding US and euro area China (right scale) EMDEs excluding China (right scale) WORLD ECONOMIC OUTLOOK 4 International Monetary Fund | January 2025 drag. In 2026, growth is projected mostly to remain stable at 4.5 percent, as the effects of trade policy uncertainty dissipate and the retirement age increase slows down the decline in the labor supply. In India, growth is projected to be solid at 6.5 percent in 2025 and 2026, as projected in October and in line with potential. In the Middle East and Central Asia, growth is projected to pick up, but less than expected in October. This mainly reflects a 1.3 percentage point downward revision to 2025 growth in Saudi Arabia, mostly driven by the extension of OPEC+ production cuts. In Latin America and the Caribbean, overall growth is projected to accelerate slightly in 2025 to 2.5 percent, despite an expected slowdown in the largest economies of the region. Growth in sub-Saharan Africa is expected to pick up in 2025, while it is forecast to slow down in emerging and developing Europe. World trade volume estimates are revised downward slightly for 2025 and 2026. The revision owes to the sharp increase in trade policy uncertainty, which is likely to hurt investment disproportionately among trade-intensive firms. That said, in the baseline, the impact of heightened uncertainty is expected to be transitory. Furthermore, the front-loading of some trade flows in view of elevated trade policy uncertainty, and in anticipation of tighter trade restrictions, provides some offset in the near term. Progress on disinflation is expected to continue. Deviations from the October 2024 WEO forecasts are minimal. The gradual cooling of labor markets is expected to keep demand pressures at bay. Combined with the expected decline in energy prices, headline inflation is projected to continue its descent toward central bank targets. That said, inflation is projected to be close to, but above, the 2 percent target in 2025 in the United States, whereas inflationary dynamics are expected to be more subdued in the euro area. Low inflation is projected to persist in China. Consequently, the gap between anticipated policy rates in the United States and other countries becomes wider. Risks to the Outlook In the medium term, the balance of risks to the outlook is tilted to the downside, with global growth poised to be lower than its 2025 26 average and five-year-ahead forecasts at about 3 percent. Near-term risks, in contrast, could reinforce divergences across countries: they are tilted to the upside in the United States, whereas downside risks prevail in most other economies amid elevated policy uncertainty and headwinds from ongoing adjustments (in particular, energy in Europe and real estate in China). An intensification of protectionist policies, for instance, in the form of a new wave of tariffs, could exacerbate trade tensions, lower investment, reduce market efficiency, distort trade flows, and again disrupt supply chains. Growth could suffer in both the near and medium term, but at varying degrees across economies. Looser fiscal policy in the United States, driven by new expansionary measures such as tax cuts, could boost economic activity in the near term, with small positive spillovers onto global growth. Yet in the longer run, this may require a larger fiscal policy adjustment that could become disruptive to markets and the economy, by potentially weakening the role of US Treasuries as the global safe asset, among other things. Furthermore, higher borrowing to fund WORLD ECONOMIC OUTLOOK UPDATE, JANUARY 2025 International Monetary Fund | January 2025 5 looser fiscal policy could increase demand for capital globally, leading to an increase in interest rates and possibly depressing economic activity elsewhere. Confidence and positive sentiment in the United States, partly driven by deregulation, could boost both the demand and the supply side of the economy. While relaxation of unduly tight regulations and reduced red tape for businesses may spur near-term US growth through higher investment, dollar appreciation could fuel risks of capital outflows from emerging market and developing economies and drive risk premiums upward. Moreover, an excessive rollback of regulations designed to put limits on risk-taking and debt accumulation may generate boom-bust dynamics for the United States in the longer term, with repercussions for the rest of the world. Downside risks to macro-financial stability may be amplified if compounded by a weaker fiscal outlook or stalled progress on structural reforms. Other supply-side shocks, such as labor force disruptions driven by reductions in migration flows to the United States, may permanently reduce potential output and raise inflation during the adjustment period. A near-term boost for the US economy emanating from these factors would further underscore the divergent growth patterns across economies. If the adverse effects of tariffs and reduction in the labor force dominate, global activity as well as activity in the United States might be affected negatively in the medium term. Uncertainties are high: the effects of each factor would unfold differently across countries, influenced by trade and financial linkages; policy responses to actions taken by other countries could play out in a variety of ways, including an escalation of retaliatory tariffs; and the impacts of different policy combinations or different magnitudes of policy changes could be quite different. Inflation dynamics could be shaped in opposite directions by these factors. The magnitude of the inflationary effect from tariffs is especially uncertain. While recent empirical studies find high pass-through to import prices, estimates of pass-through to consumer prices are lower and subject to significant uncertainty. Nevertheless, compared with what took place in earlier episodes of trade disputes, several factors suggest that upside risks to inflation from tariff hikes could be higher this time. First, the global economy is coming out of the most significant inflation surge in recent memory. Inflation expectations, especially in many advanced economies, are farther above the central bank target today than in 2017 21 (Figure 3). Second, the cyclical positions of many major economies are more conducive to higher inflation today than in 2016. Third, retaliation in the form of restrictions on specific, difficult-to-substitute materials or intermediate goods may have an outsized impact on aggregate inflation.  2  1 0 1 2 Figure 3. Cross-Country Inflation Expectations (Percentage point deviation from target, next 12 months) Sources: Central bank websites; Consensus Economics; Haver Analytics; and IMF staff calculations. Note: The horizontal lines in the middle of the boxes are the medians, and the upper (lower) limits of the boxes are the third (first) quartiles. The whiskers show the maximum and minimum within a boundary of 1.5 times the interquartile range from the upper and lower quartiles, respectively. AEs = advanced economies; EMDEs = emerging market and developing economies. AEs EMDEs 2024 average 2017 21 average WORLD ECONOMIC OUTLOOK 6 International Monetary Fund | January 2025 The risk of renewed inflationary pressures could prompt central banks to raise policy rates and intensify monetary policy divergence. Higher-for-even-longer interest rates could worsen fiscal, financial, and external risks. A stronger US dollar, arising from interest rate differentials and tariffs, among other factors, could alter capital flow patterns and global imbalances and complicate macroeconomic trade-offs. In addition to risks from economic policy shifts, geopolitical tensions could intensify, leading to renewed spikes in commodity prices. The conflicts in the Middle East and Ukraine could worsen, directly affecting trade routes as well as food and energy prices. Commodity-importing countries may be particularly affected, with the stagflationary impact of higher commodity prices compounded by an appreciating dollar. On the upside, global economic activity may enjoy a bounce if incoming governments can renegotiate existing trade agreements and forge new deals. This could relieve uncertainty faster and be much less disruptive to growth and inflation. By boosting confidence, such cooperative outcomes could even support investment and medium-term growth prospects. Momentum on other policy fronts could also lift growth. Many countries may embrace structural reforms to prevent divergence from their better-performing peers from becoming entrenched. Efforts to increase labor supply, reduce misallocation, enhance competition, and support innovation could raise medium-term growth. Policy Priorities Against the backdrop of elevated uncertainty, policies need to rein in short-term risks and rebuild buffers while pushing ahead efforts to lift medium-term growth prospects. Monetary policy should ensure that price stability is restored while supporting activity and employment. In economies in which inflationary pressures are proving persistent and the risk of upside surprises is on the rise, a restrictive stance will need to be maintained until evidence is clearer that the underlying inflation is sustainably returning to target. In economies in which activity is cooling fast and inflation is on track to durably go back to target, a less restrictive stance is justified. In either case, fiscal policy should consolidate to put public debt on a sustainable path and restore the space needed for more agile responses. The consolidation path needs to be carefully calibrated to the conditions a particular economy is facing. It should be sizable yet gradual to avoid hurting economic activity, clearly communicated to avoid disruptions in debt markets, and credible to achieve long-lasting results. Adopting a growth-friendly approach and mitigating the adverse impacts on poor individuals could help preserve the economy s potential and maintain public support. The divergent paths of monetary policy across countries could generate significant movements in exchange rates and capital flows. As laid out in the IMF s Integrated Policy Framework, adjusting policy rates and allowing exchange rate flexibility are advisable for countries with deep foreign exchange markets and low levels of foreign-currency debt. For those with shallow foreign exchange markets and substantial amounts of foreign-currency debt, temporary foreign exchange interventions (provided that foreign reserves are adequate and used prudently), capital WORLD ECONOMIC OUTLOOK UPDATE, JANUARY 2025 International Monetary Fund | January 2025 7 flow management measures, macroprudential policies, or some combination of the three could, in some cases, accompany appropriately set monetary and fiscal policies to preserve macro- financial stability. Beyond the near term, decisive policy action is needed to enhance economic dynamism, boost the supply side, and counter the rising risks to the already-dim medium-term growth prospects. Targeted reforms in labor markets, competition, health care, education, and digitalization can revive productivity growth and attract capital. Active communication to build consensus and continuous engagement with key stakeholders could help policymakers design and effectively implement measures that consider the distributional impact of reform (see Chapter 3 of the October 2024 WEO). Last but not least, multilateral cooperation is vital in containing fragmentation, sustaining growth and stability, and addressing global challenges. Trade policies should be consistent with the legal framework of the World Trade Organization (WTO), as well as being clear and transparent, to reduce uncertainty, lower volatility in markets, and mitigate distortions. Priorities should be given to restoring a fully and well-functioning WTO dispute settlement system, leveling the playing field, and achieving clarity and coherence of the desire among countries for greater resilience within the rules-based multilateral trading system. WORLD ECONOMIC OUTLOOK 8 International Monetary Fund | January 2025 Estimate Estimate 2023 2024 2025 2026 2025 2026 2024 2025 2026 World Output 3.3 3.2 3.3 3.3 0.1 0.0 3.4 3.2 3.1 Advanced Economies 1.7 1.7 1.9 1.8 0.1 0.0 1.8 1.9 1.7 United States 2.9 2.8 2.7 2.1 0.5 0.1 2.7 2.4 2.1 Euro Area 0.4 0.8 1.0 1.4  0.2  0.1 1.1 1.2 1.4 Germany  0.3  0.2 0.3 1.1  0.5  0.3  0.1 0.8 0.9 France 1.1 1.1 0.8 1.1  0.3  0.2 0.7 1.0 1.2 Italy 0.7 0.6 0.7 0.9  0.1 0.2 0.6 1.0 0.7 Spain 2.7 3.1 2.3 1.8 0.2 0.0 3.2 1.9 2.0 Japan 1.5  0.2 1.1 0.8 0.0 0.0 0.7 0.8 0.7 United Kingdom 0.3 0.9 1.6 1.5 0.1 0.0 1.7 1.8 1.3 Canada 1.5 1.3 2.0 2.0  0.4 0.0 1.8 2.1 1.9 Other Advanced Economies 3/ 1.9 2.0 2.1 2.3  0.1 0.0 1.7 2.8 1.7 Emerging Market and Developing Economies 4.4 4.2 4.2 4.3 0.0 0.1 4.6 4.2 4.2 Emerging and Developing Asia 5.7 5.2 5.1 5.1 0.1 0.2 5.6 4.9 5.1 China 5.2 4.8 4.6 4.5 0.1 0.4 4.9 4.5 4.5 India 4/ 8.2 6.5 6.5 6.5 0.0 0.0 7.5 6.5 6.5 Emerging and Developing Europe 3.3 3.2 2.2 2.4 0.0  0.1 2.3 2.9 1.6 Russia 3.6 3.8 1.4 1.2 0.1 0.0 2.7 1.2 1.2 Latin America and the Caribbean 2.4 2.4 2.5 2.7 0.0 0.0 2.6 2.7 2.4 Brazil 3.2 3.7 2.2 2.2 0.0  0.1 4.1 2.1 2.3 Mexico 3.3 1.8 1.4 2.0 0.1 0.0 1.8 1.4 2.1 Middle East and Central Asia 2.0 2.4 3.6 3.9  0.3  0.3 . . . . . . . . . Saudi Arabia  0.8 1.4 3.3 4.1  1.3  0.3 5.0 1.2 4.1 Sub-Saharan Africa 3.6 3.8 4.2 4.2 0.0  0.2 . . . . . . . . . Nigeria 2.9 3.1 3.2 3.0 0.0 0.0 3.5 3.7 3.8 South Africa 0.7 0.8 1.5 1.6 0.0 0.1 1.7 0.6 2.2 Memorandum World Growth Based on Market Exchange Rates 2.8 2.7 2.9 2.8 0.1 0.1 2.9 2.7 2.6 European Union 0.6 1.0 1.4 1.7  0.2 0.0 1.3 1.5 1.7 ASEAN-5 5/ 4.0 4.5 4.6 4.5 0.1 0.0 4.9 3.9 5.0 Middle East and North Africa 1.8 2.0 3.5 3.9  0.5  0.3 . . . . . . . . . Emerging Market and Middle-Income Economies 4.5 4.2 4.2 4.2 0.0 0.1 4.6 4.2 4.2 Low-Income Developing Countries 4.1 4.1 4.6 5.4  0.1  0.2 . . . . . . . . . World Trade Volume (goods and services) 6/ 0.7 3.4 3.2 3.3  0.2  0.1 . . . . . . . . . Advanced Economies 0.0 2.2 2.1 2.5  0.5  0.3 . . . . . . . . . Emerging Market and Developing Economies 2.0 5.4 5.0 4.6 0.3 0.2 . . . . . . . . . Commodity Prices Oil 7/  16.4  1.9  11.7  2.6  1.3 1.0  10.8  5.0  2.2 Nonfuel (average based on world commodity import  5.7 3.4 2.5  0.1 2.7  0.9 7.1 0.1 0.5 World Consumer Prices 8/ 6.7 5.7 4.2 3.5  0.1  0.1 5.2 3.5 3.0 Advanced Economies 9/ 4.6 2.6 2.1 2.0 0.1 0.0 2.2 2.1 2.0 Emerging Market and Developing Economies 8/ 8.1 7.8 5.6 4.5  0.3  0.2 7.6 4.6 3.8 Note: Real effective exchange rates are assumed to remain constant at the levels prevailing during October 22 November 19, 2024. Economies are listed on the basis of economic size. The aggregated quarterly data are seasonally adjusted. "..." indicates that data are not available or not applicable. WEO = World Economic Outlook. 1/ Difference based on rounded figures for the current and October 2024 WEO forecasts. Countries for which forecasts have been updated relative to October 2024 WEO forecasts account for approximately 90 percent of world GDP measured at purchasing-power-parity weights. 2/ For World Output (Emerging M arket and Developing Economies), the quarterly estimates and projections account for approximately 90 percent (80 percent) of annual world (emerging market and developing economies) output at purchasing-power-parity weights. 3/ Excludes the Group of Seven (Canada, France, Germany, Italy, Japan, United Kingdom, United States) and euro area countries. 4/ For India, data and projections are presented on a fiscal year (FY) basis, with FY 2023/24 (starting in April 2023) shown in the 2023 column. India's growth projections are 6.8 percent for 2025 and 6.5 percent for 2026 based on calendar year. 5/ Indonesia, M alaysia, Philippines, Singapore, Thailand. 6/ Simple average of growth rates for export and import volumes (goods and services). 7/ Simple average of prices of UK Brent, Dubai Fateh, and West Texas Intermediate crude oil. The average assumed price of oil in US dollars a barrel, based on futures markets (as of November 20, 2024), is $69.76 for 2025 and $67.96 for 2026. 8/ Excludes Venezuela. 9/ The assumed inflation rate for the euro area is 2.1 percent for 2025 and 2.0 percent for 2026, that for Japan is 2.0 percent for 2025 and 2.0 percent for 2026, and that for the United States is 2.0 percent for 2025 and 2.1 percent for 2026. Q4 over Q4 2/ Table 1. Overview of the World Economic Outlook Projections Projections Projections Year over Year (Percent change, unless noted otherwise) Difference from October 2024 WEO Projections 1/ International Monetary Fund | January 2025 9 GLOBAL FINANCIAL MARKETS UPDATE JAN 2025 Divergence between expected paths of US policy rates in relation to those of other major advanced and emerging market economies has widened over the past quarter. This follows a period of synchronicity in monetary policies globally earlier in the year. Concerns about tepid economic growth in the euro area and some major emerging markets have increased investor expectations that their central banks will ease monetary policy at a faster pace than expected at the time of publication of the October 2024 Global Financial Stability Report (Figure 1.1). Such expectations do not apply to the Federal Reserve, however, on net. Medium- to long-term US yields have increased somewhat over the same period, while falling in other major advanced and emerging market economies, with the widening of interest rate differentials strengthening the US dollar against major currencies. Furthermore, while recent data suggest the US labor market may be coming into better balance, upside risks to inflation will likely continue to exert upward pressure on yields. Escalated trade policy uncertainty has also contributed to broad-based US dollar strengthening. Heightened geopolitical risks, in part, alongside trade uncertainty could have driven the dollar s strength against the euro. In the case of emerging market currencies, depreciation against the dollar has also been driven, to some extent, by concerns over domestic fiscal outlooks, although the latter s importance varies across countries. In tandem with pressures on currencies, emerging markets have also seen a net outflow of capital.1 Overall, even as global financial conditions are still broadly accommodative in aggregate, they have tightened slightly since October (Figure 1.2). US equity valuations continued to touch new record highs in the fourth quarter of 2024, driven by expectations of a favorable policy mix for firms.2 That said, this has been offset by the effects of a rise in long-term rates, resulting in a slight tightening, on net, though from the very easy levels in the previous quarter. Risk assets in emerging markets, however, appear to have shown greater sensitivity to trade policy uncertainty and currency outlooks, reflected in tighter financial conditions. Market participants are closely monitoring tariff policies and geopolitical risks, as these could weigh on market sentiment, potentially leading to sharp repricing in risk assets given their current lofty valuations, bringing an abrupt tightening in global financial conditions. This box was prepared by the Monetary and Capital Markets Department s Global Markets Analysis Division. It provides an update on market developments since the October 2024 Global Financial Stability Report. 1 A narrow definition of capital flows is used here, restricted to portfolio flows, on account of lags in official data availability. The emerging markets group here excludes China. 2 Buoyancy in US equity market valuation could be reflecting investor expectations of possible deregulation and tax cuts, which may serve to reinforce the robust US growth outlook.  1.5  1.0  0.5 0.0 0.5 1.0 Dec. 23 Mar. 24 Jun. 24 Sep. 24 Dec. 24 United States Euro area Other advanced economies China Emerging markets excluding China Oct. 2024 GFSR Figure 1.2. Financial Conditions Index (Number of standard deviations from the mean) Sources: Bloomberg Finance L.P.; Dealogic; EUROPACE AG/Haver Analytics; national data sources; and IMF staff calculations. Note: GFSR = Global Financial Stability Report. Dec. 2023 1.8 2.0 2.2 2.4 2.6 2.8 3.0 3.2 3.4 3.6 3.3 3.5 3.7 3.9 4.1 4.3 4.5 4.7 4.9 5.1 5.3 Jun. 24 Jul. 24 Aug. 24 Sep. 24 Oct. 24 Nov. 24 Dec. 24 Jan. 25 US Euro area (right scale) 5.1 5.2 5.3 5.4 5.5 5.6 5.7 5.8 5.9 3.3 3.5 3.7 3.9 4.1 4.3 4.5 4.7 4.9 5.1 5.3 Jun. 24 Jul. 24 Aug. 24 Sep. 24 Oct. 24 Nov. 24 Dec. 24 Jan. 25 US EM average (right scale) Oct. 2024 GFSR Figure 1.1. Market-Implied Six-Month-Forward Policy Rate (Five-day moving average, percentage points) Sources: Bloomberg Finance L.P.; and IMF staff calculations. Note: The EM group comprises Chile, China, Colombia, India, Malaysia, Mexico, Poland, South Africa, and Thailand; EM = emerging markets. GFSR = Global Financial Stability Report. Oct. 2024 GFSR 10 International Monetary Fund | January 2025 WORLD ECONOMIC OUTLOOK UPDATE: ANNEX JAN 2025 Estimate 2023 2024 2025 2026 2025 2026 Argentina  1.6  2.8 5.0 5.0 0.0 0.3 Australia 2.1 1.2 2.1 2.2 0.0 0.0 Brazil 3.2 3.7 2.2 2.2 0.0  0.1 Canada 1.5 1.3 2.0 2.0  0.4 0.0 China 5.2 4.8 4.6 4.5 0.1 0.4 Egypt 2/ 3.8 2.4 3.6 4.1  0.5  1.0 France 1.1 1.1 0.8 1.1  0.3  0.2 Germany  0.3  0.2 0.3 1.1  0.5  0.3 India 2/ 8.2 6.5 6.5 6.5 0.0 0.0 Indonesia 5.0 5.0 5.1 5.1 0.0 0.0 Iran 2/ 5.0 3.7 3.1 2.8 0.0 0.0 Italy 0.7 0.6 0.7 0.9  0.1 0.2 Japan 1.5  0.2 1.1 0.8 0.0 0.0 Kazakhstan 5.1 4.0 5.5 4.1 0.9 0.6 Korea 1.4 2.2 2.0 2.1  0.2  0.1 Malaysia 3.6 5.0 4.7 4.4 0.3 0.0 Mexico 3.3 1.8 1.4 2.0 0.1 0.0 The Netherlands 0.1 0.9 1.6 1.8 0.0 0.1 Nigeria 2.9 3.1 3.2 3.0 0.0 0.0 Pakistan 2/  0.2 2.5 3.0 4.0  0.2 0.0 Philippines 5.5 5.8 6.1 6.3 0.0 0.0 Poland 0.1 2.8 3.5 3.3 0.0  0.1 Russia 3.6 3.8 1.4 1.2 0.1 0.0 Saudi Arabia  0.8 1.4 3.3 4.1  1.3  0.3 South Africa 0.7 0.8 1.5 1.6 0.0 0.1 Spain 2.7 3.1 2.3 1.8 0.2 0.0 Thailand 1.9 2.7 2.9 2.6  0.1 0.0 T rkiye 5.1 2.8 2.6 3.2  0.1 0.0 United Kingdom 0.3 0.9 1.6 1.5 0.1 0.0 United States 2.9 2.8 2.7 2.1 0.5 0.1 Projections Source: IM F staff calculations. Note: The selected economies account for approximately 83 percent of world output. 1/ Difference based on rounded figures for the current and October 2024 WEO forecasts. 2/ Data and forecasts are presented on a fiscal year basis. Annex Table 1. Selected Economies Real GDP Growth (Percent change) Difference from October 2024 WEO Projections 1/ WEO Update   2025 ISBN 979-8-40029-167-8 
+2025
+JAN
+WORLD 
+ECONOMIC 
+OUTLOOK
+INTERNATIONAL MONETARY FUND
+Global Growth: 
+Divergent and Uncertain
+UPDATE
+ 
+International Monetary Fund | January 2025  
+ 
+STRICTLY CONFIDENTIAL 
+STRICTLY CONFIDENTIAL 
+JAN 
+2025 
+WORLD ECONOMIC OUTLOOK UPDATE 
+Global Growth: Divergent and Uncertain 
+Global growth is projected at 3.3 percent both in 2025 and 2026, below the historical (2000–19) average of 3.7 
+percent. The forecast for 2025 is broadly unchanged from that in the October 2024 World Economic 
+Outlook (WEO), primarily on account of an upward revision in the United States offsetting downward 
+revisions in other major economies. Global headline inflation is expected to decline to 4.2 percent in 2025 and to 
+3.5 percent in 2026, converging back to target earlier in advanced economies than in emerging market and 
+developing economies.  
+Medium-term risks to the baseline are tilted to the downside, while the near-term outlook is characterized by 
+divergent risks. Upside risks could lift already-robust growth in the United States in the short run, whereas risks 
+in other countries are on the downside amid elevated policy uncertainty. Policy-generated disruptions to the ongoing 
+disinflation process could interrupt the pivot to easing monetary policy, with implications for fiscal sustainability 
+and financial stability. Managing these risks requires a keen policy focus on balancing trade-offs between inflation 
+and real activity, rebuilding buffers, and lifting medium-term growth prospects through stepped-up structural 
+reforms as well as stronger multilateral rules and cooperation. 
+Forces Shaping the Outlook 
+The global economy is holding steady, although the degree of grip varies widely across countries. 
+Global GDP growth in the third quarter of 2024 was 0.1 percentage point below that predicted in 
+the October 2024 WEO, after disappointing data releases in some Asian and European 
+economies. Growth in China, at 4.7 percent in year-over-year terms, was below expectations. 
+Faster-than-expected net export growth only partly offset a faster-than-expected slowdown in 
+consumption amid delayed stabilization in the property market and persistently low consumer 
+confidence. Growth in India also slowed more than expected, led by a sharper-than-expected 
+deceleration in industrial activity. Growth continued to be subdued in the euro area (with 
+Germany’s performance lagging that of other euro area countries), largely reflecting continued 
+weakness in manufacturing and goods exports even as consumption picked up in line with the 
+recovery in real incomes. In Japan, output contracted mildly owing to temporary supply 
+disruptions. By contrast, momentum in the United States remained robust, with the economy 
+expanding at a rate of 2.7 percent in year-over-year terms in the third quarter, powered by strong 
+consumption.  
+Global disinflation continues, but there are signs that progress is stalling in some countries and that 
+elevated inflation is persistent in a few cases. The global median of sequential core inflation has 
+been just slightly above 2 percent for the past few months. Nominal wage growth is showing 
+signs of moderation, alongside indications of continuing normalization in labor markets. 
+Although core goods price inflation has fallen back to or below trend, services price inflation is 
+still running above pre–COVID-19 averages in many economies, most notably the United States 
+and the euro area. Pockets of elevated inflation, reflecting a range of idiosyncratic factors, also 
+persist in some emerging market and developing economies in Europe and Latin America. 
+WORLD ECONOMIC OUTLOOK 
+ 
+ 
+ 
+          
+2 
+International Monetary Fund | January 2025 
+Where inflation is proving more sticky, central banks are moving more cautiously in the easing 
+cycle while keeping a close eye on activity and labor market indicators as well as exchange rate 
+movements. A few central banks are raising rates, marking a point of divergence in monetary 
+policy.  
+Global financial conditions remain largely 
+accommodative, again with some 
+differentiation across jurisdictions (see Box 
+1). Equities in advanced economies have 
+rallied on expectations of more business-
+friendly policies in the United States. In 
+emerging market and developing economies, 
+equity valuations have been more subdued, 
+and a broad-based strengthening of the US 
+dollar, driven primarily by expectations of 
+new tariffs and higher interest rates in the 
+United States, has kept financial conditions 
+tighter.  
+Economic policy uncertainty has increased 
+sharply, especially on the trade and fiscal 
+fronts, with some differentiation across 
+countries (Figure 1). Expectations of policy 
+shifts under newly elected governments in 
+2024 have shaped financial market pricing in 
+recent months. Bouts of political instability 
+in some Asian and European countries have 
+rattled markets and injected additional 
+uncertainty regarding stalled progress on 
+fiscal and structural policies. Geopolitical 
+tensions, including those in the Middle East, 
+and global trade frictions remain elevated. 
+The Outlook 
+IMF staff projections assume current 
+policies in place at the time of publication. They incorporate recent market developments and 
+the impact of heightened trade policy uncertainty, which is assumed to be temporary, with the 
+effects unwinding after about a year, but refrain from making any assumptions about potential 
+policy changes that are currently under public debate. Energy commodity prices are expected to 
+decline by 2.6 percent in 2025, more than assumed in October. This reflects a decline in oil 
+prices driven by weak Chinese demand and strong supply from countries outside of OPEC+ 
+(Organization of the Petroleum Exporting Countries plus selected nonmember countries, 
+including Russia), partly offset by increases in gas prices as a result of colder-than-expected 
+weather and supply disruptions, including the ongoing conflict in the Middle East and outages in 
+Figure 1.  Policy Uncertainty
+(Index, unless noted otherwise)
+Sources: Baker, Bloom, and Davis 2016; Caldara and others 2020; Refinitiv Eikon; 
+and IMF staff calculations.
+Note: The uncertainty measures are news-based indices that quantify media 
+attention to news related to an issue, in which a value of 100 corresponds to 1 
+percent of news articles that reference the issue. In panel 1, the euro area and the 
+rest of the world (ROW) are based on the earnings-calls-based indicators, 
+representing the proportion of firms that mention trade policy uncertainty (TPU) in 
+their earnings calls. This measure reflects companies’ concerns regarding TPU, 
+based on the dictionary developed by Caldara and others (2020, 
+https://doi.org/10.1016/j.jmoneco.2019.11.002). The ROW encompasses 22 
+countries, including the US. In panel 2, US fiscal policy uncertainty is a 
+subcomponent of the Economic Policy Uncertainty Index developed by Baker, 
+Bloom, and Davis (2016, https://doi.org/10.1093/qje/qjw024), whereas the indicator 
+for the world is based on Hong, Ke, and Nguyen (2024, 
+https://doi.org/10.5089/9798400288128.001). 
+0
+2
+4
+6
+8
+10
+12
+0
+100
+200
+300
+400
+2016:
+Q1
+18:
+Q1
+20:
+Q1
+22:
+Q1
+24:
+Q1
+24:
+Q4
+World: News based
+Euro area: Earnings calls
+based (right scale)
+ROW: Earnings calls based
+(right scale)
+1. Trade Policy Uncertainty
+(Percent on right scale)
+2. Fiscal Policy Uncertainty
+0
+100
+200
+300
+400
+500
+98
+100
+102
+104
+106
+108
+World
+United States (right scale)
+Jan.
+Jan.     
+Jan.                  Jan.
+Jan.   Dec.
+2016                18                     19                     21            
+24      24
+WORLD ECONOMIC OUTLOOK UPDATE, JANUARY 2025               
+International Monetary Fund | January 2025  
+3 
+gas fields. Nonfuel commodity prices are expected to increase by 2.5 percent in 2025, on 
+account of upward revisions to food and beverage prices relative to the October 2024 WEO, 
+driven by bad weather affecting large producers. Monetary policy rates of major central banks 
+are expected to continue to decline, though at different paces, reflecting variations in growth and 
+inflation outlooks. The fiscal policy stance is expected to tighten during 2025–26 in advanced 
+economies including the United States and, to a lesser extent, in emerging market and 
+developing economies.  
+Global growth is expected to remain stable, 
+albeit lackluster. At 3.3 percent in both 2025 
+and 2026, the forecasts for growth are below 
+the historical (2000–19) average of 3.7 
+percent and broadly unchanged from 
+October (Table 1; see also Annex Table 1). 
+The overall picture, however, hides 
+divergent paths across economies and a 
+precarious global growth profile (Figure 2). 
+Among advanced economies, growth forecast 
+revisions go in different directions. In the 
+United States, underlying demand remains 
+robust, reflecting strong wealth effects, a less 
+restrictive monetary policy stance, and 
+supportive financial conditions. Growth is 
+projected to be at 2.7 percent in 2025. This 
+is 0.5 percentage point higher than the October forecast, in part reflecting carryover from 2024 
+as well as robust labor markets and accelerating investment, among other signs of strength. 
+Growth is expected to taper to potential in 2026. 
+In the euro area, growth is expected to pick up but at a more gradual pace than anticipated in 
+October, with geopolitical tensions continuing to weigh on sentiment. Weaker-than-expected 
+momentum at the end of 2024, especially in manufacturing, and heightened political and policy 
+uncertainty explain a downward revision of 0.2 percentage point to 1.0 percent in 2025. In 2026, 
+growth is set to rise to 1.4 percent, helped by stronger domestic demand, as financial conditions 
+loosen, confidence improves, and uncertainty recedes somewhat. 
+In other advanced economies, two offsetting forces keep growth forecasts relatively stable. On the 
+one hand, recovering real incomes are expected to support the cyclical recovery in consumption. 
+On the other hand, trade headwinds—including the sharp uptick in trade policy uncertainty—
+are expected to keep investment subdued. 
+In emerging market and developing economies, growth performance in 2025 and 2026 is expected to 
+broadly match that in 2024. With respect to the projection in October, growth in 2025 for China 
+is marginally revised upward by 0.1 percentage point to 4.6 percent. This revision reflects 
+carryover from 2024 and the fiscal package announced in November largely offsetting the 
+negative effect on investment from heightened trade policy uncertainty and property market 
+Figure 2.  Evolution of 2025 Growth Forecasts
+(Percent)
+Source: IMF staff calculations.
+Note: The x-axis shows the months the World Economic Outlook is published. AEs 
+= advanced economies; EMDEs = emerging market and developing economies.
+3.5
+4.0
+4.5
+5.0
+1.0
+1.5
+2.0
+2.5
+3.0
+Jan.
+2024
+Apr.
+24
+Jul.
+24
+Oct.
+24
+Jan.
+25
+United States
+Euro area
+AEs excluding US and euro area
+China (right scale)
+EMDEs excluding China (right scale)
+WORLD ECONOMIC OUTLOOK 
+ 
+ 
+ 
+          
+4 
+International Monetary Fund | January 2025 
+drag. In 2026, growth is projected mostly to remain stable at 4.5 percent, as the effects of trade 
+policy uncertainty dissipate and the retirement age increase slows down the decline in the labor 
+supply. In India, growth is projected to be solid at 6.5 percent in 2025 and 2026, as projected in 
+October and in line with potential.  
+In the Middle East and Central Asia, growth is projected to pick up, but less than expected in 
+October. This mainly reflects a 1.3 percentage point downward revision to 2025 growth in Saudi 
+Arabia, mostly driven by the extension of OPEC+ production cuts. In Latin America and the 
+Caribbean, overall growth is projected to accelerate slightly in 2025 to 2.5 percent, despite an 
+expected slowdown in the largest economies of the region. Growth in sub-Saharan Africa is 
+expected to pick up in 2025, while it is forecast to slow down in emerging and developing Europe.  
+World trade volume estimates are revised downward slightly for 2025 and 2026. The revision owes 
+to the sharp increase in trade policy uncertainty, which is likely to hurt investment 
+disproportionately among trade-intensive firms. That said, in the baseline, the impact of 
+heightened uncertainty is expected to be transitory. Furthermore, the front-loading of some 
+trade flows in view of elevated trade policy uncertainty, and in anticipation of tighter trade 
+restrictions, provides some offset in the near term.  
+Progress on disinflation is expected to continue. Deviations from the October 2024 WEO 
+forecasts are minimal. The gradual cooling of labor markets is expected to keep demand 
+pressures at bay. Combined with the expected decline in energy prices, headline inflation is 
+projected to continue its descent toward central bank targets. That said, inflation is projected to 
+be close to, but above, the 2 percent target in 2025 in the United States, whereas inflationary 
+dynamics are expected to be more subdued in the euro area. Low inflation is projected to persist 
+in China. Consequently, the gap between anticipated policy rates in the United States and other 
+countries becomes wider.  
+Risks to the Outlook 
+In the medium term, the balance of risks to the outlook is tilted to the downside, with global 
+growth poised to be lower than its 2025–26 average and five-year-ahead forecasts at about 3 
+percent. Near-term risks, in contrast, could reinforce divergences across countries: they are tilted 
+to the upside in the United States, whereas downside risks prevail in most other economies amid 
+elevated policy uncertainty and headwinds from ongoing adjustments (in particular, energy in 
+Europe and real estate in China).  
+An intensification of protectionist policies, for instance, in the form of a new wave of tariffs, 
+could exacerbate trade tensions, lower investment, reduce market efficiency, distort trade flows, 
+and again disrupt supply chains. Growth could suffer in both the near and medium term, but at 
+varying degrees across economies. 
+Looser fiscal policy in the United States, driven by new expansionary measures such as tax cuts, 
+could boost economic activity in the near term, with small positive spillovers onto global 
+growth. Yet in the longer run, this may require a larger fiscal policy adjustment that could 
+become disruptive to markets and the economy, by potentially weakening the role of US 
+Treasuries as the global safe asset, among other things. Furthermore, higher borrowing to fund 
+WORLD ECONOMIC OUTLOOK UPDATE, JANUARY 2025               
+International Monetary Fund | January 2025  
+5 
+looser fiscal policy could increase demand for capital globally, leading to an increase in interest 
+rates and possibly depressing economic activity elsewhere.  
+Confidence and positive sentiment in the United States, partly driven by deregulation, could 
+boost both the demand and the supply side of the economy. While relaxation of unduly tight 
+regulations and reduced red tape for businesses may spur near-term US growth through higher 
+investment, dollar appreciation could fuel risks of capital outflows from emerging market and 
+developing economies and drive risk premiums upward. Moreover, an excessive rollback of 
+regulations designed to put limits on risk-taking and debt accumulation may generate boom-bust 
+dynamics for the United States in the longer term, with repercussions for the rest of the world. 
+Downside risks to macro-financial stability may be amplified if compounded by a weaker fiscal 
+outlook or stalled progress on structural reforms. Other supply-side shocks, such as labor force 
+disruptions driven by reductions in migration flows to the United States, may permanently 
+reduce potential output and raise inflation during the adjustment period.  
+A near-term boost for the US economy emanating from these factors would further underscore 
+the divergent growth patterns across economies. If the adverse effects of tariffs and reduction in 
+the labor force dominate, global activity as well as activity in the United States might be affected 
+negatively in the medium term. Uncertainties are high: the effects of each factor would unfold 
+differently across countries, influenced by trade and financial linkages; policy responses to 
+actions taken by other countries could play out in a variety of ways, including an escalation of 
+retaliatory tariffs; and the impacts of different policy combinations or different magnitudes of 
+policy changes could be quite different.  
+Inflation dynamics could be shaped in 
+opposite directions by these factors. The 
+magnitude of the inflationary effect from 
+tariffs is especially uncertain. While recent 
+empirical studies find high pass-through to 
+import prices, estimates of pass-through to 
+consumer prices are lower and subject to 
+significant uncertainty. Nevertheless, 
+compared with what took place in earlier 
+episodes of trade disputes, several factors 
+suggest that upside risks to inflation from tariff 
+hikes could be higher this time. First, the 
+global economy is coming out of the most 
+significant inflation surge in recent memory. 
+Inflation expectations, especially in many 
+advanced economies, are farther above the 
+central bank target today than in 2017–21 
+(Figure 3). Second, the cyclical positions of 
+many major economies are more conducive to higher inflation today than in 2016. Third, 
+retaliation in the form of restrictions on specific, difficult-to-substitute materials or intermediate 
+goods may have an outsized impact on aggregate inflation.  
+–2
+–1
+0
+1
+2
+Figure 3.  Cross-Country Inflation Expectations
+(Percentage point deviation from target, next 12 months)
+Sources: Central bank websites; Consensus Economics; Haver Analytics; and IMF 
+staff calculations.
+Note: The horizontal lines in the middle of the boxes are the medians, and the upper 
+(lower) limits of the boxes are the third (first) quartiles. The whiskers show the 
+maximum and minimum within a boundary of 1.5 times the interquartile range from 
+the upper and lower quartiles, respectively. AEs = advanced economies; EMDEs = 
+emerging market and developing economies.
+AEs
+EMDEs
+2024 average
+2017–21 average
+WORLD ECONOMIC OUTLOOK 
+ 
+ 
+ 
+          
+6 
+International Monetary Fund | January 2025 
+The risk of renewed inflationary pressures could prompt central banks to raise policy rates and 
+intensify monetary policy divergence. Higher-for-even-longer interest rates could worsen fiscal, 
+financial, and external risks. A stronger US dollar, arising from interest rate differentials and 
+tariffs, among other factors, could alter capital flow patterns and global imbalances and 
+complicate macroeconomic trade-offs.  
+In addition to risks from economic policy shifts, geopolitical tensions could intensify, leading to 
+renewed spikes in commodity prices. The conflicts in the Middle East and Ukraine could 
+worsen, directly affecting trade routes as well as food and energy prices. Commodity-importing 
+countries may be particularly affected, with the stagflationary impact of higher commodity prices 
+compounded by an appreciating dollar.  
+On the upside, global economic activity may enjoy a bounce if incoming governments can 
+renegotiate existing trade agreements and forge new deals. This could relieve uncertainty faster 
+and be much less disruptive to growth and inflation. By boosting confidence, such cooperative 
+outcomes could even support investment and medium-term growth prospects.  
+Momentum on other policy fronts could also lift growth. Many countries may embrace 
+structural reforms to prevent divergence from their better-performing peers from becoming 
+entrenched. Efforts to increase labor supply, reduce misallocation, enhance competition, and 
+support innovation could raise medium-term growth.  
+Policy Priorities 
+Against the backdrop of elevated uncertainty, policies need to rein in short-term risks and 
+rebuild buffers while pushing ahead efforts to lift medium-term growth prospects.  
+Monetary policy should ensure that price stability is restored while supporting activity and 
+employment. In economies in which inflationary pressures are proving persistent and the risk of 
+upside surprises is on the rise, a restrictive stance will need to be maintained until evidence is 
+clearer that the underlying inflation is sustainably returning to target. In economies in which 
+activity is cooling fast and inflation is on track to durably go back to target, a less restrictive 
+stance is justified.  
+In either case, fiscal policy should consolidate to put public debt on a sustainable path and 
+restore the space needed for more agile responses. The consolidation path needs to be carefully 
+calibrated to the conditions a particular economy is facing. It should be sizable yet gradual to 
+avoid hurting economic activity, clearly communicated to avoid disruptions in debt markets, and 
+credible to achieve long-lasting results. Adopting a growth-friendly approach and mitigating the 
+adverse impacts on poor individuals could help preserve the economy’s potential and maintain 
+public support. 
+The divergent paths of monetary policy across countries could generate significant movements 
+in exchange rates and capital flows. As laid out in the IMF’s Integrated Policy Framework, 
+adjusting policy rates and allowing exchange rate flexibility are advisable for countries with deep 
+foreign exchange markets and low levels of foreign-currency debt. For those with shallow 
+foreign exchange markets and substantial amounts of foreign-currency debt, temporary foreign 
+exchange interventions (provided that foreign reserves are adequate and used prudently), capital 
+WORLD ECONOMIC OUTLOOK UPDATE, JANUARY 2025  
+International Monetary Fund | January 2025 
+7 
+flow management measures, macroprudential policies, or some combination of the three could, 
+in some cases, accompany appropriately set monetary and fiscal policies to preserve macro-
+financial stability. 
+Beyond the near term, decisive policy action is needed to enhance economic dynamism, boost 
+the supply side, and counter the rising risks to the already-dim medium-term growth prospects. 
+Targeted reforms in labor markets, competition, health care, education, and digitalization can 
+revive productivity growth and attract capital. Active communication to build consensus and 
+continuous engagement with key stakeholders could help policymakers design and effectively 
+implement measures that consider the distributional impact of reform (see Chapter 3 of the 
+October 2024 WEO).  
+Last but not least, multilateral cooperation is vital in containing fragmentation, sustaining growth 
+and stability, and addressing global challenges. Trade policies should be consistent with the legal 
+framework of the World Trade Organization (WTO), as well as being clear and transparent, to 
+reduce uncertainty, lower volatility in markets, and mitigate distortions. Priorities should be 
+given to restoring a fully and well-functioning WTO dispute settlement system, leveling the 
+playing field, and achieving clarity and coherence of the desire among countries for greater 
+resilience within the rules-based multilateral trading system.  
+WORLD ECONOMIC OUTLOOK 
+ 
+ 
+ 
+          
+8 
+International Monetary Fund | January 2025 
+ 
+ 
+Estimate
+Estimate
+2023
+2024
+2025
+2026
+2025
+2026
+2024
+2025
+2026
+World Output 
+3.3
+3.2
+3.3
+3.3
+0.1
+0.0
+3.4
+3.2
+3.1
+Advanced Economies
+1.7
+1.7
+1.9
+1.8
+0.1
+0.0
+1.8
+1.9
+1.7
+United States 
+2.9
+2.8
+2.7
+2.1
+0.5
+0.1
+2.7
+2.4
+2.1
+Euro Area
+0.4
+0.8
+1.0
+1.4
+–0.2
+–0.1
+1.1
+1.2
+1.4
+Germany
+–0.3
+–0.2
+0.3
+1.1
+–0.5
+–0.3
+–0.1
+0.8
+0.9
+France
+1.1
+1.1
+0.8
+1.1
+–0.3
+–0.2
+0.7
+1.0
+1.2
+Italy
+0.7
+0.6
+0.7
+0.9
+–0.1
+0.2
+0.6
+1.0
+0.7
+Spain
+2.7
+3.1
+2.3
+1.8
+0.2
+0.0
+3.2
+1.9
+2.0
+Japan
+1.5
+–0.2
+1.1
+0.8
+0.0
+0.0
+0.7
+0.8
+0.7
+United Kingdom
+0.3
+0.9
+1.6
+1.5
+0.1
+0.0
+1.7
+1.8
+1.3
+Canada
+1.5
+1.3
+2.0
+2.0
+–0.4
+0.0
+1.8
+2.1
+1.9
+Other Advanced Economies 3/
+1.9
+2.0
+2.1
+2.3
+–0.1
+0.0
+1.7
+2.8
+1.7
+Emerging Market and Developing Economies
+4.4
+4.2
+4.2
+4.3
+0.0
+0.1
+4.6
+4.2
+4.2
+Emerging and Developing Asia
+5.7
+5.2
+5.1
+5.1
+0.1
+0.2
+5.6
+4.9
+5.1
+China
+5.2
+4.8
+4.6
+4.5
+0.1
+0.4
+4.9
+4.5
+4.5
+India 4/
+8.2
+6.5
+6.5
+6.5
+0.0
+0.0
+7.5
+6.5
+6.5
+Emerging and Developing Europe
+3.3
+3.2
+2.2
+2.4
+0.0
+–0.1
+2.3
+2.9
+1.6
+Russia
+3.6
+3.8
+1.4
+1.2
+0.1
+0.0
+2.7
+1.2
+1.2
+Latin America and the Caribbean 
+2.4
+2.4
+2.5
+2.7
+0.0
+0.0
+2.6
+2.7
+2.4
+Brazil
+3.2
+3.7
+2.2
+2.2
+0.0
+–0.1
+4.1
+2.1
+2.3
+Mexico
+3.3
+1.8
+1.4
+2.0
+0.1
+0.0
+1.8
+1.4
+2.1
+Middle East and Central Asia
+2.0
+2.4
+3.6
+3.9
+–0.3
+–0.3
+. . .
+. . .
+. . .
+Saudi Arabia 
+–0.8
+1.4
+3.3
+4.1
+–1.3
+–0.3
+5.0
+1.2
+4.1
+Sub-Saharan Africa 
+3.6
+3.8
+4.2
+4.2
+0.0
+–0.2
+. . .
+. . .
+. . .
+Nigeria
+2.9
+3.1
+3.2
+3.0
+0.0
+0.0
+3.5
+3.7
+3.8
+South Africa
+0.7
+0.8
+1.5
+1.6
+0.0
+0.1
+1.7
+0.6
+2.2
+Memorandum
+World Growth Based on Market Exchange Rates
+2.8
+2.7
+2.9
+2.8
+0.1
+0.1
+2.9
+2.7
+2.6
+European Union
+0.6
+1.0
+1.4
+1.7
+–0.2
+0.0
+1.3
+1.5
+1.7
+ASEAN-5 5/
+4.0
+4.5
+4.6
+4.5
+0.1
+0.0
+4.9
+3.9
+5.0
+Middle East and North Africa
+1.8
+2.0
+3.5
+3.9
+–0.5
+–0.3
+. . .
+. . .
+. . .
+Emerging Market and Middle-Income Economies
+4.5
+4.2
+4.2
+4.2
+0.0
+0.1
+4.6
+4.2
+4.2
+Low-Income Developing Countries
+4.1
+4.1
+4.6
+5.4
+–0.1
+–0.2
+. . .
+. . .
+. . .
+World Trade Volume (goods and services) 6/
+0.7
+3.4
+3.2
+3.3
+–0.2
+–0.1
+. . .
+. . .
+. . .
+Advanced Economies
+0.0
+2.2
+2.1
+2.5
+–0.5
+–0.3
+. . .
+. . .
+. . .
+Emerging Market and Developing Economies
+2.0
+5.4
+5.0
+4.6
+0.3
+0.2
+. . .
+. . .
+. . .
+Commodity Prices
+Oil 7/
+–16.4
+–1.9
+–11.7
+–2.6
+–1.3
+1.0
+–10.8
+–5.0
+–2.2
+Nonfuel (average based on world commodity import 
+–5.7
+3.4
+2.5
+–0.1
+2.7
+–0.9
+7.1
+0.1
+0.5
+World Consumer Prices 8/
+6.7
+5.7
+4.2
+3.5
+–0.1
+–0.1
+5.2
+3.5
+3.0
+Advanced Economies 9/
+4.6
+2.6
+2.1
+2.0
+0.1
+0.0
+2.2
+2.1
+2.0
+Emerging Market and Developing Economies 8/
+8.1
+7.8
+5.6
+4.5
+–0.3
+–0.2
+7.6
+4.6
+3.8
+Note: Real effective exchange rates are assumed to remain constant at the levels prevailing during October 22–November 19, 2024. Economies are listed on the basis of 
+economic size. The aggregated quarterly data are seasonally adjusted. "..." indicates that data are not available or not applicable. WEO = World Economic Outlook.
+1/ Difference based on rounded figures for the current and October 2024 WEO forecasts. Countries for which forecasts have been updated relative to October 2024 WEO 
+forecasts account for approximately 90 percent of world GDP measured at purchasing-power-parity weights.
+2/ For World Output (Emerging M arket and Developing Economies), the quarterly estimates and projections account for approximately 90 percent (80 percent) of annual 
+world (emerging market and developing economies) output at purchasing-power-parity weights.
+3/ Excludes the Group of Seven (Canada, France, Germany, Italy, Japan, United Kingdom, United States) and euro area countries.
+4/ For India, data and projections are presented on a fiscal year (FY) basis, with FY 2023/24 (starting in April 2023) shown in the 2023 column. India's growth projections are 
+6.8 percent for 2025 and 6.5 percent for 2026 based on calendar year. 
+5/ Indonesia, M alaysia, Philippines, Singapore, Thailand.
+6/ Simple average of growth rates for export and import volumes (goods and services).
+7/ Simple average of prices of UK Brent, Dubai Fateh, and West Texas Intermediate crude oil. The average assumed price of oil in US dollars a barrel, based on futures 
+markets (as of November 20, 2024), is $69.76 for 2025 and $67.96 for 2026.
+8/ Excludes Venezuela.
+9/ The assumed inflation rate for the euro area is 2.1 percent for 2025 and 2.0 percent for 2026, that for Japan is 2.0 percent for 2025 and 2.0 percent for 2026, and that for the 
+United States is 2.0 percent for 2025 and 2.1 percent for 2026.  
+Q4 over Q4 2/
+Table 1. Overview of the World Economic Outlook Projections
+Projections
+Projections
+Year over Year
+(Percent change, unless noted otherwise)
+Difference from October 2024 
+WEO Projections 1/
+ 
+International Monetary Fund | January 2025  
+9 
+GLOBAL FINANCIAL MARKETS UPDATE 
+JAN 
+2025 
+ 
+ 
+Divergence between expected paths of US policy rates in relation to those of other major advanced and 
+emerging market economies has widened over the past 
+quarter. This follows a period of synchronicity in monetary 
+policies globally earlier in the year. Concerns about tepid 
+economic growth in the euro area and some major emerging 
+markets have increased investor expectations that their central 
+banks will ease monetary policy at a faster pace than expected at 
+the time of publication of the October 2024 Global Financial 
+Stability Report (Figure 1.1). Such expectations do not apply to the 
+Federal Reserve, however, on net. Medium- to long-term US 
+yields have increased somewhat over the same period, while 
+falling in other major advanced and emerging market economies, 
+with the widening of interest rate differentials strengthening the 
+US dollar against major currencies. Furthermore, while recent 
+data suggest the US labor market may be coming into better 
+balance, upside risks to inflation will likely continue to exert 
+upward pressure on yields.  
+Escalated trade policy uncertainty has also contributed to 
+broad-based US dollar strengthening. Heightened 
+geopolitical risks, in part, alongside trade uncertainty could have driven the dollar’s strength against the euro. In the 
+case of emerging market currencies, depreciation against the dollar has also been driven, to some extent, by concerns 
+over domestic fiscal outlooks, although the latter’s importance varies 
+across countries. In tandem with pressures on currencies, emerging 
+markets have also seen a net outflow of capital.1 
+Overall, even as global financial conditions are still broadly 
+accommodative in aggregate, they have tightened slightly 
+since October (Figure 1.2). US equity valuations continued to touch 
+new record highs in the fourth quarter of 2024, driven by 
+expectations of a favorable policy mix for firms.2 That said, this has 
+been offset by the effects of a rise in long-term rates, resulting in a 
+slight tightening, on net, though from the very easy levels in the 
+previous quarter. Risk assets in emerging markets, however, appear 
+to have shown greater sensitivity to trade policy uncertainty and 
+currency outlooks, reflected in tighter financial conditions. Market 
+participants are closely monitoring tariff policies and geopolitical 
+risks, as these could weigh on market sentiment, potentially leading 
+to sharp repricing in risk assets given their current lofty valuations, 
+bringing an abrupt tightening in global financial conditions.     
+This box was prepared by the Monetary and Capital Markets Department’s Global Markets Analysis Division. It provides an update on market developments since the October 2024 
+Global Financial Stability Report.  
+1 A narrow definition of capital flows is used here, restricted to portfolio flows, on account of lags in official data availability. The emerging markets group here excludes China. 
+2 Buoyancy in US equity market valuation could be reflecting investor expectations of possible deregulation and tax cuts, which may serve to reinforce the robust US growth outlook. 
+–1.5 
+–1.0 
+–0.5 
+0.0
+0.5
+1.0
+Dec. 23
+Mar. 24
+Jun. 24
+Sep. 24
+Dec. 24
+United States
+Euro area
+Other advanced economies
+China
+Emerging markets excluding China
+Oct. 2024 
+GFSR
+Figure 1.2. Financial Conditions Index
+(Number of standard deviations from the mean)
+Sources: Bloomberg Finance L.P.; Dealogic; EUROPACE AG/Haver Analytics; national data 
+sources; and IMF staff calculations.
+Note: GFSR = Global Financial Stability Report.
+Dec. 2023
+1.8
+2.0
+2.2
+2.4
+2.6
+2.8
+3.0
+3.2
+3.4
+3.6
+3.3
+3.5
+3.7
+3.9
+4.1
+4.3
+4.5
+4.7
+4.9
+5.1
+5.3
+Jun. 24
+Jul. 24
+Aug. 24
+Sep. 24
+Oct. 24
+Nov. 24
+Dec. 24
+Jan. 25
+US
+Euro area
+(right scale)
+5.1
+5.2
+5.3
+5.4
+5.5
+5.6
+5.7
+5.8
+5.9
+3.3
+3.5
+3.7
+3.9
+4.1
+4.3
+4.5
+4.7
+4.9
+5.1
+5.3
+Jun. 24
+Jul. 24
+Aug. 24
+Sep. 24
+Oct. 24
+Nov. 24
+Dec. 24
+Jan. 25
+US
+EM average
+(right scale)
+Oct. 2024 
+GFSR
+Figure 1.1. Market-Implied Six-Month-Forward Policy Rate
+(Five-day moving average, percentage points)
+Sources: Bloomberg Finance L.P.; and IMF staff calculations.
+Note: The EM group comprises Chile, China, Colombia, India, Malaysia, Mexico, Poland, South Africa, and 
+Thailand; EM = emerging markets. GFSR = Global Financial Stability Report.
+Oct. 2024 
+GFSR
+10 
+International Monetary Fund | January 2025 
+WORLD ECONOMIC OUTLOOK UPDATE: ANNEX 
+JAN 
+2025 
+Estimate
+2023
+2024
+2025
+2026
+2025
+2026
+Argentina
+–1.6
+–2.8
+5.0
+5.0
+0.0
+0.3
+Australia
+2.1
+1.2
+2.1
+2.2
+0.0
+0.0
+Brazil
+3.2
+3.7
+2.2
+2.2
+0.0
+–0.1
+Canada
+1.5
+1.3
+2.0
+2.0
+–0.4
+0.0
+China
+5.2
+4.8
+4.6
+4.5
+0.1
+0.4
+Egypt 2/
+3.8
+2.4
+3.6
+4.1
+–0.5
+–1.0
+France
+1.1
+1.1
+0.8
+1.1
+–0.3
+–0.2
+Germany
+–0.3
+–0.2
+0.3
+1.1
+–0.5
+–0.3
+India 2/
+8.2
+6.5
+6.5
+6.5
+0.0
+0.0
+Indonesia
+5.0
+5.0
+5.1
+5.1
+0.0
+0.0
+Iran 2/
+5.0
+3.7
+3.1
+2.8
+0.0
+0.0
+Italy
+0.7
+0.6
+0.7
+0.9
+–0.1
+0.2
+Japan
+1.5
+–0.2
+1.1
+0.8
+0.0
+0.0
+Kazakhstan
+5.1
+4.0
+5.5
+4.1
+0.9
+0.6
+Korea
+1.4
+2.2
+2.0
+2.1
+–0.2
+–0.1
+Malaysia
+3.6
+5.0
+4.7
+4.4
+0.3
+0.0
+Mexico
+3.3
+1.8
+1.4
+2.0
+0.1
+0.0
+The Netherlands
+0.1
+0.9
+1.6
+1.8
+0.0
+0.1
+Nigeria
+2.9
+3.1
+3.2
+3.0
+0.0
+0.0
+Pakistan 2/
+–0.2
+2.5
+3.0
+4.0
+–0.2
+0.0
+Philippines
+5.5
+5.8
+6.1
+6.3
+0.0
+0.0
+Poland
+0.1
+2.8
+3.5
+3.3
+0.0
+–0.1
+Russia
+3.6
+3.8
+1.4
+1.2
+0.1
+0.0
+Saudi Arabia
+–0.8
+1.4
+3.3
+4.1
+–1.3
+–0.3
+South Africa
+0.7
+0.8
+1.5
+1.6
+0.0
+0.1
+Spain
+2.7
+3.1
+2.3
+1.8
+0.2
+0.0
+Thailand
+1.9
+2.7
+2.9
+2.6
+–0.1
+0.0
+Türkiye
+5.1
+2.8
+2.6
+3.2
+–0.1
+0.0
+United Kingdom
+0.3
+0.9
+1.6
+1.5
+0.1
+0.0
+United States
+2.9
+2.8
+2.7
+2.1
+0.5
+0.1
+Projections
+Source: IM F staff calculations.
+Note: The selected economies account for approximately 83 percent of world output.
+1/ Difference based on rounded figures for the current and October 2024 WEO forecasts.
+2/ Data and forecasts are presented on a fiscal year basis. 
+Annex Table 1. Selected Economies Real GDP Growth
+(Percent change)
+Difference from October 
+2024 WEO Projections 1/
+WEO Update © 2025 ISBN 979-8-40029-167-8
