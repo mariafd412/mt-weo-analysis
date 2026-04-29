@@ -1,11 +1,11 @@
 # FASE 4 - 7: Evaluación, Visualización y Documentación
 
-**Estado:** INICIANDO  
-**Fecha inicio:** 29 de Abril, 2026
+**Estado:** AVANZADO (FASE 4 y 5 COMPLETADAS)  
+**Fecha actualización:** 29 de Abril, 2026
 
 ---
 
-## FASE 4: Evaluación de Modelos ⏳
+## FASE 4: Evaluación de Modelos ✅
 
 ### Descripción
 Validar la calidad de los modelos entrenados en Fase 3 y evaluar resultados.
@@ -15,15 +15,15 @@ Validar la calidad de los modelos entrenados en Fase 3 y evaluar resultados.
 - Umbral mínimo: 0.40
 - **Estado:** ✅ PASS
 
-### FASE 4.2: Evaluación Manual de Tópicos ⏳
-**Script:** `09_evaluation_metrics.py` (a crear)
+### FASE 4.2: Evaluación Manual de Tópicos ✅
+**Script:** `09_evaluation_metrics.py`
 
 **Tareas:**
-1. Cargar `lda_results.json`
-2. Analizar palabras clave por tópico
-3. Validar coherencia temática (manual)
-4. Documentar interpretación de cada tópico
-5. Identificar tópicos más relevantes
+1. ✓ Cargar `lda_results.json`
+2. ✓ Analizar palabras clave por tópico
+3. ✓ Validar coherencia temática (manual)
+4. ✓ Documentar interpretación de cada tópico
+5. ✓ Identificar tópicos más relevantes
 
 **Tópicos identificados (10):**
 ```
@@ -81,60 +81,56 @@ Compound promedio: 0.0680 (ligeramente positivo)
 
 ---
 
-## FASE 5: Visualización Avanzada ⏳
+## FASE 5: Visualización Avanzada ✅
 
 ### Descripción
-Crear visualizaciones interactivas para comunicar hallazgos.
+Crear visualizaciones estáticas profesionales (Estilo Corporativo / ICBS) listas para publicación.
 
-### FASE 5.1: Distribución de Tópicos 📊
-**Script:** `10_visualization.py` (a crear)
+### FASE 5.1 y 5.5: Distribución y Peso de Tópicos 📊
+**Script:** `10_visualization.py`
 
 **Gráficos:**
-1. Barplot: Frecuencia de tópicos en el corpus
-2. Heatmap: Distribución de tópicos por mes/año
-3. Top terms por tópico (palabra nube)
-4. Matriz tema x sentimiento
+1. ✓ Barplot: Relevancia económica por tópico
+2. ✓ Grid Plot: Pesos de las top palabras por tópico LDA
 
 **Salida:**
 - PNG: `viz/topic_distribution.png`
-- PNG: `viz/topic_heatmap.png`
+- PNG: `viz/top_words_by_topic.png`
 
 ---
 
-### FASE 5.2: Análisis de Sentimiento por País 📍
+### FASE 5.2 y 5.7: Análisis de Sentimiento (General y País) 📍
 **Tareas:**
-1. Cargar country_sentiment_analysis.json
-2. Crear mapas geográficos con sentimiento por país
-3. Ranking de países por sentimiento positivo
-4. Comparativas país A vs país B
+1. ✓ Gráficos combinados de distribución general (Pie + Bar)
+2. ✓ Gráfico de volatilidad e intensidad de Compound Scores
+3. ✓ Ranking horizontal de países por sentimiento promedio
 
 **Salida:**
 - PNG: `viz/sentiment_by_country.png`
-- PNG: `viz/country_ranking.png`
+- PNG: `viz/sentiment_distribution.png`
+- PNG: `viz/compound_statistics.png`
 
 ---
 
-### FASE 5.3: Evolución Temporal de Sentimientos 📈
+### FASE 5.4 y 5.6: Temporalidad y Heatmap 📈
 **Tareas:**
-1. Extraer fecha de cada párrafo
-2. Agrupar sentimiento por mes/trimestre/año
-3. Gráfico de serie temporal
-4. Identificar períodos de mayor positividad/negatividad
+1. ✓ Extraer fechas de metadatos de archivos (weo_apr_2020.txt)
+2. ✓ Generar serie temporal del Average Compound
+3. ✓ Generar Heatmap relacional Tópicos vs Categoría de Sentimiento
 
 **Salida:**
 - PNG: `viz/sentiment_timeline.png`
-- JSON: `data/processed/sentiment_timeline.json`
+- PNG: `viz/topic_sentiment_heatmap.png`
 
 ---
 
-### FASE 5.4: Wordclouds por Tópico ☁️
+### FASE 5.8: Wordclouds por Tópico ☁️
 **Tareas:**
-1. Por cada tópico, generar wordcloud
-2. Tamaño de palabra proporcional a frecuencia
-3. Colores por sentimiento dominante
+1. ✓ Por cada tópico, generar wordcloud limpio e institucional
+2. ✓ Tamaño proporcional a la frecuencia del LDA
 
 **Salida:**
-- PNG: `viz/wordclouds/` (10 imágenes)
+- PNG: `viz/wordclouds/*.png` (10 imágenes)
 
 ---
 
@@ -226,27 +222,27 @@ Generar documentación exhaustiva del trabajo realizado.
 | Fase | Tarea | Tiempo Est. | Prioridad |
 |------|-------|------------|-----------|
 | 4.1 | Validación coherencia | ✅ 0 min | ✅ DONE |
-| 4.2 | Evaluación manual | 30 min | 🔴 ALTA |
-| 4.3 | Análisis sentimiento | 20 min | 🔴 ALTA |
-| 4.4 | Extracción NER | 5-10 min | 🟡 MEDIA |
-| 5.1 | Visualizaciones | 45 min | 🔴 ALTA |
-| 5.2 | Análisis país | 30 min | 🟡 MEDIA |
-| 5.3 | Timeline sentimiento | 20 min | 🟡 MEDIA |
-| 5.4 | Wordclouds | 15 min | 🟡 MEDIA |
+| 4.2 | Evaluación manual | ✅ 30 min | ✅ DONE |
+| 4.3 | Análisis sentimiento | ✅ 20 min | ✅ DONE |
+| 4.4 | Extracción NER | ✅ 10 min | ✅ DONE |
+| 5.1 | Visualizaciones base | ✅ 45 min | ✅ DONE |
+| 5.2 | Análisis país | ✅ 30 min | ✅ DONE |
+| 5.3 | Timeline sentimiento | ✅ 20 min | ✅ DONE |
+| 5.4 | Wordclouds | ✅ 15 min | ✅ DONE |
 | 6 | Dashboard | 90 min | 🟢 BAJA |
 | 7 | Documentación | 60 min | 🟡 MEDIA |
 
-**Total estimado:** 4-5 horas
+**Total restante:** 2.5 horas (Fase 6 y 7)
 
 ---
 
 ## Próximos pasos inmediatos
 
 1. ✅ Actualizar FASE_3_EN_PROGRESO.md → COMPLETADA
-2. ⏳ Crear `09_evaluation_metrics.py` - Fase 4.2 y 4.3
-3. ⏳ Ejecutar `04_nlp_processing_v2.py` - Fase 4.4
-4. ⏳ Crear `10_visualization.py` - Fase 5
+2. ✅ Ejecutar visualizaciones corporativas (`10_visualization.py`).
+3. ⏳ (Opcional) Desarrollar Fase 6 - `app_dashboard.py` en Streamlit.
+4. ⏳ Redactar la documentación final (`INFORME_METODOLOGICO.md`).
 
 ---
 
-**Última actualización:** 29/04/2026 - Iniciando Fase 4
+**Última actualización:** 29/04/2026 - Fase 4 y 5 Completadas, subido a GitHub
