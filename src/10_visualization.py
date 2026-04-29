@@ -28,6 +28,12 @@ from wordcloud import WordCloud
 plt.style.use('seaborn-v0_8-darkgrid')
 sns.set_palette("husl")
 
+# Constantes de color corporativo
+COLOR_POS = '#2ca02c'      # Verde
+COLOR_NEU = '#7f7f7f'      # Gris
+COLOR_NEG = '#d62728'      # Rojo
+COLOR_PRIMARY = '#1f77b4'  # Azul principal
+
 def load_json(filepath):
     """Cargar archivo JSON con encoding UTF-8"""
     try:
@@ -48,7 +54,7 @@ def save_plot(filename, dpi=300):
     os.makedirs('viz', exist_ok=True)
     os.makedirs(os.path.join('viz', 'wordclouds'), exist_ok=True)
     filepath = os.path.join('viz', filename.replace('/', os.sep))
-    plt.savefig(filepath, dpi=dpi, bbox_inches='tight', encoding='utf-8')
+    plt.savefig(filepath, dpi=dpi, bbox_inches='tight')
     print(f"   ✅ Guardado: {filepath}")
     plt.close()
 
