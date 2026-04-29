@@ -1,0 +1,10 @@
+{
+  "total_documents": 15519,
+  "sentiment_distribution": {
+    "positive": 4546,
+    "neutral": 9073,
+    "negative": 1900
+  },
+  "average_compound_score": 0.0680338617178942,
+  "sentiment_by_country": {}
+}
