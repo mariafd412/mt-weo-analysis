@@ -1,8 +1,8 @@
 # FASE 2 & 3: Mejoras en Procesamiento NLP - Documentación de Trabajo
 
 **Autor:** Alexis Frank Jimenez  
-**Fecha:** 28 de Abril, 2026  
-**Estado:** En Progreso (Fase 2 y 3 iniciales)
+**Fecha:** 28-29 de Abril, 2026  
+**Estado:** ✅ FASE 3 COMPLETADA
 
 ---
 
@@ -107,36 +107,60 @@ transformers==4.40.0
 
 ---
 
-## Próximos Pasos (Fase 3)
+## ✅ FASE 3: COMPLETADA (29 Abril 2026)
 
-### 3.1 Topic Modeling (LDA)
-- [ ] Entrenar modelo LDA con gensim
-- [ ] Seleccionar número óptimo de tópicos (5-10)
-- [ ] Extraer palabras clave por tópico
-- [ ] Interpretar: deuda, energía, inflación, etc.
+### 3.1 Topic Modeling (LDA) ✅
+- ✓ Entrenamiento de 4 modelos LDA (5, 7, 10, 15 tópicos)
+- ✓ Modelo óptimo: **10 tópicos** (coherencia C_v: 0.4242)
+- ✓ Extracción de palabras clave por tópico
+- ✓ Tópicos identificados:
+  - Tópico 1: Estados Unidos, productividad, manufacturing
+  - Tópico 2: 2020/2019, COVID-19, pandemia
+  - Tópico 3: Automatización, costo de vida, transformación
+  - Tópico 4: Datos internacionales, inversión
+  - Tópico 5: Condiciones externas, nota técnica
+  - Tópico 6: Economías, política monetaria, mercados
+  - Tópico 7: **Labor shares, ingresos** (más relevante)
+  - Tópico 8: Disparidades, resultados
+  - Tópico 9: Bienestar, conflictos
+  - Tópico 10: **Divergencia económica, outlook mundial** (más relevante)
+- ✓ Archivo: `data/processed/lda_results.json`
 
-### 3.2 Análisis de Sentimiento
-- [ ] Implementar VADER (nltk.sentiment)
-- [ ] Alternativa: FinBERT (transformers)
-- [ ] Clasificar párrafos: positivo/neutro/negativo
+### 3.2 Análisis de Sentimiento ✅
+- ✓ Implementación VADER completada
+- ✓ Clasificación de 15,519 párrafos
+- ✓ Distribución de sentimientos:
+  - **Neutral:** 9,073 párrafos (58.5%)
+  - **Positivo:** 4,546 párrafos (29.3%)
+  - **Negativo:** 1,900 párrafos (12.2%)
+- ✓ Compound score promedio: 0.0680 (ligeramente positivo)
+- ✓ Archivos: 
+  - `data/processed/dataset_with_sentiment.json` (21 MB)
+  - `data/processed/sentiment_summary.json`
 
-### 3.3 Asociación País + Sentimiento
-- [ ] Mapear entidades NER (países) con sentimientos
-- [ ] Calcular sentimiento promedio por país
-- [ ] Crear matriz país-sentimiento
+### 3.3 Asociación País + Sentimiento ✅
+- ✓ Script creado y ejecutado
+- ⚠ Nota: 0 países identificados (requiere ejecutar NER previamente)
+- ✓ Archivo: `data/processed/country_sentiment_analysis.json`
+- Próximo: Ejecutar `04_nlp_processing.py` para extraer entidades de países
 
----
+## Próximos Pasos (Fase 4+)
 
-## Evaluación
+### 4. Evaluación de Modelos ⏳
+- [ ] Validar coherencia LDA (C_v ≥ 0.40) ✓ PASS (0.4242)
+- [ ] Muestreo manual de sentimientos (10-20 párrafos)
+- [ ] Matriz confusión para VADER
 
-### Coherencia de Tópicos
-- Usar `CoherenceModel` de gensim
-- Métrica: Coherencia C_v
+### 5. Extracción NER (Necesario) ⏳
+- [ ] Ejecutar `src/04_nlp_processing.py` para extraer países/organizaciones
+- [ ] Generar `dataset_nlp.json` con entidades etiquetadas
+- [ ] Repetir país-sentimiento con entidades extraídas
 
-### Validación Manual
-- Seleccionar 10-20 párrafos
-- Etiquetarlos manualmente
-- Comparar con predicciones del modelo
+### 6. Visualización ⏳
+- [ ] Wordclouds por tópico
+- [ ] Gráficos de distribución de sentimiento
+- [ ] Mapa de países por sentimiento
+- [ ] Evolución temporal de tópicos
 
 ---
 
@@ -183,15 +207,12 @@ python nlp_minimal.py
 ## Archivos Modificados/Creados
 
 ```
-✓ src/04_nlp_processing.py              (MEJORADO)
-✓ src/04_nlp_processing_v2.py          (NUEVO)
-✓ install_and_process_nlp.py           (NUEVO)
-✓ nlp_minimal.py                       (NUEVO)
-✓ run_full_pipeline.py                 (NUEVO)
-✓ run_nlp.py                           (NUEVO)
-✓ test_deps.py                         (NUEVO)
-✓ .gitignore                           (CREADO)
-✓ data/processed/dataset.json          (ACTUALIZADO)
+- ✓ src/06_lda_topic_modeling.py          (NUEVO - FASE 3.1)
+- ✓ src/07_sentiment_analysis.py         (NUEVO - FASE 3.2)
+- ✓ src/08_country_sentiment_analysis.py (NUEVO - FASE 3.3)
+- ✓ data/processed/lda_results.json      (NUEVO)
+- ✓ data/processed/dataset_with_sentiment.json (NUEVO - 21 MB)
+- ✓ data/processed/sentiment_summary.json (NUEVO)
 ```
 
 ---
@@ -204,4 +225,4 @@ python nlp_minimal.py
 
 ---
 
-**Próxima reunión:** Revisar resultados de Fase 2, iniciar Fase 3 (LDA + Sentimiento)
+**Próxima reunión:** FASE 3 completada ✓ - Iniciar FASE 4 (Evaluación) y FASE 5 (Visualización)
