@@ -1,4 +1,4 @@
-#!/home/alexisfrankj/mt-weo-analysis/venv/bin/python3
+#!/mnt/c/Users/USUARIO/mt-weo-analysis/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
