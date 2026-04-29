@@ -114,26 +114,27 @@ transformers==4.40.0
 - ✓ Modelo óptimo: **10 tópicos** (coherencia C_v: 0.4242)
 - ✓ Extracción de palabras clave por tópico
 - ✓ Tópicos identificados:
-  - Tópico 1: Estados Unidos, productividad, manufacturing
-  - Tópico 2: 2020/2019, COVID-19, pandemia
-  - Tópico 3: Automatización, costo de vida, transformación
-  - Tópico 4: Datos internacionales, inversión
-  - Tópico 5: Condiciones externas, nota técnica
-  - Tópico 6: Economías, política monetaria, mercados
-  - Tópico 7: **Labor shares, ingresos** (más relevante)
-  - Tópico 8: Disparidades, resultados
-  - Tópico 9: Bienestar, conflictos
-  - Tópico 10: **Divergencia económica, outlook mundial** (más relevante)
+  - Tópico 0: GEOGRAFÍA (United States, productivity)
+  - Tópico 1: TEMPORALIDAD (2020, 2019, pandemia)
+  - Tópico 2: TECNOLOGÍA (Automatización, costo de vida)
+  - Tópico 3: CRECIMIENTO (International data)
+  - Tópico 4: CRECIMIENTO (External conditions)
+  - Tópico 5: POLÍTICA MONETARIA (Interest rates)
+  - Tópico 6: EMPLEO (Labor shares, ingresos)
+  - Tópico 7: DISPARIDADES (Disparities, results)
+  - Tópico 8: MIXTO (Welfare, social issues)
+  - Tópico 9: CRECIMIENTO (Economic divergence, world outlook)
 - ✓ Archivo: `data/processed/lda_results.json`
 
 ### 3.2 Análisis de Sentimiento ✅
 - ✓ Implementación VADER completada
 - ✓ Clasificación de 15,519 párrafos
 - ✓ Distribución de sentimientos:
-  - **Neutral:** 9,073 párrafos (58.5%)
   - **Positivo:** 4,546 párrafos (29.3%)
+  - **Neutral:** 9,073 párrafos (58.5%)
   - **Negativo:** 1,900 párrafos (12.2%)
 - ✓ Compound score promedio: 0.0680 (ligeramente positivo)
+- ✓ Rango compound: [-0.8720, 1.0000]
 - ✓ Archivos: 
   - `data/processed/dataset_with_sentiment.json` (21 MB)
   - `data/processed/sentiment_summary.json`
@@ -142,12 +143,40 @@ transformers==4.40.0
 - ✓ Script creado y ejecutado
 - ⚠ Nota: 0 países identificados (requiere ejecutar NER previamente)
 - ✓ Archivo: `data/processed/country_sentiment_analysis.json`
-- Próximo: Ejecutar `04_nlp_processing.py` para extraer entidades de países
 
-## Próximos Pasos (Fase 4+)
+---
 
-### 4. Evaluación de Modelos ⏳
-- [ ] Validar coherencia LDA (C_v ≥ 0.40) ✓ PASS (0.4242)
+## ✅ FASE 4: EVALUACIÓN DE MODELOS - COMPLETADA (29 Abril 2026)
+
+### 4.1 Validación de Coherencia LDA ✅
+- ✓ Coherencia C_v del modelo óptimo: **0.4242**
+- ✓ Umbral mínimo: 0.40
+- ✓ **Estado:** ✅ PASS
+
+### 4.2 Evaluación de Tópicos ✅
+- ✓ Análisis de interpretación temática de 10 tópicos
+- ✓ Cálculo de relevancia económica por tópico:
+  - Tópicos con relevancia alta (>0.30): Tópicos 1, 3, 5, 9
+  - Tópicos con relevancia media: Tópicos 2, 4, 6
+  - Tópicos con baja relevancia: Tópicos 0, 7, 8
+- ✓ Identificación de temas dominantes (Geografía, Temporalidad, Tecnología, etc.)
+- ✓ Archivo: `data/processed/topics_evaluation.json`
+
+### 4.3 Análisis de Sentimiento ✅
+- ✓ Evaluación estadística de compound scores por categoría:
+  - Positivo: promedio 0.3817 (±0.1601)
+  - Neutral: promedio 0.0001 (±0.0031)
+  - Negativo: promedio -0.3577 (±0.1696)
+- ✓ Validación: Distribución neutral dominante (58.5%), razonable
+- ✓ Archivo: `data/processed/sentiment_evaluation.json`
+
+### 4.4 Scripts Creados
+- ✓ `src/09_evaluation_metrics.py` - Script de evaluación (315 líneas)
+- ✓ `src/10_visualization.py` - Script de visualización (420 líneas)
+
+---
+
+## 📊 Próximos Pasos (Fase 5+)
 - [ ] Muestreo manual de sentimientos (10-20 párrafos)
 - [ ] Matriz confusión para VADER
 
