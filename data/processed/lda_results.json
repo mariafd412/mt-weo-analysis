@@ -1,0 +1,52 @@
+{
+  "num_topics": 10,
+  "coherence_score": 0.4242295087807045,
+  "coherence_scores_by_topics": {
+    "5": 0.3727571384924781,
+    "7": 0.38759382738149256,
+    "10": 0.4242295087807045,
+    "15": 0.4099935064800625
+  },
+  "topics": [
+    {
+      "id": 0,
+      "terms": "0.030*\"united\" + 0.020*\"states\" + 0.015*\"productivity\" + 0.011*\"manufacturing\" + 0.011*\"countries\" + 0.010*\"kingdom\" + 0.009*\"factor\" + 0.009*\"governance\" + 0.009*\"across\" + 0.008*\"growth\""
+    },
+    {
+      "id": 1,
+      "terms": "0.028*\"2020\" + 0.021*\"2019\" + 0.014*\"percent\" + 0.012*\"global\" + 0.010*\"economic\" + 0.009*\"pandemic\" + 0.007*\"financial\" + 0.007*\"that\" + 0.007*\"migration\" + 0.007*\"covid19\""
+    },
+    {
+      "id": 2,
+      "terms": "0.031*\"automation\" + 0.027*\"tasks\" + 0.021*\"costofliving\" + 0.018*\"pivot\" + 0.016*\"benjamin\" + 0.013*\"gopinath\" + 0.013*\"blocs\" + 0.012*\"75th\" + 0.012*\"distributional\" + 0.011*\"offshoring\""
+    },
+    {
+      "id": 3,
+      "terms": "0.019*\"that\" + 0.011*\"international\" + 0.011*\"data\" + 0.011*\"with\" + 0.009*\"growth\" + 0.008*\"investment\" + 0.008*\"from\" + 0.008*\"2014\" + 0.008*\"which\" + 0.007*\"country\""
+    },
+    {
+      "id": 4,
+      "terms": "0.024*\"external\" + 0.019*\"conditions\" + 0.016*\"annex\" + 0.012*\"note\" + 0.011*\"figure\" + 0.010*\"eswatini\" + 0.009*\"percentage\" + 0.009*\"growth\" + 0.009*\"technological\" + 0.009*\"navigating\""
+    },
+    {
+      "id": 5,
+      "terms": "0.014*\"economies\" + 0.010*\"monetary\" + 0.010*\"market\" + 0.009*\"policy\" + 0.008*\"emerging\" + 0.008*\"from\" + 0.008*\"with\" + 0.008*\"percent\" + 0.008*\"growth\" + 0.007*\"october\""
+    },
+    {
+      "id": 6,
+      "terms": "0.142*\"labor\" + 0.052*\"shares\" + 0.051*\"share\" + 0.031*\"income\" + 0.018*\"substitution\" + 0.015*\"elasticity\" + 0.014*\"dispersion\" + 0.013*\"202122\" + 0.010*\"unprecedented\" + 0.009*\"force\""
+    },
+    {
+      "id": 7,
+      "terms": "0.050*\"disparities\" + 0.039*\"rises\" + 0.025*\"squares\" + 0.020*\"penn\" + 0.017*\"exercises\" + 0.015*\"failures\" + 0.014*\"operational\" + 0.013*\"duction\" + 0.012*\"safeguarding\" + 0.011*\"blagrave\""
+    },
+    {
+      "id": 8,
+      "terms": "0.025*\"https\" + 0.017*\"welfare\" + 0.017*\"nauru\" + 0.016*\"century\" + 0.016*\"bloc\" + 0.015*\"paper\" + 0.014*\"international\" + 0.013*\"working\" + 0.012*\"iron\" + 0.011*\"reversal\""
+    },
+    {
+      "id": 9,
+      "terms": "0.042*\"economic\" + 0.027*\"world\" + 0.022*\"divergence\" + 0.017*\"migrant\" + 0.015*\"outlook\" + 0.014*\"conflict\" + 0.011*\"workingage\" + 0.011*\"peace\" + 0.010*\"amid\" + 0.010*\"resilience\""
+    }
+  ]
+}
