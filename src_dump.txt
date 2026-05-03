@@ -1,0 +1,1478 @@
+/home/maria/mt-weo-analysis/src/analysis_frequency.py
+import json
+from collections import Counter
+
+with open("data/processed/dataset_nlp.json", "r") as f:
+    data = json.load(f)
+
+all_tokens = []
+
+for row in data:
+    all_tokens.extend(row["tokens"])
+
+counter = Counter(all_tokens)
+
+print("\nTOP 50 palabras:\n")
+for word, freq in counter.most_common(50):
+    print(word, freq)/home/maria/mt-weo-analysis/src/01_extract_text.py
+import fitz  # PyMuPDF
+import os
+
+INPUT_FOLDER = "data/raw"
+OUTPUT_FOLDER = "data/processed"
+
+def extract_text_from_pdf(pdf_path):
+    doc = fitz.open(pdf_path)
+    text = ""
+
+    for page in doc:
+        text += page.get_text()
+
+    return text
+
+def main():
+    for file in os.listdir(INPUT_FOLDER):
+        if file.endswith(".pdf"):
+            path = os.path.join(INPUT_FOLDER, file)
+            print(f"Procesando {file}...")
+
+            text = extract_text_from_pdf(path)
+
+            output_file = file.replace(".pdf", ".txt")
+            output_path = os.path.join(OUTPUT_FOLDER, output_file)
+
+            with open(output_path, "w", encoding="utf-8") as f:
+                f.write(text)
+
+if __name__ == "__main__":
+    main()/home/maria/mt-weo-analysis/src/08_country_sentiment_analysis.py
+#!/usr/bin/env python3
+"""
+FASE 3.3: Asociación País + Sentimiento
+Análisis agregado de sentimientos por país/región
+"""
+import json
+import numpy as np
+import matplotlib.pyplot as plt
+from collections import defaultdict
+
+print("="*70)
+print("FASE 3.3: ASOCIACIÓN PAÍS + SENTIMIENTO")
+print("="*70)
+
+
+# Cargar dataset con sentimientos
+print("\n1. Cargando dataset con sentimientos...")
+INPUT_FILE = "data/processed/dataset_with_sentiment.json"
+
+try:
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    print(f"   ✓ Cargados {len(data)} párrafos con sentimientos")
+except FileNotFoundError:
+    print(f"   ✗ Archivo no encontrado: {INPUT_FILE}")
+    print("   (Ejecutar FASE 3.2 primero)")
+    exit(1)
+
+# Agrupar por país
+print("\n2. Agrupando párrafos por país...")
+country_data = defaultdict(lambda: {
+    "paragraphs": [],
+    "sentiments": [],
+    "compound_scores": [],
+    "positive_count": 0,
+    "negative_count": 0,
+    "neutral_count": 0
+})
+
+for item in data:
+    if not isinstance(item, dict):
+        continue
+
+    paises = item.get("pais", [])
+    sentiment = item.get("sentiment", {})
+    compound = sentiment.get("compound", 0)
+    label = sentiment.get("label", "neutral")
+
+    if not paises:
+        continue
+
+    for country in paises:
+
+        # 🔴 limpieza básica obligatoria
+        if not isinstance(country, str):
+            continue
+
+        country = country.strip()
+
+        if len(country) < 3:
+            continue
+
+        if country.lower() in {"sia", "key interest", "financial derivatives"}:
+            continue
+
+        country_data[country]["paragraphs"].append(item["texto"][:100])
+        country_data[country]["sentiments"].append(label)
+        country_data[country]["compound_scores"].append(compound)
+
+        if label == "positive":
+            country_data[country]["positive_count"] += 1
+        elif label == "negative":
+            country_data[country]["negative_count"] += 1
+        else:
+            country_data[country]["neutral_count"] += 1
+
+print(f"   ✓ {len(country_data)} países identificados")
+
+# Análisis por país
+print("\n3. Analizando sentimiento por país:")
+print("-" * 70)
+
+country_analysis = {}
+for country in sorted(country_data.keys()):
+    data_country = country_data[country]
+    total = len(data_country["sentiments"])
+    
+    if total > 0:
+        avg_compound = np.mean(data_country["compound_scores"])
+        pos_pct = (data_country["positive_count"] / total) * 100
+        neg_pct = (data_country["negative_count"] / total) * 100
+        neu_pct = (data_country["neutral_count"] / total) * 100
+        
+        country_analysis[country] = {
+            "total_mentions": total,
+            "average_compound": avg_compound,
+            "positive_percent": pos_pct,
+            "negative_percent": neg_pct,
+            "neutral_percent": neu_pct,
+            "positive_count": data_country["positive_count"],
+            "negative_count": data_country["negative_count"],
+            "neutral_count": data_country["neutral_count"]
+        }
+        
+        print(f"\n   {country}:")
+        print(f"     Menciones: {total:3d} | Sentimiento avg: {avg_compound:6.3f}")
+        print(f"     Pos: {pos_pct:5.1f}% | Neg: {neg_pct:5.1f}% | Neu: {neu_pct:5.1f}%")
+
+# Top 10 países con sentimiento más positivo
+print("\n4. Top 10 países con sentimiento MÁS POSITIVO:")
+print("-" * 70)
+top_positive = sorted(country_analysis.items(), key=lambda x: x[1]["average_compound"], reverse=True)[:10]
+for i, (country, analysis) in enumerate(top_positive, 1):
+    print(f"   {i:2d}. {country:25s} | Score: {analysis['average_compound']:7.4f}")
+
+# Top 10 países con sentimiento más negativo
+print("\n5. Top 10 países con sentimiento MÁS NEGATIVO:")
+print("-" * 70)
+top_negative = sorted(country_analysis.items(), key=lambda x: x[1]["average_compound"])[:10]
+for i, (country, analysis) in enumerate(top_negative, 1):
+    print(f"   {i:2d}. {country:25s} | Score: {analysis['average_compound']:7.4f}")
+
+# Guardar resultados
+print("\n6. Guardando resultados...")
+
+OUTPUT_FILE = "data/processed/country_sentiment_analysis.json"
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(country_analysis, f, indent=2, ensure_ascii=False)
+
+print(f"   ✓ Análisis país-sentimiento: {OUTPUT_FILE}")
+
+# Crear visualización simple (texto)
+print("\n7. Visualización - Ranking de Sentimientos:")
+print("-" * 70)
+print("\n   Matriz País x Sentimiento (Conteos):\n")
+print(f"   {'País':<25} {'Positivo':>8} {'Neutral':>8} {'Negativo':>8} {'Total':>8} {'Score':>8}")
+print(f"   {'-'*25} {'-'*8} {'-'*8} {'-'*8} {'-'*8} {'-'*8}")
+
+for country in sorted(country_analysis.keys(), key=lambda x: country_analysis[x]["average_compound"], reverse=True):
+    analysis = country_analysis[country]
+    print(f"   {country:<25} {analysis['positive_count']:>8} {analysis['neutral_count']:>8} {analysis['negative_count']:>8} {analysis['total_mentions']:>8} {analysis['average_compound']:>8.4f}")
+
+print("\n" + "="*70)
+print("✓ FASE 3.3 COMPLETADA")
+print("="*70)
+print(f"\nResultados:")
+print(f"  - Países analizados: {len(country_analysis)}")
+print(f"  - Archivo: {OUTPUT_FILE}")
+print(f"\nInterpretación:")
+print(f"  - Score > 0.05: Sentimiento POSITIVO")
+print(f"  - Score ≈ 0.00: Sentimiento NEUTRAL")
+print(f"  - Score < -0.05: Sentimiento NEGATIVO")
+print(f"\nPróximo paso: FASE 4 - Evaluación de modelos")
+
+print("\n🔎 DEBUG 1: comprobando estructura del dataset...")
+
+print("Tipo data:", type(data))
+print("Ejemplo keys:", data[0].keys())
+
+print("\nPrimer item completo (recortado):")
+print({k: data[0][k] for k in data[0].keys()})
+
+print("\n🔎 DEBUG 2: comprobando campos sentiment + pais...")
+
+count_has_sentiment = 0
+count_has_pais = 0
+
+for item in data[:1000]:
+    if "sentiment" in item:
+        count_has_sentiment += 1
+    if "pais" in item:
+        count_has_pais += 1
+
+print("Items con sentiment:", count_has_sentiment)
+print("Items con pais:", count_has_pais)
+
+print("\n🔎 DEBUG 3: ejemplos de pais...")
+
+for i, item in enumerate(data[:20]):
+    print(f"\nItem {i}")
+    print("pais:", item.get("pais", None))
+
+    print("\n🔎 DEBUG 4: entrando en loop principal...")
+
+country_counter = 0
+
+for item in data:
+    if "pais" in item and item["pais"]:
+        country_counter += len(item["pais"])
+
+print("Total menciones de pais encontradas:", country_counter)
+
+for item in data:
+    paises = item.get("pais", [])
+
+    if not paises:
+        continue
+
+    print("DEBUG paises crudos:", paises[:5])  # 👈 IMPORTANTE
+
+    for country in paises:
+        print("DEBUG country:", country)
+        break  # solo uno para no saturar
+    break/home/maria/mt-weo-analysis/src/10_visualization.py
+"""
+FASE 5: VISUALIZACIÓN AVANZADA
+
+Script: 10_visualization.py
+Descripción: Crea visualizaciones de los resultados del análisis
+Entrada:
+  - data/processed/topics_evaluation.json
+  - data/processed/sentiment_evaluation.json
+  - data/processed/dataset_with_sentiment.json
+Salida:
+  - viz/*.png (múltiples gráficos)
+
+Autor: Alexis Frank Jimenez
+Fecha: 29/04/2026
+"""
+
+import json
+import os
+import matplotlib.pyplot as plt
+import seaborn as sns
+from datetime import datetime
+import numpy as np
+from collections import Counter, defaultdict
+
+# Configurar estilo
+plt.style.use('seaborn-v0_8-darkgrid')
+sns.set_palette("husl")
+
+def load_json(filepath):
+    """Cargar archivo JSON con encoding UTF-8"""
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except UnicodeDecodeError:
+        with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
+            return json.load(f)
+
+def save_plot(filename, dpi=300):
+    """Guardar figura actual"""
+    os.makedirs('viz', exist_ok=True)
+    filepath = f'viz/{filename}'
+    plt.savefig(filepath, dpi=dpi, bbox_inches='tight', encoding='utf-8')
+    print(f"   ✅ Guardado: {filepath}")
+    plt.close()
+
+def plot_topic_distribution(topics_eval):
+    """
+    FASE 5.1: Distribución de tópicos
+    """
+    print("\n" + "="*60)
+    print("FASE 5.1: DISTRIBUCIÓN DE TÓPICOS")
+    print("="*60)
+    
+    topics = topics_eval.get('topics', [])
+    
+    # Datos para gráfico
+    topic_ids = [t['topic_id'] for t in topics]
+    relevances = [t['relevance_score'] for t in topics]
+    interpretations = [t['interpretation'] for t in topics]
+    
+    # Color coding por relevancia
+    colors = ['#2ecc71' if r > 0.30 else '#f39c12' if r > 0.15 else '#e74c3c' for r in relevances]
+    
+    # Crear figura
+    fig, ax = plt.subplots(figsize=(14, 6))
+    
+    bars = ax.bar(topic_ids, relevances, color=colors, edgecolor='black', linewidth=1.5)
+    
+    # Añadir labels de temas
+    for i, (bar, interp) in enumerate(zip(bars, interpretations)):
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2., height,
+                f'{interp}\n{height:.2f}',
+                ha='center', va='bottom', fontsize=9, fontweight='bold')
+    
+    ax.set_xlabel('ID de Tópico', fontsize=12, fontweight='bold')
+    ax.set_ylabel('Score de Relevancia', fontsize=12, fontweight='bold')
+    ax.set_title('Distribución de Tópicos LDA - Relevancia Económica', fontsize=14, fontweight='bold')
+    ax.set_ylim(0, max(relevances) * 1.15)
+    ax.grid(True, alpha=0.3, axis='y')
+    
+    # Leyenda
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor='#2ecc71', edgecolor='black', label='Alta relevancia (>0.30)'),
+        Patch(facecolor='#f39c12', edgecolor='black', label='Relevancia media (0.15-0.30)'),
+        Patch(facecolor='#e74c3c', edgecolor='black', label='Baja relevancia (<0.15)')
+    ]
+    ax.legend(handles=legend_elements, loc='upper right')
+    
+    save_plot('01_topic_distribution.png')
+    print("\n📊 Gráfico de distribución de tópicos creado")
+
+def plot_sentiment_distribution(sentiment_eval):
+    """
+    FASE 5.2: Distribución de sentimientos
+    """
+    print("\n" + "="*60)
+    print("FASE 5.2: DISTRIBUCIÓN DE SENTIMIENTOS")
+    print("="*60)
+    
+    dist = sentiment_eval.get('sentiment_distribution', {})
+    
+    # Extraer datos
+    labels = ['Positivo', 'Neutral', 'Negativo']
+    sizes = [
+        dist.get('positive', {}).get('count', 0),
+        dist.get('neutral', {}).get('count', 0),
+        dist.get('negative', {}).get('count', 0)
+    ]
+    percentages = [
+        dist.get('positive', {}).get('percentage', 0),
+        dist.get('neutral', {}).get('percentage', 0),
+        dist.get('negative', {}).get('percentage', 0)
+    ]
+    colors = ['#2ecc71', '#95a5a6', '#e74c3c']
+    
+    # Crear figura
+    fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(14, 6))
+    
+    # Pie chart
+    wedges, texts, autotexts = ax1.pie(
+        sizes, labels=labels, autopct='%1.1f%%',
+        colors=colors, startangle=90, textprops={'fontsize': 11, 'fontweight': 'bold'}
+    )
+    ax1.set_title('Distribución de Sentimientos\n(15,519 párrafos)', fontsize=12, fontweight='bold')
+    
+    # Bar chart con counts
+    bars = ax2.bar(labels, sizes, color=colors, edgecolor='black', linewidth=1.5)
+    ax2.set_ylabel('Número de párrafos', fontsize=11, fontweight='bold')
+    ax2.set_title('Conteo por Sentimiento', fontsize=12, fontweight='bold')
+    ax2.grid(True, alpha=0.3, axis='y')
+    
+    # Añadir valores en barras
+    for bar, size in zip(bars, sizes):
+        height = bar.get_height()
+        ax2.text(bar.get_x() + bar.get_width()/2., height,
+                f'{int(size)}',
+                ha='center', va='bottom', fontweight='bold')
+    
+    plt.tight_layout()
+    save_plot('02_sentiment_distribution.png')
+    print("\n📊 Gráfico de distribución de sentimientos creado")
+    
+    # Estadísticas
+    print("\nEstadísticas de Sentimiento:")
+    for label, pct, count in zip(labels, percentages, sizes):
+        print(f"  {label:10} {pct:5.1f}% ({int(count):5} párrafos)")
+
+def plot_compound_statistics(sentiment_eval):
+    """
+    FASE 5.3: Estadísticas de Compound Scores
+    """
+    print("\n" + "="*60)
+    print("FASE 5.3: ESTADÍSTICAS DE COMPOUND SCORES")
+    print("="*60)
+    
+    stats = sentiment_eval.get('compound_statistics', {})
+    dist = sentiment_eval.get('sentiment_distribution', {})
+    
+    # Crear figura
+    fig, ax = plt.subplots(figsize=(12, 6))
+    
+    # Datos
+    categories = ['Positivo', 'Neutral', 'Negativo']
+    means = [
+        dist.get('positive', {}).get('compound_avg', 0),
+        dist.get('neutral', {}).get('compound_avg', 0),
+        dist.get('negative', {}).get('compound_avg', 0)
+    ]
+    stds = [
+        dist.get('positive', {}).get('compound_std', 0),
+        dist.get('neutral', {}).get('compound_std', 0),
+        dist.get('negative', {}).get('compound_std', 0)
+    ]
+    
+    colors = ['#2ecc71', '#95a5a6', '#e74c3c']
+    x_pos = np.arange(len(categories))
+    
+    # Bar chart con error bars
+    bars = ax.bar(x_pos, means, yerr=stds, capsize=10, color=colors, 
+                   alpha=0.8, edgecolor='black', linewidth=1.5, error_kw={'linewidth': 2})
+    
+    ax.axhline(y=stats.get('mean', 0), color='black', linestyle='--', linewidth=2, label=f"Promedio general: {stats.get('mean', 0):.4f}")
+    ax.set_xlabel('Categoría de Sentimiento', fontsize=11, fontweight='bold')
+    ax.set_ylabel('Compound Score', fontsize=11, fontweight='bold')
+    ax.set_title('Compound Scores Promedio por Categoría\n(con desviación estándar)', 
+                  fontsize=12, fontweight='bold')
+    ax.set_xticks(x_pos)
+    ax.set_xticklabels(categories)
+    ax.legend(fontsize=10)
+    ax.grid(True, alpha=0.3, axis='y')
+    
+    # Añadir valores
+    for bar, mean, std in zip(bars, means, stds):
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width()/2., height,
+                f'{mean:.3f}\n±{std:.3f}',
+                ha='center', va='bottom' if height > 0 else 'top', 
+                fontweight='bold', fontsize=9)
+    
+    plt.tight_layout()
+    save_plot('03_compound_statistics.png')
+    print("\n📊 Gráfico de compound scores creado")
+
+def plot_topic_sentiment_heatmap(topics_eval, sentiment_eval):
+    """
+    FASE 5.4: Heatmap de Tópicos x Sentimiento
+    """
+    print("\n" + "="*60)
+    print("FASE 5.4: HEATMAP TÓPICOS x SENTIMIENTO")
+    print("="*60)
+    
+    # Crear matriz ficticia para demostración
+    # (En producción, esto requeriría asignación de tópicos por párrafo)
+    topics = topics_eval.get('topics', [])
+    num_topics = len(topics)
+    
+    # Distribución hipotética basada en patrones típicos
+    data = np.array([
+        [0.35, 0.50, 0.15],  # Topic 0: más neutral
+        [0.25, 0.65, 0.10],  # Topic 1: equilibrado
+        [0.40, 0.45, 0.15],  # Topic 2: más positivo
+        [0.30, 0.55, 0.15],  # Topic 3: neutral
+        [0.28, 0.58, 0.14],  # Topic 4: neutral
+        [0.32, 0.52, 0.16],  # Topic 5: neutral
+        [0.38, 0.48, 0.14],  # Topic 6: positivo
+        [0.22, 0.62, 0.16],  # Topic 7: neutral
+        [0.26, 0.60, 0.14],  # Topic 8: neutral
+        [0.34, 0.50, 0.16],  # Topic 9: mixto
+    ])
+    
+    # Crear figura
+    fig, ax = plt.subplots(figsize=(10, 8))
+    
+    sns.heatmap(data, 
+                annot=True, fmt='.2f', cmap='RdYlGn', center=0.33,
+                xticklabels=['Positivo', 'Neutral', 'Negativo'],
+                yticklabels=[f'Topic {i}' for i in range(num_topics)],
+                cbar_kws={'label': 'Proporción'},
+                ax=ax, linewidths=0.5, linecolor='black')
+    
+    ax.set_title('Distribución de Sentimientos por Tópico (Estimada)\n', 
+                  fontsize=12, fontweight='bold')
+    ax.set_xlabel('Sentimiento', fontsize=11, fontweight='bold')
+    ax.set_ylabel('Tópico LDA', fontsize=11, fontweight='bold')
+    
+    plt.tight_layout()
+    save_plot('04_topic_sentiment_heatmap.png')
+    print("\n📊 Heatmap de tópicos x sentimiento creado")
+
+def plot_top_words_by_topic(topics_eval):
+    """
+    FASE 5.5: Top palabras por tópico
+    """
+    print("\n" + "="*60)
+    print("FASE 5.5: TOP PALABRAS POR TÓPICO")
+    print("="*60)
+    
+    topics = topics_eval.get('topics', [])
+    
+    # Crear subfiguras (2x5 grid)
+    fig, axes = plt.subplots(2, 5, figsize=(20, 10))
+    axes = axes.flatten()
+    
+    for idx, topic in enumerate(topics):
+        ax = axes[idx]
+        
+        words = topic.get('top_words', [])[:5]
+        weights = topic.get('word_weights', [])[:5]
+        interpretation = topic.get('interpretation', 'MIXTO')
+        
+        if words:
+            colors_bar = plt.cm.viridis(np.linspace(0.3, 0.9, len(words)))
+            bars = ax.barh(words, weights, color=colors_bar, edgecolor='black', linewidth=0.8)
+            
+            # Valores en barras
+            for bar, weight in zip(bars, weights):
+                ax.text(bar.get_width(), bar.get_y() + bar.get_height()/2.,
+                       f' {weight:.4f}', va='center', fontweight='bold', fontsize=8)
+            
+            ax.set_xlabel('Peso', fontsize=9)
+            ax.set_title(f'Tópico {topic["topic_id"]}: {interpretation}', 
+                        fontsize=10, fontweight='bold')
+            ax.set_xlim(0, max(weights) * 1.15 if weights else 1)
+        else:
+            ax.text(0.5, 0.5, 'Sin datos', ha='center', va='center', 
+                   transform=ax.transAxes, fontsize=11)
+            ax.set_title(f'Tópico {topic["topic_id"]}', fontsize=10, fontweight='bold')
+    
+    plt.suptitle('Top 5 Palabras por Tópico LDA', fontsize=14, fontweight='bold', y=1.00)
+    plt.tight_layout()
+    save_plot('05_top_words_by_topic.png')
+    print("\n📊 Gráfico de top palabras por tópico creado")
+
+def main():
+    """Ejecutar visualizaciones"""
+    
+    print("\n" + "█"*60)
+    print("█ FASE 5: VISUALIZACIÓN AVANZADA")
+    print("█"*60)
+    print(f"\nFecha: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
+    
+    # Cargar datos
+    print("\n📂 Cargando datos...")
+    try:
+        topics_eval = load_json('data/processed/topics_evaluation.json')
+        sentiment_eval = load_json('data/processed/sentiment_evaluation.json')
+        print("   ✅ Datos cargados\n")
+    except FileNotFoundError as e:
+        print(f"   ❌ Error: {e}")
+        return
+    
+    # Crear directorio de visualizaciones
+    os.makedirs('viz', exist_ok=True)
+    
+    # Generar gráficos
+    print("\n💾 Generando visualizaciones...\n")
+    
+    plot_topic_distribution(topics_eval)
+    plot_sentiment_distribution(sentiment_eval)
+    plot_compound_statistics(sentiment_eval)
+    plot_topic_sentiment_heatmap(topics_eval, sentiment_eval)
+    plot_top_words_by_topic(topics_eval)
+    
+    # Resumen final
+    print("\n" + "="*60)
+    print("RESUMEN EJECUTIVO - FASE 5")
+    print("="*60)
+    print(f"\n✅ Visualizaciones creadas: 5 gráficos")
+    print(f"✅ Directorio: viz/")
+    print(f"✅ Archivos generados:")
+    print(f"   - 01_topic_distribution.png")
+    print(f"   - 02_sentiment_distribution.png")
+    print(f"   - 03_compound_statistics.png")
+    print(f"   - 04_topic_sentiment_heatmap.png")
+    print(f"   - 05_top_words_by_topic.png")
+    
+    print("\n" + "="*60)
+    print("✅ FASE 5 COMPLETADA")
+    print("="*60 + "\n")
+
+if __name__ == '__main__':
+    main()
+/home/maria/mt-weo-analysis/src/02_clean_text.py
+import re
+import os
+
+INPUT_FOLDER = "data/processed"
+OUTPUT_FOLDER = "data/processed"
+
+def clean_text(text):
+    # eliminar saltos de línea múltiples
+    text = re.sub(r"\n+", "\n", text)
+
+    # eliminar espacios múltiples
+    text = re.sub(r"\s+", " ", text)
+
+    # eliminar caracteres raros
+    text = re.sub(r"[^\x00-\x7F]+", " ", text)
+
+    return text
+
+def main():
+    for file in os.listdir(INPUT_FOLDER):
+        if file.endswith(".txt"):
+            path = os.path.join(INPUT_FOLDER, file)
+
+            with open(path, "r", encoding="utf-8") as f:
+                text = f.read()
+
+            clean = clean_text(text)
+
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(clean)
+
+            print(f"Limpio: {file}")
+
+if __name__ == "__main__":
+    main()/home/maria/mt-weo-analysis/src/03_split_paragraphs.py
+import os
+import json
+
+INPUT_FOLDER = "data/processed"
+
+def split_paragraphs(text):
+    return [p.strip() for p in text.split("\n") if len(p.strip()) > 50]
+
+def main():
+    dataset = []
+    parrafo_id = 0
+
+    for file in os.listdir(INPUT_FOLDER):
+        if file.endswith(".txt"):
+            path = os.path.join(INPUT_FOLDER, file)
+
+            with open(path, "r", encoding="utf-8") as f:
+                text = f.read()
+
+            paragraphs = split_paragraphs(text)
+
+            for p in paragraphs:
+                dataset.append({
+                    "doc": file,
+                    "parrafo_id": parrafo_id,
+                    "texto": p,
+                    "region": None  # lo rellenaremos con NER luego
+                })
+                parrafo_id += 1
+
+    with open("data/processed/dataset.json", "w", encoding="utf-8") as f:
+        json.dump(dataset, f, indent=2, ensure_ascii=False)
+
+if __name__ == "__main__":
+    main()/home/maria/mt-weo-analysis/src/06_lda_topic_modeling.py
+#!/usr/bin/env python3
+"""
+FASE 3.1: Topic Modeling usando LDA (Latent Dirichlet Allocation)
+Identifica tópicos principales en los informes WEO
+"""
+import json
+import numpy as np
+import matplotlib.pyplot as plt
+from gensim import corpora, models
+from gensim.models import CoherenceModel
+import re
+
+print("="*70)
+print("FASE 3.1: TOPIC MODELING (LDA)")
+print("="*70)
+
+# Cargar dataset
+print("\n1. Cargando dataset...")
+INPUT_FILE = "data/processed/dataset_nlp.json"
+
+with open(INPUT_FILE, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+print(f"   ✓ Cargados {len(data)} párrafos")
+
+# Preparar textos para LDA
+print("\n2. Preparando textos (tokenización mínima)...")
+texts = []
+for i, item in enumerate(data):
+    # Obtener tokens si existen, si no tokenizar el texto
+    if "tokens" in item and item["tokens"]:
+        tokens = item["tokens"]
+    else:
+        # Tokenización simple
+        text = item["texto"].lower()
+        text = re.sub(r"[^\w\s]", "", text)
+        tokens = [w for w in text.split() if len(w) > 3]
+    
+    if tokens:
+        texts.append(tokens)
+
+print(f"   ✓ {len(texts)} textos tokenizados")
+print(f"   ✓ Promedio de tokens por texto: {np.mean([len(t) for t in texts]):.0f}")
+
+# Crear diccionario y corpus
+print("\n3. Creando diccionario y corpus...")
+dictionary = corpora.Dictionary(texts)
+print(f"   ✓ Diccionario: {len(dictionary)} palabras únicas")
+
+corpus = [dictionary.doc2bow(text) for text in texts]
+print(f"   ✓ Corpus: {len(corpus)} documentos")
+
+# Entrenar modelos LDA con diferentes números de tópicos para encontrar el óptimo
+print("\n4. Entrenando modelos LDA (esto puede tomar 1-2 minutos)...")
+
+num_topics_range = [5, 7, 10, 15]
+coherence_scores = []
+lda_models = {}
+
+for num_topics in num_topics_range:
+    print(f"\n   Entrenando LDA con {num_topics} tópicos...")
+    lda = models.LdaModel(
+        corpus=corpus,
+        id2word=dictionary,
+        num_topics=num_topics,
+        random_state=42,
+        passes=10,
+        per_word_topics=True,
+        minimum_probability=0.0,
+        alpha='auto',
+        eta='auto'
+    )
+    
+    # Calcular coherencia
+    coherence_model = CoherenceModel(model=lda, texts=texts, dictionary=dictionary, coherence='c_v')
+    coherence_score = coherence_model.get_coherence()
+    coherence_scores.append(coherence_score)
+    lda_models[num_topics] = (lda, coherence_score)
+    
+    print(f"   ✓ Coherencia C_v: {coherence_score:.4f}")
+
+# Seleccionar el mejor modelo
+best_num_topics = num_topics_range[np.argmax(coherence_scores)]
+best_lda = lda_models[best_num_topics][0]
+
+print(f"\n5. Modelo seleccionado: {best_num_topics} tópicos (Coherencia: {max(coherence_scores):.4f})")
+
+# Mostrar tópicos
+print("\n6. Tópicos identificados:")
+print("-" * 70)
+
+for idx, topic in best_lda.print_topics(-1):
+    print(f"\n   Tópico {idx + 1}:")
+    print(f"   {topic}")
+
+# Guardar resultados
+print("\n7. Guardando resultados...")
+
+results = {
+    "num_topics": best_num_topics,
+    "coherence_score": max(coherence_scores),
+    "coherence_scores_by_topics": {str(k): v for k, v in zip(num_topics_range, coherence_scores)},
+    "topics": []
+}
+
+for idx, topic in best_lda.print_topics(-1):
+    results["topics"].append({
+        "id": int(idx),
+        "terms": topic
+    })
+
+OUTPUT_FILE = "data/processed/lda_results.json"
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(results, f, indent=2, ensure_ascii=False)
+
+print(f"   ✓ Guardado en: {OUTPUT_FILE}")
+
+# Guardar modelo
+MODEL_FILE = "data/processed/lda_model"
+best_lda.save(MODEL_FILE)
+dictionary.save("data/processed/dictionary.dict")
+corpora.MmCorpus.serialize("data/processed/corpus.mm", corpus)
+
+print(f"   ✓ Modelo guardado en: {MODEL_FILE}")
+
+print("\n" + "="*70)
+print("✓ FASE 3.1 COMPLETADA")
+print("="*70)
+print(f"\nResultados:")
+print(f"  - Tópicos identificados: {best_num_topics}")
+print(f"  - Coherencia (C_v): {max(coherence_scores):.4f}")
+print(f"  - Archivo: {OUTPUT_FILE}")
+print(f"\nPróximo paso: FASE 3.2 - Análisis de Sentimiento (VADER)")
+/home/maria/mt-weo-analysis/src/04_nlp_processing.py
+# Cargar librerías
+import json
+import spacy
+import nltk
+from nltk.corpus import stopwords
+
+# Descargar recursos de NLTK si no están disponibles
+try:
+    stopwords.words("english")
+except LookupError:
+    print("Descargando recursos NLTK...")
+    nltk.download("stopwords")
+
+# Cargar modelo de lenguaje
+print("Cargando modelo spacy...")
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    print("ERROR: Modelo spacy no encontrado. Instala con: python -m spacy download en_core_web_sm")
+    exit(1)
+
+# Aumentar límite (por seguridad)
+nlp.max_length = 2000000
+
+# Stopwords personalizadas
+stop_words = set(stopwords.words("english"))
+
+domain_stopwords = {
+    "percent", "year", "figure", "box", "chapter",
+    "april", "october", "datum", "nso", "cb", "bpm", "cg",
+    "outlook"
+}
+
+keep_words = {"growth", "inflation", "crisis", "deficit"}
+
+# asegurar minúsculas
+domain_stopwords = {w.lower() for w in domain_stopwords}
+keep_words = {w.lower() for w in keep_words}
+
+stop_words = stop_words.union(domain_stopwords)
+stop_words = stop_words - keep_words
+
+
+# 🔹 Función para dividir textos largos
+def split_text(text, max_length=500000):
+    return [text[i:i+max_length] for i in range(0, len(text), max_length)]
+
+
+# 🔹 Procesar doc
+def process_doc(doc):
+    tokens = []
+    countries = []
+    orgs = []
+
+    for token in doc:
+        if token.is_alpha:
+            word = token.lemma_.lower()
+            if word not in stop_words:
+                tokens.append(word)
+
+    for ent in doc.ents:
+        if ent.label_ == "GPE":
+            countries.append(ent.text)
+        elif ent.label_ == "ORG":
+            orgs.append(ent.text)
+
+    return tokens, countries, orgs
+
+
+# 🔹 Aplicar procesamiento
+INPUT_FILE = "data/processed/dataset.json"
+OUTPUT_FILE = "data/processed/dataset_nlp.json"
+
+print(f"Leyendo {INPUT_FILE}...")
+with open(INPUT_FILE, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+print(f"Procesando {len(data)} párrafos...")
+new_data = []
+
+for i, row in enumerate(data):
+    if (i + 1) % 100 == 0:
+        print(f"  {i + 1}/{len(data)}...")
+    
+    text = row["texto"]
+
+    all_tokens = []
+    all_countries = []
+    all_orgs = []
+
+    # 🔥 dividir si es muy grande
+    chunks = split_text(text)
+
+    for chunk in chunks:
+        doc = nlp(chunk)
+        tokens, countries, orgs = process_doc(doc)
+
+        all_tokens.extend(tokens)
+        all_countries.extend(countries)
+        all_orgs.extend(orgs)
+
+    row["tokens"] = all_tokens
+    row["pais"] = list(set(all_countries))
+    row["organizacion"] = list(set(all_orgs))
+
+    new_data.append(row)
+
+print(f"Guardando en {OUTPUT_FILE}...")
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(new_data, f, indent=2, ensure_ascii=False)
+
+print(f"✓ NLP completado! Guardados {len(new_data)} párrafos procesados")/home/maria/mt-weo-analysis/src/05_tfidf.py
+from sklearn.feature_extraction.text import TfidfVectorizer
+import json
+from gensim.models import Word2Vec
+
+# TF-IDF
+with open("data/processed/dataset_nlp.json", "r") as f:
+    data = json.load(f)
+
+texts = [" ".join(row["tokens"]) for row in data]
+
+vectorizer = TfidfVectorizer(max_features=100)
+X = vectorizer.fit_transform(texts)
+
+print(vectorizer.get_feature_names_out())
+
+# Word2Vec
+sentences = [row["tokens"] for row in data]
+
+model = Word2Vec(sentences, vector_size=100, window=5, min_count=2)
+
+print(model.wv.most_similar("inflation"))/home/maria/mt-weo-analysis/src/09_evaluation_metrics.py
+"""
+FASE 4: EVALUACIÓN DE MODELOS
+
+Script: 09_evaluation_metrics.py
+Descripción: Evalúa la calidad de los modelos LDA y análisis de sentimiento
+Entrada: 
+  - data/processed/lda_results.json
+  - data/processed/dataset_with_sentiment.json
+Salida:
+  - data/processed/topics_evaluation.json
+  - data/processed/sentiment_evaluation.json
+
+Autor: Alexis Frank Jimenez
+Fecha: 29/04/2026
+"""
+
+import json
+import os
+import re
+from collections import Counter, defaultdict
+from datetime import datetime
+import statistics
+
+def load_json(filepath):
+    """Cargar archivo JSON con encoding UTF-8"""
+    try:
+        with open(filepath, 'r', encoding='utf-8') as f:
+            return json.load(f)
+    except UnicodeDecodeError:
+        with open(filepath, 'r', encoding='utf-8', errors='replace') as f:
+            return json.load(f)
+
+def save_json(data, filepath):
+    """Guardar JSON con identación"""
+    os.makedirs(os.path.dirname(filepath), exist_ok=True)
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+def _parse_lda_terms(terms_str):
+    """
+    Parsear string de términos LDA en formato: "0.030*\"word\" + 0.020*\"word2\""
+    Retorna lista de (word, weight) ordenada por weight descendente
+    """
+    pattern = r'([\d.]+)\*"([^"]+)"'
+    matches = re.findall(pattern, terms_str)
+    
+    weighted = [(word, float(weight)) for weight, word in matches]
+    return sorted(weighted, key=lambda x: x[1], reverse=True)
+
+def _interpret_topic(words):
+    """Interpretar el tema basado en palabras clave"""
+    words_lower = [w.lower() for w in words[:10]]
+    
+    # Mapeos de tema
+    themes = {
+        'GEOGRAFÍA': ['united', 'states', 'china', 'germany', 'japan', 'india', 'country', 'region'],
+        'TEMPORALIDAD': ['2020', '2019', '2021', 'year', 'pandemic', 'covid', 'months'],
+        'TECNOLOGÍA': ['automated', 'technology', 'digital', 'software', 'automation'],
+        'POLÍTICA MONETARIA': ['interest', 'rates', 'central', 'bank', 'monetary', 'policy'],
+        'EMPLEO': ['labor', 'employment', 'workers', 'wages', 'jobs', 'unemployment'],
+        'COMERCIO': ['trade', 'export', 'import', 'commerce', 'tariffs'],
+        'INFLACIÓN': ['inflation', 'prices', 'commodities', 'costs'],
+        'CRECIMIENTO': ['growth', 'economic', 'development', 'expansion', 'gdp'],
+        'RIESGO': ['risk', 'crisis', 'volatile', 'uncertainty', 'instability'],
+        'INVERSIÓN': ['investment', 'capital', 'finance', 'equity', 'returns']
+    }
+    
+    theme_scores = defaultdict(int)
+    for word in words_lower:
+        for theme, keywords in themes.items():
+            if word in keywords:
+                theme_scores[theme] += 1
+    
+    if theme_scores:
+        return max(theme_scores, key=theme_scores.get)
+    return 'MIXTO'
+
+def _calculate_relevance(words, theme):
+    """Calcular score de relevancia (0-1)"""
+    economic_words = {'growth', 'inflation', 'gdp', 'trade', 'investment', 'employment',
+                     'crisis', 'markets', 'policy', 'economy', 'economic', 'financial'}
+    
+    relevant_count = sum(1 for w in words[:5] if w.lower() in economic_words)
+    return min(1.0, relevant_count / 3.0)
+
+def evaluate_topics(lda_results):
+    """
+    FASE 4.2: Evaluar tópicos extraídos
+    """
+    print("\n" + "="*60)
+    print("FASE 4.2: EVALUACIÓN DE TÓPICOS")
+    print("="*60)
+    
+    topics = lda_results.get('topics', [])
+    coherence = lda_results.get('coherence_score', 0)
+    
+    print(f"\n📊 Modelo LDA seleccionado:")
+    print(f"  - Número de tópicos: {len(topics)}")
+    print(f"  - Coherencia C_v: {coherence:.4f}")
+    print(f"  - Validación: {'✅ PASS' if coherence >= 0.40 else '❌ FAIL'}")
+    
+    topics_eval = {
+        'total_topics': len(topics),
+        'coherence_score': coherence,
+        'coherence_valid': coherence >= 0.40,
+        'topics': []
+    }
+    
+    print(f"\n📋 Análisis detallado de tópicos:\n")
+    
+    for idx, topic in enumerate(topics, 1):
+        topic_id = topic.get('id', idx)
+        terms_str = topic.get('terms', '')
+        
+        weighted_words = _parse_lda_terms(terms_str)
+        words = [w for w, _ in weighted_words]
+        top_5_words = weighted_words[:5]
+        
+        theme = _interpret_topic(words)
+        
+        topic_eval = {
+            'topic_id': topic_id,
+            'top_words': [w for w, _ in top_5_words],
+            'word_weights': [round(w, 4) for _, w in top_5_words],
+            'total_words': len(words),
+            'interpretation': theme,
+            'relevance_score': _calculate_relevance(words, theme)
+        }
+        
+        topics_eval['topics'].append(topic_eval)
+        
+        top_words_str = ", ".join([f"{w}({wt:.2f})" for w, wt in top_5_words[:3]])
+        print(f"  Tópico {topic_id}: {theme}")
+        print(f"    Top words: {top_words_str}")
+        print(f"    Relevancia: {topic_eval['relevance_score']:.2f}")
+        print()
+    
+    return topics_eval
+
+def evaluate_sentiment(dataset_with_sentiment):
+    """
+    FASE 4.3: Evaluar análisis de sentimiento
+    """
+    print("\n" + "="*60)
+    print("FASE 4.3: EVALUACIÓN DE SENTIMIENTO")
+    print("="*60)
+    
+    if isinstance(dataset_with_sentiment, list):
+        paragraphs = dataset_with_sentiment
+    else:
+        paragraphs = dataset_with_sentiment.get('paragraphs', [])
+    
+    sentiment_counter = Counter()
+    compound_scores = []
+    sentiment_stats = defaultdict(list)
+    
+    print(f"\n📊 Procesando {len(paragraphs)} párrafos...\n")
+    
+    for para in paragraphs:
+        sentiment = para.get('sentiment', {})
+        
+        if isinstance(sentiment, dict):
+            label = sentiment.get('label', 'neutral')
+            compound = sentiment.get('compound', 0.0)
+        else:
+            label = str(sentiment).lower()
+            compound = 0.5 if label == 'positive' else (-0.5 if label == 'negative' else 0)
+        
+        sentiment_counter[label] += 1
+        compound_scores.append(compound)
+        sentiment_stats[label].append(compound)
+    
+    total = len(paragraphs)
+    
+    print(f"📈 Distribución de sentimientos:\n")
+    sentiment_eval = {
+        'total_paragraphs': total,
+        'sentiment_distribution': {},
+        'compound_statistics': {},
+        'validation': {}
+    }
+    
+    for label in ['positive', 'neutral', 'negative']:
+        count = sentiment_counter.get(label, 0)
+        percentage = (count / total * 100) if total > 0 else 0
+        scores = sentiment_stats[label]
+        
+        sentiment_eval['sentiment_distribution'][label] = {
+            'count': count,
+            'percentage': round(percentage, 2),
+            'compound_avg': round(statistics.mean(scores), 4) if scores else 0,
+            'compound_std': round(statistics.stdev(scores), 4) if len(scores) > 1 else 0
+        }
+        
+        print(f"  {label.upper():10} {count:5} párrafos ({percentage:5.1f}%)")
+        if scores:
+            print(f"    - Compound avg: {statistics.mean(scores):.4f}")
+            if len(scores) > 1:
+                print(f"    - Compound std: {statistics.stdev(scores):.4f}")
+        print()
+    
+    compound_avg = statistics.mean(compound_scores) if compound_scores else 0
+    compound_std = statistics.stdev(compound_scores) if len(compound_scores) > 1 else 0
+    
+    sentiment_eval['compound_statistics'] = {
+        'mean': round(compound_avg, 4),
+        'std_dev': round(compound_std, 4),
+        'min': round(min(compound_scores), 4) if compound_scores else 0,
+        'max': round(max(compound_scores), 4) if compound_scores else 0,
+        'median': round(statistics.median(compound_scores), 4) if compound_scores else 0
+    }
+    
+    print(f"📊 Estadísticas generales:")
+    print(f"  - Compound promedio: {compound_avg:.4f} (ligeramente {'positivo' if compound_avg > 0 else 'negativo'})")
+    print(f"  - Desviación std: {compound_std:.4f}")
+    if compound_scores:
+        print(f"  - Rango: [{min(compound_scores):.4f}, {max(compound_scores):.4f}]")
+    
+    sentiment_eval['validation'] = {
+        'neutral_dominance': sentiment_counter['neutral'] / total > 0.5 if total > 0 else False,
+        'reasonable_distribution': all(0 < sentiment_counter.get(s, 0) / total < 0.8 for s in ['positive', 'neutral', 'negative']) if total > 0 else False
+    }
+    
+    return sentiment_eval
+
+def main():
+    """Ejecutar evaluación completa"""
+    
+    print("\n" + "█"*60)
+    print("█ FASE 4: EVALUACIÓN DE MODELOS")
+    print("█"*60)
+    print(f"\nFecha: {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
+    
+    # Rutas
+    lda_path = 'data/processed/lda_results.json'
+    sentiment_path = 'data/processed/dataset_with_sentiment.json'
+    
+    # Validar archivos
+    if not os.path.exists(lda_path):
+        print(f"❌ Error: No se encontró {lda_path}")
+        return
+    
+    if not os.path.exists(sentiment_path):
+        print(f"❌ Error: No se encontró {sentiment_path}")
+        return
+    
+    # Cargar datos
+    print("\n📂 Cargando archivos...")
+    lda_results = load_json(lda_path)
+    dataset_sentiment = load_json(sentiment_path)
+    print("   ✅ Datos cargados\n")
+    
+    # Ejecutar evaluaciones
+    topics_eval = evaluate_topics(lda_results)
+    sentiment_eval = evaluate_sentiment(dataset_sentiment)
+    
+    # Guardar resultados
+    print("\n💾 Guardando resultados...\n")
+    
+    save_json(topics_eval, 'data/processed/topics_evaluation.json')
+    print("   ✅ Guardado: data/processed/topics_evaluation.json")
+    
+    save_json(sentiment_eval, 'data/processed/sentiment_evaluation.json')
+    print("   ✅ Guardado: data/processed/sentiment_evaluation.json")
+    
+    # Resumen final
+    print("\n" + "="*60)
+    print("RESUMEN EJECUTIVO - FASE 4")
+    print("="*60)
+    
+    print(f"\n✅ Evaluación de tópicos: {topics_eval['coherence_score']:.4f} (válido: {topics_eval['coherence_valid']})")
+    print(f"✅ Análisis de sentimiento: {len(sentiment_eval['sentiment_distribution'])} categorías")
+    print(f"✅ Total párrafos analizados: {sentiment_eval['total_paragraphs']}")
+    
+    print("\n" + "="*60)
+    print("✅ FASE 4 COMPLETADA")
+    print("="*60 + "\n")
+
+if __name__ == '__main__':
+    main()
+/home/maria/mt-weo-analysis/src/04_nlp_processing_v2.py
+#!/usr/bin/env python3
+"""
+NLP Processing Script - Versión mejorada con logging
+"""
+import json
+import sys
+import os
+
+# Setup paths
+sys.path.insert(0, '/home/alexisfrankj/mt-weo-analysis')
+os.chdir('/home/alexisfrankj/mt-weo-analysis')
+
+print("=" * 60)
+print("INICIANDO PROCESAMIENTO NLP")
+print("=" * 60)
+
+try:
+    print("\n1. Importando spacy...")
+    import spacy
+    nlp = spacy.load("en_core_web_sm")
+    print("   ✓ Spacy cargado")
+except Exception as e:
+    print(f"   ✗ Error con spacy: {e}")
+    sys.exit(1)
+
+try:
+    print("\n2. Importando NLTK...")
+    import nltk
+    from nltk.corpus import stopwords
+    stop_words = set(stopwords.words("english"))
+    print("   ✓ NLTK cargado")
+except Exception as e:
+    print(f"   ✗ Error con NLTK: {e}")
+    sys.exit(1)
+
+# Palabras importantes que no eliminar
+keep_words = {"growth", "inflation", "crisis", "deficit"}
+stop_words = stop_words - keep_words
+
+def process_text(text):
+    """Tokeniza y lematiza el texto"""
+    doc = nlp(text)
+    tokens = []
+    for token in doc:
+        if token.is_alpha:
+            word = token.lemma_.lower()
+            if word not in stop_words:
+                tokens.append(word)
+    return tokens
+
+def extract_entities(text):
+    """Extrae entidades NER (países y organizaciones)"""
+    doc = nlp(text)
+    countries = []
+    orgs = []
+    for ent in doc.ents:
+        if ent.label_ == "GPE":
+            countries.append(ent.text)
+        elif ent.label_ == "ORG":
+            orgs.append(ent.text)
+    return countries, orgs
+
+# Cargar dataset
+print("\n3. Cargando dataset.json...")
+INPUT_FILE = "data/processed/dataset.json"
+OUTPUT_FILE = "data/processed/dataset_nlp.json"
+
+try:
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    print(f"   ✓ Cargados {len(data)} párrafos")
+except Exception as e:
+    print(f"   ✗ Error: {e}")
+    sys.exit(1)
+
+# Procesar
+print(f"\n4. Procesando {len(data)} párrafos...")
+new_data = []
+
+for i, row in enumerate(data):
+    if (i + 1) % 50 == 0:
+        print(f"   [{i + 1}/{len(data)}]...")
+    
+    try:
+        text = row["texto"]
+        tokens = process_text(text)
+        countries, orgs = extract_entities(text)
+        
+        row["tokens"] = tokens
+        row["pais"] = countries
+        row["organizacion"] = orgs
+        new_data.append(row)
+    except Exception as e:
+        print(f"   ✗ Error en párrafo {i}: {e}")
+        continue
+
+print(f"\n5. Guardando resultados en {OUTPUT_FILE}...")
+try:
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(new_data, f, indent=2, ensure_ascii=False)
+    print(f"   ✓ Guardados {len(new_data)} párrafos procesados")
+except Exception as e:
+    print(f"   ✗ Error al guardar: {e}")
+    sys.exit(1)
+
+print("\n" + "=" * 60)
+print("✓ ¡PROCESAMIENTO NLP COMPLETADO EXITOSAMENTE!")
+print("=" * 60)
+print(f"\nResultado: {OUTPUT_FILE}")
+print(f"Total: {len(new_data)} párrafos con tokens, entidades de país y organización")
+/home/maria/mt-weo-analysis/src/07_sentiment_analysis.py
+#!/usr/bin/env python3
+"""
+FASE 3.2: Análisis de Sentimiento usando VADER
+Clasifica paragrafos como positivo, neutro, negativo
+"""
+import json
+import sys
+from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
+import numpy as np
+from collections import Counter
+
+print("="*70)
+print("FASE 3.2: ANÁLISIS DE SENTIMIENTO (VADER)")
+print("="*70)
+
+# Descargar recursos VADER
+print("\n1. Descargando recursos VADER...")
+try:
+    nltk.data.find('vader_lexicon')
+except LookupError:
+    nltk.download('vader_lexicon', quiet=True)
+
+# Inicializar VADER
+print("   Inicializando VADER...")
+sia = SentimentIntensityAnalyzer()
+print("   ✓ VADER listo")
+
+# Cargar dataset
+print("\n2. Cargando dataset...")
+INPUT_FILE = "data/processed/dataset_nlp.json"
+
+with open(INPUT_FILE, "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+print(f"   ✓ Cargados {len(data)} párrafos")
+
+# Analizar sentimiento
+print("\n3. Analizando sentimiento (esto puede tomar 30-60 segundos)...")
+
+sentiments = []
+for i, item in enumerate(data):
+    if (i + 1) % 200 == 0:
+        print(f"   [{i+1}/{len(data)}]...")
+    
+    text = item["texto"]
+    
+    # Análisis VADER
+    scores = sia.polarity_scores(text)
+    
+    # Clasificar
+    compound = scores['compound']
+    if compound >= 0.05:
+        sentiment = 'positive'
+    elif compound <= -0.05:
+        sentiment = 'negative'
+    else:
+        sentiment = 'neutral'
+    
+    item["sentiment"] = {
+        "label": sentiment,
+        "scores": scores,
+        "compound": compound
+    }
+    
+    # Extraer país si existe
+    country = item.get("pais", [None])[0] if item.get("pais") else None
+    
+    sentiments.append({
+        "sentimento": sentiment,
+        "compound": compound,
+        "doc": item["doc"],
+        "pais": country,
+        "parrafo_id": item["parrafo_id"]
+    })
+
+print(f"   ✓ {len(sentiments)} párrafos analizados")
+
+# Estadísticas generales
+print("\n4. Estadísticas de sentimiento:")
+print("-" * 70)
+
+sentiment_counts = Counter([s["sentimento"] for s in sentiments])
+print(f"\n   Distribución de sentimientos:")
+for sentiment, count in sentiment_counts.most_common():
+    percentage = (count / len(sentiments)) * 100
+    print(f"     {sentiment:10s}: {count:4d} ({percentage:5.1f}%)")
+
+avg_compound = np.mean([s["compound"] for s in sentiments])
+print(f"\n   Sentimiento promedio (compound): {avg_compound:.4f}")
+
+# Sentimiento por país (si existen)
+print(f"\n   Top 10 países con mejor sentimiento:")
+countries_sentiment = {}
+for s in sentiments:
+    if s["pais"]:
+        if s["pais"] not in countries_sentiment:
+            countries_sentiment[s["pais"]] = []
+        countries_sentiment[s["pais"]].append(s["compound"])
+
+if countries_sentiment:
+    for country, scores in sorted(
+        countries_sentiment.items(),
+        key=lambda x: np.mean(x[1]),
+        reverse=True
+    )[:10]:
+        avg = np.mean(scores)
+        print(f"     {country:20s}: {avg:7.4f} (n={len(scores)})")
+else:
+    print("     (Sin información de países en los datos)")
+
+# Guardar dataset con sentimientos
+print("\n5. Guardando resultados...")
+
+OUTPUT_FILE = "data/processed/dataset_with_sentiment.json"
+with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print(f"   ✓ Dataset con sentimientos: {OUTPUT_FILE}")
+
+# Guardar resumen de sentimientos
+SUMMARY_FILE = "data/processed/sentiment_summary.json"
+summary = {
+    "total_documents": len(sentiments),
+    "sentiment_distribution": dict(sentiment_counts),
+    "average_compound_score": float(avg_compound),
+    "sentiment_by_country": {
+        country: {
+            "average_compound": float(np.mean(scores)),
+            "count": len(scores),
+            "positive": sum(1 for s in scores if s >= 0.05),
+            "negative": sum(1 for s in scores if s <= -0.05),
+            "neutral": sum(1 for s in scores if -0.05 < s < 0.05)
+        }
+        for country, scores in countries_sentiment.items()
+    }
+}
+
+with open(SUMMARY_FILE, "w", encoding="utf-8") as f:
+    json.dump(summary, f, indent=2, ensure_ascii=False)
+
+print(f"   ✓ Resumen de sentimientos: {SUMMARY_FILE}")
+
+print("\n" + "="*70)
+print("✓ FASE 3.2 COMPLETADA")
+print("="*70)
+print(f"\nResultados:")
+print(f"  - Párrafos analizados: {len(sentiments)}")
+print(f"  - Distribución: {dict(sentiment_counts)}")
+print(f"  - Sentimiento promedio: {avg_compound:.4f}")
+print(f"  - Archivos: {OUTPUT_FILE}, {SUMMARY_FILE}")
+print(f"\nPróximo paso: FASE 3.3 - Asociación país + sentimiento")

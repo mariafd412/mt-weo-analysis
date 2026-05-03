@@ -1,0 +1,1559 @@
+[
+  {
+    "country": "Türkiye",
+    "score": 0.191,
+    "positive_percent": 50.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 50.0,
+    "total_mentions": 2,
+    "risk": "ALTO"
+  },
+  {
+    "country": "Ukraine",
+    "score": 0.203,
+    "positive_percent": 36.5,
+    "negative_percent": 25.7,
+    "neutral_percent": 37.8,
+    "total_mentions": 74,
+    "risk": "ALTO"
+  },
+  {
+    "country": "China",
+    "score": 0.211,
+    "positive_percent": 43.0,
+    "negative_percent": 11.8,
+    "neutral_percent": 45.2,
+    "total_mentions": 272,
+    "risk": "ALTO"
+  },
+  {
+    "country": "India",
+    "score": 0.41,
+    "positive_percent": 50.9,
+    "negative_percent": 2.8,
+    "neutral_percent": 46.3,
+    "total_mentions": 108,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Brazil",
+    "score": 0.432,
+    "positive_percent": 50.5,
+    "negative_percent": 4.3,
+    "neutral_percent": 45.2,
+    "total_mentions": 93,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Argentina",
+    "score": 0.455,
+    "positive_percent": 50.8,
+    "negative_percent": 6.3,
+    "neutral_percent": 42.9,
+    "total_mentions": 63,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Israel",
+    "score": 0.466,
+    "positive_percent": 53.7,
+    "negative_percent": 14.6,
+    "neutral_percent": 31.7,
+    "total_mentions": 41,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Ireland",
+    "score": 0.468,
+    "positive_percent": 50.0,
+    "negative_percent": 2.0,
+    "neutral_percent": 48.0,
+    "total_mentions": 50,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Mexico",
+    "score": 0.468,
+    "positive_percent": 51.9,
+    "negative_percent": 2.5,
+    "neutral_percent": 45.6,
+    "total_mentions": 79,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Afghanistan",
+    "score": 0.52,
+    "positive_percent": 53.8,
+    "negative_percent": 5.8,
+    "neutral_percent": 40.4,
+    "total_mentions": 52,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Chile",
+    "score": 0.53,
+    "positive_percent": 57.1,
+    "negative_percent": 6.1,
+    "neutral_percent": 36.7,
+    "total_mentions": 49,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Sudan",
+    "score": 0.618,
+    "positive_percent": 64.7,
+    "negative_percent": 11.8,
+    "neutral_percent": 23.5,
+    "total_mentions": 34,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Ecuador",
+    "score": 0.768,
+    "positive_percent": 80.8,
+    "negative_percent": 11.5,
+    "neutral_percent": 7.7,
+    "total_mentions": 26,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Suriname",
+    "score": 0.888,
+    "positive_percent": 91.7,
+    "negative_percent": 8.3,
+    "neutral_percent": 0.0,
+    "total_mentions": 12,
+    "risk": "MEDIO"
+  },
+  {
+    "country": "Indonesia",
+    "score": 0.559,
+    "positive_percent": 55.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 44.1,
+    "total_mentions": 68,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Japan",
+    "score": 0.562,
+    "positive_percent": 74.1,
+    "negative_percent": 2.8,
+    "neutral_percent": 23.1,
+    "total_mentions": 108,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Turkmenistan",
+    "score": 0.571,
+    "positive_percent": 58.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 41.2,
+    "total_mentions": 34,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Denmark",
+    "score": 0.583,
+    "positive_percent": 58.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 41.7,
+    "total_mentions": 36,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Greece",
+    "score": 0.583,
+    "positive_percent": 58.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 41.7,
+    "total_mentions": 36,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Philippines",
+    "score": 0.584,
+    "positive_percent": 58.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 41.5,
+    "total_mentions": 65,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Thailand",
+    "score": 0.592,
+    "positive_percent": 60.6,
+    "negative_percent": 0.0,
+    "neutral_percent": 39.4,
+    "total_mentions": 66,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Colombia",
+    "score": 0.598,
+    "positive_percent": 61.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 38.5,
+    "total_mentions": 39,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Belgium",
+    "score": 0.605,
+    "positive_percent": 63.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 36.1,
+    "total_mentions": 36,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Australia",
+    "score": 0.607,
+    "positive_percent": 65.4,
+    "negative_percent": 1.9,
+    "neutral_percent": 32.7,
+    "total_mentions": 52,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Sweden",
+    "score": 0.61,
+    "positive_percent": 67.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 32.5,
+    "total_mentions": 40,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Pakistan",
+    "score": 0.611,
+    "positive_percent": 61.1,
+    "negative_percent": 0.0,
+    "neutral_percent": 38.9,
+    "total_mentions": 54,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Singapore",
+    "score": 0.611,
+    "positive_percent": 67.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 32.6,
+    "total_mentions": 46,
+    "risk": "BAJO"
+  },
+  {
+    "country": "South Africa",
+    "score": 0.616,
+    "positive_percent": 65.6,
+    "negative_percent": 4.9,
+    "neutral_percent": 29.5,
+    "total_mentions": 61,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Austria",
+    "score": 0.619,
+    "positive_percent": 63.6,
+    "negative_percent": 0.0,
+    "neutral_percent": 36.4,
+    "total_mentions": 33,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Peru",
+    "score": 0.629,
+    "positive_percent": 62.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 37.1,
+    "total_mentions": 35,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Portugal",
+    "score": 0.631,
+    "positive_percent": 64.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 35.1,
+    "total_mentions": 37,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Malaysia",
+    "score": 0.633,
+    "positive_percent": 63.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 36.7,
+    "total_mentions": 60,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Switzerland",
+    "score": 0.639,
+    "positive_percent": 66.7,
+    "negative_percent": 0.0,
+    "neutral_percent": 33.3,
+    "total_mentions": 36,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Norway",
+    "score": 0.643,
+    "positive_percent": 69.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 30.6,
+    "total_mentions": 36,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Canada",
+    "score": 0.646,
+    "positive_percent": 75.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 24.7,
+    "total_mentions": 77,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Germany",
+    "score": 0.647,
+    "positive_percent": 80.9,
+    "negative_percent": 1.1,
+    "neutral_percent": 18.0,
+    "total_mentions": 89,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Hungary",
+    "score": 0.647,
+    "positive_percent": 64.7,
+    "negative_percent": 0.0,
+    "neutral_percent": 35.3,
+    "total_mentions": 34,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Finland",
+    "score": 0.651,
+    "positive_percent": 66.7,
+    "negative_percent": 0.0,
+    "neutral_percent": 33.3,
+    "total_mentions": 33,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Bulgaria",
+    "score": 0.656,
+    "positive_percent": 65.6,
+    "negative_percent": 0.0,
+    "neutral_percent": 34.4,
+    "total_mentions": 32,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Romania",
+    "score": 0.656,
+    "positive_percent": 65.6,
+    "negative_percent": 0.0,
+    "neutral_percent": 34.4,
+    "total_mentions": 32,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Poland",
+    "score": 0.658,
+    "positive_percent": 65.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 34.1,
+    "total_mentions": 41,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Slovenia",
+    "score": 0.68,
+    "positive_percent": 75.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 25.0,
+    "total_mentions": 36,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Italy",
+    "score": 0.693,
+    "positive_percent": 80.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 19.2,
+    "total_mentions": 78,
+    "risk": "BAJO"
+  },
+  {
+    "country": "France",
+    "score": 0.694,
+    "positive_percent": 85.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 14.6,
+    "total_mentions": 82,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Belarus",
+    "score": 0.7,
+    "positive_percent": 70.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 30.0,
+    "total_mentions": 20,
+    "risk": "BAJO"
+  },
+  {
+    "country": "New Zealand",
+    "score": 0.7,
+    "positive_percent": 75.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 24.2,
+    "total_mentions": 33,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Uruguay",
+    "score": 0.704,
+    "positive_percent": 72.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 27.6,
+    "total_mentions": 29,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Lithuania",
+    "score": 0.708,
+    "positive_percent": 73.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 26.7,
+    "total_mentions": 30,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Estonia",
+    "score": 0.713,
+    "positive_percent": 73.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 26.7,
+    "total_mentions": 30,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Cyprus",
+    "score": 0.714,
+    "positive_percent": 71.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 28.6,
+    "total_mentions": 28,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Latvia",
+    "score": 0.724,
+    "positive_percent": 72.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 27.6,
+    "total_mentions": 29,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Lebanon",
+    "score": 0.724,
+    "positive_percent": 74.2,
+    "negative_percent": 3.2,
+    "neutral_percent": 22.6,
+    "total_mentions": 31,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Uzbekistan",
+    "score": 0.727,
+    "positive_percent": 72.7,
+    "negative_percent": 0.0,
+    "neutral_percent": 27.3,
+    "total_mentions": 11,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Egypt",
+    "score": 0.733,
+    "positive_percent": 75.0,
+    "negative_percent": 3.1,
+    "neutral_percent": 21.9,
+    "total_mentions": 32,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Netherlands",
+    "score": 0.735,
+    "positive_percent": 73.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 26.5,
+    "total_mentions": 34,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Zimbabwe",
+    "score": 0.738,
+    "positive_percent": 75.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 24.1,
+    "total_mentions": 29,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Armenia",
+    "score": 0.75,
+    "positive_percent": 75.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 25.0,
+    "total_mentions": 12,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Chad",
+    "score": 0.75,
+    "positive_percent": 75.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 25.0,
+    "total_mentions": 12,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Mali",
+    "score": 0.75,
+    "positive_percent": 75.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 25.0,
+    "total_mentions": 4,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Iceland",
+    "score": 0.753,
+    "positive_percent": 85.2,
+    "negative_percent": 0.0,
+    "neutral_percent": 14.8,
+    "total_mentions": 27,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Saudi Arabia",
+    "score": 0.757,
+    "positive_percent": 82.7,
+    "negative_percent": 1.9,
+    "neutral_percent": 15.4,
+    "total_mentions": 52,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Malta",
+    "score": 0.759,
+    "positive_percent": 75.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 24.1,
+    "total_mentions": 29,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Morocco",
+    "score": 0.759,
+    "positive_percent": 75.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 24.1,
+    "total_mentions": 29,
+    "risk": "BAJO"
+  },
+  {
+    "country": "United States",
+    "score": 0.761,
+    "positive_percent": 96.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 3.6,
+    "total_mentions": 84,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Croatia",
+    "score": 0.769,
+    "positive_percent": 76.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 23.1,
+    "total_mentions": 26,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Luxembourg",
+    "score": 0.778,
+    "positive_percent": 77.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 22.2,
+    "total_mentions": 27,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Algeria",
+    "score": 0.78,
+    "positive_percent": 82.1,
+    "negative_percent": 0.0,
+    "neutral_percent": 17.9,
+    "total_mentions": 28,
+    "risk": "BAJO"
+  },
+  {
+    "country": "United Kingdom",
+    "score": 0.784,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 78,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Spain",
+    "score": 0.787,
+    "positive_percent": 82.7,
+    "negative_percent": 0.0,
+    "neutral_percent": 17.3,
+    "total_mentions": 52,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Botswana",
+    "score": 0.8,
+    "positive_percent": 80.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 20.0,
+    "total_mentions": 10,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Libya",
+    "score": 0.806,
+    "positive_percent": 82.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 17.2,
+    "total_mentions": 29,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Eritrea",
+    "score": 0.808,
+    "positive_percent": 80.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 19.2,
+    "total_mentions": 26,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Namibia",
+    "score": 0.808,
+    "positive_percent": 80.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 19.2,
+    "total_mentions": 26,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Sri Lanka",
+    "score": 0.808,
+    "positive_percent": 80.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 19.2,
+    "total_mentions": 26,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Jordan",
+    "score": 0.818,
+    "positive_percent": 84.0,
+    "negative_percent": 4.0,
+    "neutral_percent": 12.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Puerto Rico",
+    "score": 0.818,
+    "positive_percent": 87.0,
+    "negative_percent": 4.3,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Qatar",
+    "score": 0.825,
+    "positive_percent": 88.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 11.1,
+    "total_mentions": 27,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Haiti",
+    "score": 0.829,
+    "positive_percent": 84.0,
+    "negative_percent": 4.0,
+    "neutral_percent": 12.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Sierra Leone",
+    "score": 0.833,
+    "positive_percent": 83.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 16.7,
+    "total_mentions": 12,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Azerbaijan",
+    "score": 0.84,
+    "positive_percent": 88.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 11.5,
+    "total_mentions": 26,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Bangladesh",
+    "score": 0.84,
+    "positive_percent": 84.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 16.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Burundi",
+    "score": 0.84,
+    "positive_percent": 84.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 16.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Jamaica",
+    "score": 0.84,
+    "positive_percent": 84.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 16.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Kuwait",
+    "score": 0.84,
+    "positive_percent": 88.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 11.5,
+    "total_mentions": 26,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Rwanda",
+    "score": 0.84,
+    "positive_percent": 84.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 16.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Tunisia",
+    "score": 0.84,
+    "positive_percent": 84.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 16.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Ethiopia",
+    "score": 0.847,
+    "positive_percent": 85.7,
+    "negative_percent": 3.6,
+    "neutral_percent": 10.7,
+    "total_mentions": 28,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Burkina Faso",
+    "score": 0.857,
+    "positive_percent": 85.7,
+    "negative_percent": 0.0,
+    "neutral_percent": 14.3,
+    "total_mentions": 14,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Kazakhstan",
+    "score": 0.857,
+    "positive_percent": 89.7,
+    "negative_percent": 0.0,
+    "neutral_percent": 10.3,
+    "total_mentions": 29,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Mozambique",
+    "score": 0.857,
+    "positive_percent": 85.7,
+    "negative_percent": 0.0,
+    "neutral_percent": 14.3,
+    "total_mentions": 7,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Grenada",
+    "score": 0.862,
+    "positive_percent": 92.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Macao",
+    "score": 0.864,
+    "positive_percent": 86.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 13.6,
+    "total_mentions": 22,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Albania",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Benin",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Bosnia and Herzegovina",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Costa Rica",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "El Salvador",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Gambia",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Georgia",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Ghana",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Guatemala",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Guinea",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Honduras",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Kenya",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Liberia",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Myanmar",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Nepal",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Panama",
+    "score": 0.875,
+    "positive_percent": 87.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.5,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Cambodia",
+    "score": 0.88,
+    "positive_percent": 88.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Iraq",
+    "score": 0.88,
+    "positive_percent": 88.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 12.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Madagascar",
+    "score": 0.882,
+    "positive_percent": 88.2,
+    "negative_percent": 0.0,
+    "neutral_percent": 11.8,
+    "total_mentions": 17,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Nigeria",
+    "score": 0.883,
+    "positive_percent": 92.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 7.5,
+    "total_mentions": 40,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Central African Republic",
+    "score": 0.889,
+    "positive_percent": 88.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 11.1,
+    "total_mentions": 18,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Senegal",
+    "score": 0.889,
+    "positive_percent": 88.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 11.1,
+    "total_mentions": 9,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Oman",
+    "score": 0.891,
+    "positive_percent": 96.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 4.0,
+    "total_mentions": 25,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Guyana",
+    "score": 0.898,
+    "positive_percent": 91.3,
+    "negative_percent": 4.3,
+    "neutral_percent": 4.3,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Djibouti",
+    "score": 0.9,
+    "positive_percent": 91.3,
+    "negative_percent": 4.3,
+    "neutral_percent": 4.3,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Mauritania",
+    "score": 0.9,
+    "positive_percent": 91.3,
+    "negative_percent": 4.3,
+    "neutral_percent": 4.3,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Nauru",
+    "score": 0.9,
+    "positive_percent": 90.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 10.0,
+    "total_mentions": 20,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Tajikistan",
+    "score": 0.9,
+    "positive_percent": 90.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 10.0,
+    "total_mentions": 10,
+    "risk": "BAJO"
+  },
+  {
+    "country": "United Arab Emirates",
+    "score": 0.904,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Hong Kong",
+    "score": 0.908,
+    "positive_percent": 95.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 4.2,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Cuba",
+    "score": 0.909,
+    "positive_percent": 90.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 9.1,
+    "total_mentions": 22,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Dominican Republic",
+    "score": 0.909,
+    "positive_percent": 90.9,
+    "negative_percent": 0.0,
+    "neutral_percent": 9.1,
+    "total_mentions": 22,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Bhutan",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Congo",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Fiji",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Kiribati",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Mongolia",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Montenegro",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Nicaragua",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Niger",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Palau",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Papua New Guinea",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Seychelles",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Tonga",
+    "score": 0.913,
+    "positive_percent": 91.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 8.7,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Belize",
+    "score": 0.923,
+    "positive_percent": 92.3,
+    "negative_percent": 0.0,
+    "neutral_percent": 7.7,
+    "total_mentions": 13,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Dominica",
+    "score": 0.937,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Aruba",
+    "score": 0.938,
+    "positive_percent": 93.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 6.2,
+    "total_mentions": 16,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Comoros",
+    "score": 0.938,
+    "positive_percent": 93.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 6.2,
+    "total_mentions": 16,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Marshall Islands",
+    "score": 0.941,
+    "positive_percent": 94.1,
+    "negative_percent": 0.0,
+    "neutral_percent": 5.9,
+    "total_mentions": 17,
+    "risk": "BAJO"
+  },
+  {
+    "country": "San Marino",
+    "score": 0.941,
+    "positive_percent": 94.1,
+    "negative_percent": 0.0,
+    "neutral_percent": 5.9,
+    "total_mentions": 17,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Angola",
+    "score": 0.944,
+    "positive_percent": 94.4,
+    "negative_percent": 0.0,
+    "neutral_percent": 5.6,
+    "total_mentions": 18,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Solomon Islands",
+    "score": 0.95,
+    "positive_percent": 95.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 5.0,
+    "total_mentions": 20,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Serbia",
+    "score": 0.952,
+    "positive_percent": 95.2,
+    "negative_percent": 0.0,
+    "neutral_percent": 4.8,
+    "total_mentions": 21,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Somalia",
+    "score": 0.952,
+    "positive_percent": 95.2,
+    "negative_percent": 0.0,
+    "neutral_percent": 4.8,
+    "total_mentions": 21,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Anguilla",
+    "score": 0.955,
+    "positive_percent": 95.5,
+    "negative_percent": 0.0,
+    "neutral_percent": 4.5,
+    "total_mentions": 22,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Yemen",
+    "score": 0.958,
+    "positive_percent": 95.8,
+    "negative_percent": 0.0,
+    "neutral_percent": 4.2,
+    "total_mentions": 24,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Uganda",
+    "score": 0.974,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 22,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Bahamas",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 20,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Bahrain",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 17,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Cabo Verde",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 2,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Cameroon",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 3,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Cook Islands",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Equatorial Guinea",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 21,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Gabon",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 3,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Gibraltar",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Guadeloupe",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Guam",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Guinea-Bissau",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Lesotho",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 2,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Liechtenstein",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "New Caledonia",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 3,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Niue",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "North Macedonia",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 2,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Paraguay",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 7,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Slovakia",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "South Sudan",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 21,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Togo",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 2,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Tokelau",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 1,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Tuvalu",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 2,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Vanuatu",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 3,
+    "risk": "BAJO"
+  },
+  {
+    "country": "Zambia",
+    "score": 1.0,
+    "positive_percent": 100.0,
+    "negative_percent": 0.0,
+    "neutral_percent": 0.0,
+    "total_mentions": 23,
+    "risk": "BAJO"
+  }
+]

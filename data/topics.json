@@ -1,0 +1,9 @@
+[
+  {"id": 4, "name": "Economías Emergentes", "interpretation": "GEOGRAFÍA", "top_words": ["economy", "emerge", "market", "country", "develop"], "relevance_score": 0.33, "value": 7.2},
+  {"id": 2, "name": "Empleo e Ingresos", "interpretation": "EMPLEO", "top_words": ["labor", "share", "participation", "income", "global"], "relevance_score": 0.0, "value": 7.1},
+  {"id": 1, "name": "Precios de Materias Primas", "interpretation": "CRECIMIENTO", "top_words": ["price", "oil", "external", "commodity", "market"], "relevance_score": 0.0, "value": 6.7},
+  {"id": 3, "name": "Crecimiento Global", "interpretation": "CRECIMIENTO", "top_words": ["growth", "world", "commodity", "term", "output"], "relevance_score": 0.33, "value": 2.9},
+  {"id": 0, "name": "Geografía Internacional", "interpretation": "GEOGRAFÍA", "top_words": ["international", "united", "imf", "fund", "national"], "relevance_score": 0.0, "value": 2.5},
+  {"id": 5, "name": "Política Económica", "interpretation": "POLÍTICA MONETARIA", "top_words": ["country", "economic", "policy", "effect", "change"], "relevance_score": 0.67, "value": 1.3},
+  {"id": 6, "name": "Política Monetaria", "interpretation": "POLÍTICA MONETARIA", "top_words": ["market", "policy", "monetary", "global", "economy"], "relevance_score": 0.67, "value": 1.1}
+]
