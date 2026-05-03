@@ -16,7 +16,7 @@ print("="*70)
 
 # Cargar dataset
 print("\n1. Cargando dataset...")
-INPUT_FILE = "data/processed/dataset.json"
+INPUT_FILE = "data/processed/dataset_nlp.json"
 
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)

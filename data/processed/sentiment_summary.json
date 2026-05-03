@@ -1,10 +1,16 @@
 {
-  "total_documents": 15519,
+  "total_documents": 1,
   "sentiment_distribution": {
-    "positive": 4546,
-    "neutral": 9073,
-    "negative": 1900
+    "positive": 1
   },
-  "average_compound_score": 0.0680338617178942,
-  "sentiment_by_country": {}
+  "average_compound_score": 1.0,
+  "sentiment_by_country": {
+    "Netherlands": {
+      "average_compound": 1.0,
+      "count": 1,
+      "positive": 1,
+      "negative": 0,
+      "neutral": 0
+    }
+  }
 }

@@ -28,7 +28,7 @@ print("   ✓ VADER listo")
 
 # Cargar dataset
 print("\n2. Cargando dataset...")
-INPUT_FILE = "data/processed/dataset.json"
+INPUT_FILE = "data/processed/dataset_nlp.json"
 
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
     data = json.load(f)

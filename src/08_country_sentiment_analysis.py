@@ -37,21 +37,54 @@ country_data = defaultdict(lambda: {
 })
 
 for item in data:
-    if "sentiment" in item and "pais" in item and item["pais"]:
-        for country in item["pais"]:
-            sentiment_label = item["sentiment"].get("label", "neutral")
-            compound = item["sentiment"].get("compound", 0)
-            
-            country_data[country]["paragraphs"].append(item["texto"][:100])  # Primeras 100 chars
-            country_data[country]["sentiments"].append(sentiment_label)
-            country_data[country]["compound_scores"].append(compound)
-            
-            if sentiment_label == "positive":
-                country_data[country]["positive_count"] += 1
-            elif sentiment_label == "negative":
-                country_data[country]["negative_count"] += 1
-            else:
-                country_data[country]["neutral_count"] += 1
+    if not isinstance(item, dict):
+        continue
+
+    paises = item.get("pais", [])
+
+    # 🔥 NORMALIZACIÓN ROBUSTA
+    if not paises:
+        continue
+
+    if isinstance(paises, str):
+        paises = [paises]
+
+    paises = [
+        p.strip()
+        for p in paises
+        if isinstance(p, str) and len(p.strip()) > 2
+    ]                                       
+    sentiment = item.get("sentiment", {})
+    compound = sentiment.get("compound", 0)
+    label = sentiment.get("label", "neutral")
+
+    if not paises:
+        continue
+
+    for country in paises:
+
+        # 🔴 limpieza básica obligatoria
+        if not isinstance(country, str):
+            continue
+
+        country = country.strip()
+
+        if len(country) < 3:
+            continue
+
+        if country.lower() in {"sia", "key interest", "financial derivatives"}:
+            continue
+
+        country_data[country]["paragraphs"].append(item["texto"][:100])
+        country_data[country]["sentiments"].append(label)
+        country_data[country]["compound_scores"].append(compound)
+
+        if label == "positive":
+            country_data[country]["positive_count"] += 1
+        elif label == "negative":
+            country_data[country]["negative_count"] += 1
+        else:
+            country_data[country]["neutral_count"] += 1
 
 print(f"   ✓ {len(country_data)} países identificados")
 
