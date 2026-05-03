@@ -2,9 +2,10 @@
 import json
 import spacy
 import nltk
+import pycountry
 from nltk.corpus import stopwords
 
-# Descargar recursos de NLTK si no están disponibles
+# Descargar recursos NLTK si no están disponibles
 try:
     stopwords.words("english")
 except LookupError:
@@ -19,10 +20,9 @@ except OSError:
     print("ERROR: Modelo spacy no encontrado. Instala con: python -m spacy download en_core_web_sm")
     exit(1)
 
-# Aumentar límite (por seguridad)
 nlp.max_length = 2000000
 
-# Stopwords personalizadas
+# Stopwords
 stop_words = set(stopwords.words("english"))
 
 domain_stopwords = {
@@ -33,7 +33,6 @@ domain_stopwords = {
 
 keep_words = {"growth", "inflation", "crisis", "deficit"}
 
-# asegurar minúsculas
 domain_stopwords = {w.lower() for w in domain_stopwords}
 keep_words = {w.lower() for w in keep_words}
 
@@ -41,12 +40,37 @@ stop_words = stop_words.union(domain_stopwords)
 stop_words = stop_words - keep_words
 
 
-# 🔹 Función para dividir textos largos
+# 🔹 función para validar países reales
+def is_real_country(name: str) -> bool:
+    if not name:
+        return False
+    
+    name = name.strip()
+
+    # intentar match exacto
+    country = pycountry.countries.get(name=name)
+    if country:
+        return True
+
+    # intentar match por nombre común
+    for c in pycountry.countries:
+        if name.lower() == c.name.lower():
+            return True
+
+    return False
+
+
+# 🔹 normalización ligera
+def clean_country(name: str) -> str:
+    return name.strip()
+
+
+# 🔹 dividir textos largos
 def split_text(text, max_length=500000):
     return [text[i:i+max_length] for i in range(0, len(text), max_length)]
 
 
-# 🔹 Procesar doc
+# 🔹 procesar doc
 def process_doc(doc):
     tokens = []
     countries = []
@@ -60,14 +84,19 @@ def process_doc(doc):
 
     for ent in doc.ents:
         if ent.label_ == "GPE":
-            countries.append(ent.text)
+            candidate = clean_country(ent.text)
+
+            # 🔥 SOLO países reales
+            if is_real_country(candidate):
+                countries.append(candidate)
+
         elif ent.label_ == "ORG":
             orgs.append(ent.text)
 
     return tokens, countries, orgs
 
 
-# 🔹 Aplicar procesamiento
+# 🔹 pipeline
 INPUT_FILE = "data/processed/dataset.json"
 OUTPUT_FILE = "data/processed/dataset_nlp.json"
 
@@ -88,7 +117,6 @@ for i, row in enumerate(data):
     all_countries = []
     all_orgs = []
 
-    # 🔥 dividir si es muy grande
     chunks = split_text(text)
 
     for chunk in chunks:
@@ -99,6 +127,7 @@ for i, row in enumerate(data):
         all_countries.extend(countries)
         all_orgs.extend(orgs)
 
+    # 🔥 limpiar duplicados + normalizar
     row["tokens"] = all_tokens
     row["pais"] = list(set(all_countries))
     row["organizacion"] = list(set(all_orgs))
